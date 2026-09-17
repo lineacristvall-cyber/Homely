@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "homely.test-fixture.v1",
+  "fixtureVersion": "1.0.0",
+  "retrievedOn": "2026-09-17",
+  "label": "Fictional designer scenario with one licensed stock room photo",
+  "projectFile": "project.json",
+  "projectId": "01aa0000-0000-4000-8000-000000000001",
+  "asset": {
+    "path": "assets/room-alex-tyson.jpg",
+    "photographer": "Alex Tyson",
+    "photographerUrl": "https://unsplash.com/@alextyson195",
+    "photoId": "4vRQHAi7DJs",
+    "sourceUrl": "https://unsplash.com/photos/a-dining-room-table-with-chairs-and-a-chandelier-4vRQHAi7DJs",
+    "downloadUrl": "https://images.unsplash.com/photo-1722152248542-04798cd02e3f?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "licenseUrl": "https://unsplash.com/license",
+    "termsUrl": "https://unsplash.com/terms",
+    "licenseName": "Unsplash License (free photo; not Unsplash+)",
+    "sha256": "324f3737a7e83e5775c1a55d21e8ca16b2c23db0bc85e51d29802a8712933060",
+    "bytes": 575270,
+    "pixels": [
+      3000,
+      2000
+    ],
+    "transformations": "None locally. Downloaded provider JPEG rendition at width3000; not necessarily original camera file.",
+    "viewCount": 1,
+    "isMultiAngle": false,
+    "externalAiProcessing": "not authorized for this fixture; room.consent=false",
+    "limitations": [
+      "Copyright license supports local app display and redistribution with this fixture.",
+      "No standalone photo resale or competing image collection.",
+      "Recognizable people, brands and depicted artwork may require separate rights; visible wall art and book covers are not separately cleared. No endorsement claimed.",
+      "Unsplash terms restrict AI/ML dataset use. This fixture is for human-facing UI testing, not model training or evaluation; external AI upload remains pending."
+    ]
+  },
+  "fictionalPeople": {
+    "designer": "Mira Lane",
+    "studio": "Fieldline Studio",
+    "client": "Avery Chen",
+    "allFictional": true
+  },
+  "syntheticGeometry": {
+    "status": "unconfirmed assumptions, not measured or inferred from image",
+    "units": "inches",
+    "tableLength": 84,
+    "tableWidth": 40,
+    "tableTopHeight": 30,
+    "tableUnderside": 27,
+    "roomWidth": 144,
+    "roomDepth": 180,
+    "doorClearWidth": 32,
+    "chairTargetWidthMax": 22,
+    "chairTargetSeatHeightRange": [
+      17,
+      19
+    ],
+    "chairArmHeight": null,
+    "apronLegSpacing": null,
+    "walkwayClearance": null
+  },
+  "geometryPolicy": "App measurement fields stay null because current app has no per-measurement confidence field. Scenario numbers remain here for explicit assumption tests only.",
+  "retainedFurniture": [
+    {
+      "item": "Depicted dining table",
+      "decision": "keep",
+      "material": "unknown; visual appearance is not material verification",
+      "dimensionsConfirmed": false
+    },
+    {
+      "item": "Depicted chandelier",
+      "decision": "keep"
+    },
+    {
+      "item": "Kitchen cabinetry and island",
+      "decision": "keep"
+    }
+  ],
+  "evaluationCases": [
+    {
+      "case": "Initial workspace",
+      "expected": "Six chairs, target2400/cap2800, real stock room photo, all fit measurements unknown."
+    },
+    {
+      "case": "Budget boundary",
+      "syntheticTotalsUsd": [
+        2400,
+        2520,
+        2800,
+        2801
+      ],
+      "expected": "2520 is5% above target but under cap;2800 is exactly cap;2801 must not proceed."
+    },
+    {
+      "case": "Missing delivered costs",
+      "expected": "Unknown tax/shipping never treated as zero."
+    },
+    {
+      "case": "Fit unknown",
+      "expected": "No physical fit claim based on photo or invented dimensions."
+    },
+    {
+      "case": "Optional synthetic arithmetic",
+      "assumedUndersideIn": 27,
+      "assumedArmHeightsIn": [
+        26,
+        28
+      ],
+      "expected": "Arithmetic only:1in clearance or1in interference; neither verifies real fit."
+    },
+    {
+      "case": "Source discovery",
+      "expected": "Three actual product-page leads, no verified stock; imported discoveries remain leads."
+    },
+    {
+      "case": "Privacy preview",
+      "expected": "Only explicitly selected notes/measurements disclosed; no recipient access created."
+    },
+    {
+      "case": "AI consent",
+      "expected": "Room consent false; rendering blocked. Text sourcing and URL import use standard app routes. Paid AI key absent by default."
+    },
+    {
+      "case": "Preservation",
+      "expected": "Repeated launch reuses existing fixture project without resetting edits; existing main/QA projects unaffected."
+    }
+  ],
+  "products": [
+    {
+      "id": "53f9257c2f5aba0e849b",
+      "title": "IKEA ODGER chair, anthracite",
+      "seller": "IKEA",
+      "url": "https://www.ikea.com/us/en/p/odger-chair-anthracite-50457313/",
+      "sourceId": "www.ikea.com",
+      "exactSku": "504.573.13",
+      "variant": "Anthracite",
+      "unitPrice": 125,
+      "currency": "USD",
+      "dimensions": {
+        "widthIn": 17.75,
+        "depthIn": 20.125,
+        "heightIn": 31.875,
+        "seatHeightIn": 16.875
+      },
+      "imageUrl": null,
+      "shipping": null,
+      "tax": null,
+      "availableQuantity": null,
+      "observedAt": "2026-09-17T12:00:00Z",
+      "method": "public_product_page",
+      "status": "lead",
+      "reason": "Real product page inspected. Exact available quantity, delivered cost and fit unverified. Product image reuse permission not established.",
+      "sourceRefs": [
+        {
+          "url": "https://www.ikea.com/us/en/p/odger-chair-anthracite-50457313/",
+          "title": "IKEA ODGER chair, anthracite",
+          "observedAt": "2026-09-17T12:00:00Z",
+          "method": "public_product_page",
+          "rightsScope": "Link and factual product details only; no image reuse rights established."
+        }
+      ]
+    },
+    {
+      "id": "55d71c0f7c0f2b84a4ba",
+      "title": "IKEA LISABO chair, ash",
+      "seller": "IKEA",
+      "url": "https://www.ikea.com/us/en/p/lisabo-chair-ash-00457235/",
+      "sourceId": "www.ikea.com",
+      "exactSku": "004.572.35",
+      "variant": "Ash",
+      "unitPrice": 80,
+      "currency": "USD",
+      "dimensions": {
+        "widthIn": 18.125,
+        "depthIn": 20.125,
+        "heightIn": 31.5,
+        "seatHeightIn": 17.75
+      },
+      "imageUrl": null,
+      "shipping": null,
+      "tax": null,
+      "availableQuantity": null,
+      "observedAt": "2026-09-17T12:00:00Z",
+      "method": "public_product_page",
+      "status": "lead",
+      "reason": "Real product page inspected. Exact available quantity, delivered cost and fit unverified. Product image reuse permission not established.",
+      "sourceRefs": [
+        {
+          "url": "https://www.ikea.com/us/en/p/lisabo-chair-ash-00457235/",
+          "title": "IKEA LISABO chair, ash",
+          "observedAt": "2026-09-17T12:00:00Z",
+          "method": "public_product_page",
+          "rightsScope": "Link and factual product details only; no image reuse rights established."
+        }
+      ]
+    },
+    {
+      "id": "06b7175d88ad9ef27271",
+      "title": "Mid-Century Upholstered Dining Chair — Wood Legs",
+      "seller": "West Elm",
+      "url": "https://www.westelm.com/products/mid-century-dining-chairs-h1361/",
+      "sourceId": "www.westelm.com",
+      "exactSku": null,
+      "variant": null,
+      "unitPrice": null,
+      "currency": "USD",
+      "dimensions": {},
+      "imageUrl": null,
+      "shipping": null,
+      "tax": null,
+      "availableQuantity": null,
+      "observedAt": "2026-09-17T12:00:00Z",
+      "method": "public_product_page",
+      "status": "lead",
+      "reason": "Real product page inspected. Exact available quantity, delivered cost and fit unverified. Product image reuse permission not established.",
+      "sourceRefs": [
+        {
+          "url": "https://www.westelm.com/products/mid-century-dining-chairs-h1361/",
+          "title": "Mid-Century Upholstered Dining Chair — Wood Legs",
+          "observedAt": "2026-09-17T12:00:00Z",
+          "method": "public_product_page",
+          "rightsScope": "Link and factual product details only; no image reuse rights established."
+        }
+      ]
+    }
+  ],
+  "productImageRights": {
+    "status": "Not granted; no merchant images downloaded or sent to AI",
+    "termsUrls": [
+      "https://www.ikea.com/us/en/customer-service/terms-conditions/",
+      "https://www.westelm.com/about-us/terms.html"
+    ]
+  },
+  "permissiveAlternativeResearch": {
+    "sourceUrl": "https://pxhere.com/en/photo/670063",
+    "licenseUrl": "https://pxhere.com/en/license",
+    "status": "CC0 listed in search and provider license; individual photo page timed out. Not downloaded or substituted. Needs source and asset verification before AI use."
+  }
+}

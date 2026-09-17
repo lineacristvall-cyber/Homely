@@ -1,0 +1,92 @@
+# Homely implementation progress
+
+Updated 2026-09-13. Sole implementation supervisor: task 01a09c11-8332-7352-9900-0b1e83b55bab in <repository-root>. Homely — Project Workspace (01a09cd5-ead3-7530-9d67-305074926e94) exists at that repository but dispatched turns executed no items; it remains idle/read-only. No duplicate writers.
+
+## Current acceptance
+POC 69/125 = 55%; production 0/96. Weighted completed acceptance, not elapsed time. No hosted beta or production readiness claim.
+
+## Running system
+- Main preview http://127.0.0.1:8766/ and tracker /progress use existing FREE Supabase project bbwmwwupvqajidqznsly. Main server restarted successfully as session74778 with current source-ledger/export/history/review-preview routes. Actual browser shows required renewed sign-in; cloud data persists. Restart clears in-memory app sessions.
+- Isolated local synthetic QA runs on port 8767 with data in /private/tmp/homely-visual-app-qa, including current export/history/review-preview routes; process session11849. No fixture mutation was made to the cloud project through the cancelled dashboard UPDATE.
+- Server-only ignored mode0600 .env.local holds API/publishable configuration. No service-role key, paid Supabase upgrade, branch or add-on. Owner-scoped background jobs remain local files, not a durable cloud worker.
+
+## Verified live evidence
+- Actual cloud signup, confirmation and sign-in; project/brief save and reload; synthetic room upload rendered 768x768 after reload. Anonymous private asset request returned401.
+- Article Sede public URL imported as an unconfirmed lead. Saved decision survived reload; seller handoff blocked for unknown exact variant/quantity. Mobile390px import/evidence usable; unsafe local URL rejected without losing findings.
+- Earlier real discovery returned cited leads, never ready stock. No exact-count merchant adapter exists.
+- Three real synthetic image edits succeeded, including an actual app job and rerender after room upload. Original/product/output images decoded correctly. Old-version render withheld. Output remains illustrative, identity unverified, numeric fit unknown. Merchant SKU fidelity, distinct-product swap and cloud generation remain unverified.
+- Real transcription of 1.454 seconds of owned synthetic speech returned “Set the quantity to four.” Actual assistant proposal retained quantity1 until Confirm, then saved quantity4/version3 across reload. Actual device microphone capture remains pending optional user test; no spoken replies or duplex voice.
+- Actual local project JSON export downloaded to Downloads/homely-project-export.json, 1473bytes, schema homely.project-export.v1, one synthetic QA project, quantity4. Export excludes image binaries/jobs/audio/account settings/unsaved drafts.
+- Actual visualization history returned two old-version jobs as cancelled/stale. Current-render restore and Canvas placement/original toggle pass mocked browser tests; current live render became stale after deliberate brief change.
+
+## Security and automated evidence
+- Deployed additive cloud schema/private bucket; all3 Homely tables use forced RLS. Live rollback-only SQL owner/cross-user/anonymous/storage/job-forgery assertions passed, fixtures removed, bucket private. One actual signed-in application user plus SQL-role checks do not satisfy two distinct real JWT sessions.
+- Latest independent full backend/cloud suite: 205 passed, zero failures/errors, 1.737s; local isolated storage and mocked providers. Latest frontend20/20 mocked suites passed, zero failures (39.3s). Shared single-job/history stale checks and bounded owner-only export pagination reviewed without new actionable defect. Oversized export fails413 instead of silently truncating.
+- Project-scoped Supabase MCP OAuth/configuration completed but tools unavailable; authenticated dashboard SQL was used. No claim of MCP database calls.
+
+## API testing budget
+- Direct approval in this builder task resolves prior automatic-review rejection: two synthetic PNG fixtures may go to OpenAI image-edit API, within one cumulative $15 cap for all POC API tests.
+- Root is sole paid-call owner. API_TEST_BUDGET.json and shared reservation lock record all new calls; uncertain costs keep their reservation. No automatic retries or budget resets.
+- Three image calls calculated $0.092772 total; synthetic transcription estimated $0.000109. Planner cost not surfaced, full $0.10 reservation retained. Conservative reservations $3.40/$15, including pending user microphone check; $11.60 remains after reservations. This is not an exact all-feature billing total.
+
+## Active work and remaining gates
+- Owner-selected disclosure snapshot, API and UI are integrated. Live local UI selected notes+room width correctly and then removed them on deselection. Route/builder/security tests passed (30 relevant); targeted tests and final full frontend20/20 passed after a test locator fix. Final live screenshot verified readable labels and inch units. Independent bounded source/test review found no actionable defect in owner authorization, strict version checks, explicit disclosure and no-write/no-grant boundaries. It grants no recipient access and sends no invitations.
+- Actual recipient sharing/revocation/comments/approval, hunts/alerts, privacy deletion, durable cloud jobs, source stock access and broader room/retained views remain incomplete.
+- Main cloud restart is complete; renewed user sign-in is needed to accept latest cloud routes live. Actual microphone test and two distinct real-user isolation remain separate gates.
+
+## September 15: reference-led room workspace implementation
+User identified substantial visual drift and requested moving forward from the approved dining-room reference. First bounded implementation pass active: full-width masthead/assistant, project-first navigation, larger central room canvas, compact brief with Edit and truthful measurements, responsive layout. Interface worker owns web files; root owns real browser verification and logs. No backend feature expansion, no replacement of user room data, no paid provider calls. Baseline inspected in visible isolated local QA preview8767; main8766 and QA8767 remain running. Visual acceptance remains pending until updated screenshots are compared with approved desktop and mobile references.
+
+## September 17 — stock fixture and sign-in click repair
+- Added fixtures/dining-room-stock-v1: licensed Alex Tyson Unsplash photo, fictional professional designer/client brief, assumed geometry separated from confirmed measurements, three inspected actual product-page leads (IKEA ODGER, LISABO, West Elm Mid-Century). No stock/fit/image rights claims. Manifest includes exact sources, terms, date and checksum.
+- Isolated preview on8768 seeded through real persistence/schema/image validation; repeated seed preserves edits. Browser verified actual photo, brief and all three findings. Standard URL import routes enabled; paid API key disabled; room consent false. No paid calls or user cloud changes. CC0 alternative research recorded but source verification incomplete.
+- Main8766 auth session and tracker HTTP200. Fixed global click delegation matching body's data-view and resetting forms on every click; only button[data-view] triggers navigation. Auth gate preserves mounted form, prevents duplicate submits, shows pending/errors. Versioned static assets for fresh load. Full22 mocked UI tests pass including new click/focus/login regression. Actual synthetic typing checked in in-app browser; no real credentials submitted. Real user's sign-in retry remains unverified.
+
+### September17 auth feedback follow-up
+User confirmed click repair works; existing-password attempt is rejected upstream. Verified expected Supabase project and publishable-key acceptance through read-only Auth settings HTTP200. Added bounded allowlisted provider-code handling for unconfirmed email, credential rejection, rate limit and service configuration errors; no raw payload/credentials/tokens logged or exposed. Unknown user and incorrect password share the same response. All16 auth unit tests passed. Restarted main8766 to load feedback; account status inspection requires explicit dashboard approval after automatic review rejected private admin access. Real sign-in success remains unverified; user retry now provides actionable message.
+
+### September17 account check (explicit read-only approval)
+Inspected the existing Homely account in Supabase UI: email confirmed September13 16:04, last sign-in September13 17:30, Email provider enabled. Missing email confirmation is ruled out for this account. No account settings/password changes or recovery messages sent. Existing credential rejection remains; user must retry known Homely credentials or authorize recovery. Dashboard recovery control observed; recovery redirect/completion remains unverified.
+
+## September17 — selected Room reference-fidelity pass complete
+User confirmed successful cloud sign-in before this pass. Rebuilt selected Room mobile composition to match supplied reference: compact Homely/project masthead, full-width real photo with Keep?/measurement controls, serif intro, dynamic sage SVG constraint chips, truthful green voice panel, Room/Explore/Saved navigation. Desktop preserves sidebar/canvas/compact brief and header assistant. No user project/photo changes, paid API calls or server restart. Actual in-app browser QA at390×844,550×1000,1440×1000; screenshot evidence in artifacts/room-fidelity-2026-09-17. Project selector/Edit/Keep/text assistant/Explore/Saved manually verified. Full23 UI tests passed; focused mobile retest after final polish. Full actual-device voice and full room/upload journey gates remain pending.
+
+## September17 — approved two-stage room flow (integration)
+- Implemented approved reference 13 as an interactive room picker followed by setup. Choose project → New room opens picker; existing projects open their saved/inferred room without resetting them. Other room accepts a name; furnishing mode, explicit retained items, budgets and categories persist with expectedVersion checks. Category/Help me decide drafts remain editable and do not invoke paid calls.
+- Backend validates bounded roomType/roomLabel/furnishingMode/retainedItems fields; cloud JSON storage preserves them and owner exports apply existing text redaction. Existing measurements and brief values survive partial patches.
+- Actual isolated browser8770: created Bedroom, saved Keep/two pieces/$1000 target/$1500 cap/Nightstands, refreshed with state intact; created custom Study, chose Furnish from scratch, and verified useful Help me decide draft. Mobile390 and desktop1440 room picker inspected; mobile hero aspect/composer corrected. Existing demo8768 preserves original photo, budget and candidate data.
+- Backend169 tests and cloud48 tests passed (217 total). Frontend final regression and artifact packaging still in progress at this entry. No new weighted full-journey acceptance claimed; actual microphone/live cloud reauthentication remain separate.
+- Main8766 restarted as session84545; demo8768 as session67899; both HTTP200. Main in-memory auth sessions require renewed sign-in; saved data preserved. Isolated QA8770 session83453 has paid key disabled. No paid calls.
+
+### Approved flow ready for review
+- Final frontend28/28 passed (58.4s); backend169/169 and cloud48/48 passed. Logs and actual desktop/mobile captures: artifacts/approved-room-flow-2026-09-17. Final assets version room-flow-final-20260917c. Final account-switch transient-state fix passed targeted cloud UI2/2 after full suite.
+- Latest user photo preference applied: setup always shows room-matching generic inspiration, labelled Room inspiration. Actual8768 browser verified original remains intact in expanded Room photo, brief & research alongside compact summary. Main8766 and demo8768 serve identical current app bytes. Demo marker visible.
+- User path: refresh preview → select room-name/dropdown at top → New room for first approved screen; existing rooms open setup directly. Edit brief opens details; choose pieces retains explicit notes. Broader Explore/Saved visual redesign and real microphone/upload end-to-end gates remain separate. No paid calls, commits or deployment.
+
+### Fit requirement clarification — documentation only
+Recorded the user's firm requirement in DECISIONS.md, OPEN_ACTION_ITEMS.md and current product context: insufficient or conflicting dimensions block fit-qualified recommendations; explicit retained/candidate variant evidence and deterministic applicable geometry are required. Separate inspiration may remain available with clear labels. Revised measurement-gated mockup/spec awaits approval before implementation. No application code, preview behavior or acceptance scores changed in this update.
+
+## Nine-step implementation started
+User approved reference14 and authorized changes. Three scoped implementation workers handle UI, deterministic fit and auth/watch modules; supervisor owns API integration, persistence/privacy, real browser QA and canonical logs. New UI staged until coherent. Existing approved budget checked; no new paid calls. Approval gate resolved; full feature acceptance remains pending implementation and evidence.
+
+### Nine-step backend and staged browser milestone
+Progressive setup validation and strict fit routes integrated. First full backend run190 tests passed before subsequent mode/visualization tightening; fit tests17 and visualization23 pass independently. Legacy height-only visualization checks can no longer report overall fit passed. Staged actual8771 browser verified Keep→photo→skip optional room measurement→manual point→explicit identity/variant confirmation→correction→reload→personalized chair suggestion→complete table evidence→zero fit-qualified products while candidate evidence remains missing. New UI remains staged during presentation fixes. Auth edits blocked twice by automatic review citing earlier pause; coordinating task asked to resolve direct approval. No recovery messages or paid calls sent.
+
+### Explicit recovery and price-watch authorization
+After explanation of password-recovery security and source-price/failure risks and scope limits, the user explicitly said “Yeah, sure, let’s I approve it.” This fresh authorization covers implementing password recovery/password-update handling and product-opt-in scheduled public-page price checks with in-app notifications. It does not authorize changing the actual user's password, sending recovery mail during tests, activating a watch without product-specific opt-in, or paid services. Resume implementation through normal approval review; report any remaining rejection without workaround.
+
+
+### Nine-step implementation: approval resolved and functional verification
+- Repeated direct approvals were present but an old worker fork could not expose the newest reply to automatic review. Root-context normal approval review accepted the scoped auth implementation. No bypass, actual email, password change or account inspection was performed. Recovery/resend/reset now have provider-verified recovery-token handling and origin-protected routes; real email delivery/reset remain untested.
+- Full backend suite208 tests passed after auth routes; cloud52 passed including four new recovery tests. Price-watch module11 passed after an additional real scheduler-thread test with synthetic source responses. HTTP watch lifecycle verifies explicit opt-in, version rejection, notifications/read/cancel and cross-owner denial. UI36 passed before the final bounded visual polish; final relevant UI rerun pending.
+- Actual8771 mobile fresh-room path: typed custom room, chose fresh, uploaded stock fixture with model consent unchecked, skipped optional room dimensions and retained-object step, used guided Yes/Not now categories. Uploaded photo persisted. Actual fit forms saved a one-piece rectangular layout; candidate remained blocked without its dimensions, then passed only the recorded geometry after exact synthetic dimensions were entered. Source stock/price/delivery remained unconfirmed. Save decision persisted after refresh. Watch opt-in on that synthetic candidate failed honestly because source evidence was absent; no watch enabled.
+- Main8766 and demo8768 restarted with tested backend; saved data preserved, main requires renewed sign-in. No new paid provider calls; cumulative API budget unchanged. Visual comparison packaging and final screenshot-driven refinements continue.
+
+### Nine-step review package ready
+- Final backend210/210 and cloud52/52 pass. Final visual UI run35/36 passed; one cancelled-job message regression was repaired and both targeted cancellation tests passed. No known failing test remains. Prior full36/36 pass preceded final visual polish.
+- Actual final captures cover all nine screens at desktop1440x1000 and mobile390x844. Screenshot-driven corrections removed the legacy auth shell, moved product cards above optional import/disclaimers, made Saved product-first, restored navy headings, removed obsolete intent hero and corrected fresh-room measurement diagrams. Comparison HTML includes per-screen matches/differences/functional limits; actual browser verified desktop/mobile toggle, reference crops and all images load.
+- Review: artifacts/nine-step-flow-2026-09-17/index.html, served locally on8773. Detailed TESTING_REPORT.md and backend/cloud logs included. Actual screenshot capture sizes can exclude scrollbar pixels. Product source imagery is absent for the explicitly synthetic candidate; manual points are not automatic object outlines. These differences remain visible rather than fabricated.
+- Main8766 session95981, demo8768 session82037, isolatedQA8771 session88936, comparison8773 session2294. Main requires sign-in after restart. Local price checks run only with the server; no user watch was enabled. No new paid calls, commit, push or deployment.
+
+## Public developer handoff preparation
+User authorized public GitHub publication of app and development documentation. Frozen snapshot includes source, architecture/flows, approved mockups, current context, decision/action logs and test evidence; excludes runtime/env/privateuploads and unaudited historical screenshot PNGs. Added portable setup, dependency manifests and DEVELOPER_HANDOFF.md. Public handoff verification: backend210/210, cloud52/52, UI36/36 passed. GitHub publication awaiting account authentication.

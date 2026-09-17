@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1900" viewBox="0 0 1900 1900">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#4D6C5D"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<text x="70" y="76" font-family="Arial" font-size="30" font-weight="bold" fill="#1F2925">08 · DATA + ACCESS — portable app-owned truth</text>
+<text x="70" y="125" font-family="Arial" font-size="17" fill="#526A58">Follow arrows downward · Yes/No branches are explicit · 2026-09-13</text>
+<polyline points="940.0,272 940.0,345" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,495 940.0,545" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="500.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="520.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,420.0 1315.0,420.0 1315.0,520 1470.0,520 1470.0,545" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="425.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="445.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<polyline points="940.0,667 940.0,740" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,862 940.0,935" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1057 940.0,1130" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1280 940.0,1330" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="1285.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="1305.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,1205.0 1315.0,1205.0 1315.0,1305 1470.0,1305 1470.0,1330" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="1210.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="1230.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<polyline points="940.0,1452 940.0,1525" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1647 940.0,1720" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="720" y="150" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Authenticated command</text>
+<text x="940.0" y="232.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Actor, tenant, project and request ID</text>
+<polygon points="940.0,345 1160,420.0 940.0,495 720,420.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="412.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Authorized for object?</text>
+<text x="940.0" y="441.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Owner/teammate/client field-level scope</text>
+<rect x="1250" y="545" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="598.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Deny and audit</text>
+<text x="1470.0" y="627.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">No unrelated notes, photos or projects</text>
+<rect x="720" y="545" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="598.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Append project event</text>
+<text x="940.0" y="627.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Expected version + idempotency key</text>
+<rect x="720" y="740" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="793.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Immutable asset record</text>
+<text x="940.0" y="822.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Original room/product refs, hashes, rights</text>
+<rect x="720" y="935" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="988.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Source/decision ledgers</text>
+<text x="940.0" y="1017.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Observed-at, SKU, cost, actor and version</text>
+<polygon points="940.0,1130 1160,1205.0 940.0,1280 720,1205.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="1197.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Vendor data egress allowed?</text>
+<text x="940.0" y="1226.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Consent, retention, least input policy</text>
+<rect x="1250" y="1330" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="1383.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Local/manual path</text>
+<text x="1470.0" y="1412.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Withhold data, keep project usable</text>
+<rect x="720" y="1330" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="1383.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Redacted capability request</text>
+<text x="940.0" y="1412.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">No vendor-held canonical memory</text>
+<rect x="720" y="1525" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="1578.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Validate and persist result</text>
+<text x="940.0" y="1607.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Schema, source lineage, usage/cost</text>
+<rect x="720" y="1720" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="940.0" y="1773.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Export / retention / deletion</text>
+<text x="940.0" y="1802.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Revoke future access; document limits</text>
+</svg>

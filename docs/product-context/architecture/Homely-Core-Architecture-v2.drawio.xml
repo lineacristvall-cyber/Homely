@@ -1,0 +1,1190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-09-13T19:00:00.000Z" agent="Codex Homely" version="24.7.17" type="device">
+  <diagram id="arch2-core" name="00 · MASTER SYSTEM — complete top-down architecture">
+    <mxGraphModel dx="3100" dy="3500" grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3100" pageHeight="3500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="band-0" value="CLIENT / APP EDGE" style="rounded=1;arcSize=4;fillColor=#FBF8F2;strokeColor=#D6DDD6;strokeWidth=1;fontColor=#5A6D62;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=20;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="35" y="125" width="3030" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="band-1" value="HOMELY-OWNED CONTROL PLANE" style="rounded=1;arcSize=4;fillColor=#F4F8F5;strokeColor=#D6DDD6;strokeWidth=1;fontColor=#5A6D62;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=20;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="35" y="610" width="3030" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="band-2" value="PARALLEL DOMAIN SERVICES" style="rounded=1;arcSize=4;fillColor=#F8FAF8;strokeColor=#D6DDD6;strokeWidth=1;fontColor=#5A6D62;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=20;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1180" width="3030" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="band-3" value="HOMELY PRE-DISCLOSURE ACCESS GATE" style="rounded=1;arcSize=4;fillColor=#F6F9FC;strokeColor=#D6DDD6;strokeWidth=1;fontColor=#5A6D62;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=20;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1380" width="3030" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="band-4" value="EXTERNAL / PROVIDER ADAPTER BOUNDARY" style="rounded=1;arcSize=4;fillColor=#F6F2F8;strokeColor=#D6DDD6;strokeWidth=1;fontColor=#5A6D62;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=20;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1540" width="3030" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="band-5" value="HOMELY-OWNED EVIDENCE + INTENT GATES" style="rounded=1;arcSize=4;fillColor=#F6F9FC;strokeColor=#D6DDD6;strokeWidth=1;fontColor=#5A6D62;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=20;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1790" width="3030" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="band-6" value="DECISION / COMMERCE BOUNDARY" style="rounded=1;arcSize=4;fillColor=#FFFAF5;strokeColor=#D6DDD6;strokeWidth=1;fontColor=#5A6D62;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=20;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="35" y="2230" width="3030" height="1215" as="geometry" />
+        </mxCell>
+        <mxCell id="master-title" value="HOMELY · COMPLETE SYSTEM ARCHITECTURE" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1F2925;fontSize=34;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="35" width="2900" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="master-sub" value="Read top → bottom. Parallel lanes are capabilities, not a fixed user journey. Arrows name requests, results and control. Linked boxes open focused pages." style="text;html=1;strokeColor=none;fillColor=none;fontColor=#526A58;fontSize=18;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="90" width="2900" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="M01" value="M01 · CLIENT PWA&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Designer/DIY/client · S01–S24&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFDF8;strokeColor=#70583F;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="170" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M02" value="M02 · API + ACCESS&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Auth, consent, roles, tenant scope&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF2EB;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="425" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M03" value="M03 · WORKFLOW ENGINE&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Versioned project commands + events&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF2EB;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-jobs">
+          <mxGeometry x="1275" y="680" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M04" value="M04 · PROJECT STORE&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Brief, room/assets, source + decision ledgers&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-data">
+          <mxGeometry x="2300" y="680" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M05" value="M05 · COST + EVAL POLICY&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Budgets, model tests, rollout/rollback&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-prompt">
+          <mxGeometry x="100" y="935" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M06" value="M06 · CAPABILITY ROUTER&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Typed request, provider/model registry&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF2EB;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-router">
+          <mxGeometry x="1275" y="935" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M07" value="M07 · ASYNC QUEUE&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Research, render, hunt · cancel/retry&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF2EB;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-jobs">
+          <mxGeometry x="2300" y="935" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M08" value="M08 · SOURCE SERVICE&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Search, normalize, monitor listings&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-agent">
+          <mxGeometry x="100" y="1240" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M09" value="M09 · VISUAL SERVICE&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Placement plan + render job&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-visual">
+          <mxGeometry x="850" y="1240" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M10" value="M10 · VOICE SERVICE&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Transcript, turn/live, correction&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-voice">
+          <mxGeometry x="1600" y="1240" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M11" value="M11 · REVIEW + ALERTS&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Scoped client view + notifications&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-decision">
+          <mxGeometry x="2350" y="1240" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M12" value="M12 · SOURCE + TEXT ADAPTERS&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Lawful retailer tools; text model&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F3ECF4;strokeColor=#75537D;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-stock">
+          <mxGeometry x="100" y="1560" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M13" value="M13 · IMAGE ADAPTER&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;OpenAI image edit initially; swappable&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F3ECF4;strokeColor=#75537D;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-visual">
+          <mxGeometry x="850" y="1560" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M14" value="M14 · SPEECH ADAPTER&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Transcribe / realtime / TTS route&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F3ECF4;strokeColor=#75537D;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-voice">
+          <mxGeometry x="1600" y="1560" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M15" value="M15 · DELIVERY ADAPTER&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Push/in-app; external share channels&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F3ECF4;strokeColor=#75537D;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-decision">
+          <mxGeometry x="2350" y="1580" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M16" value="M16 · STOCK EVIDENCE GATE&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Exact SKU × quantity, source + freshness&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF0E2;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-stock">
+          <mxGeometry x="100" y="1820" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M17" value="M17 · IDENTITY + FIT GATE&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Source image lineage; numeric geometry&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF0E2;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-visual">
+          <mxGeometry x="850" y="1820" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M18" value="M18 · INTENT CONFIRMATION&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;User-corrected brief; typed event&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF0E2;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-voice">
+          <mxGeometry x="1600" y="1820" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M19" value="M19 · SHARE ACCESS GATE&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Selected content only; revoke/expiry&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF0E2;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-decision">
+          <mxGeometry x="2350" y="1400" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M20" value="M20 · VALIDATED RESULT BUS&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;App-owned evidence/artifact/event contracts&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-router">
+          <mxGeometry x="1275" y="2070" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M21" value="M21 · DECISION ENGINE&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Compare, explain tradeoffs, keep history&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF2EB;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-decision">
+          <mxGeometry x="1275" y="2300" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M22" value="M22 · HARD CAP GATE&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Known all-in total and absolute cap?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0E2;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-decision">
+          <mxGeometry x="1275" y="2525" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M23" value="M23 · CAP / COST HOLD&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Exclude or resolve unknown amount&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FBECE6;strokeColor=#A3382B;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-decision">
+          <mxGeometry x="100" y="2740" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M24" value="M24 · CLIENT REVIEW&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Optional S20 approval; no stock reserve&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-decision">
+          <mxGeometry x="2350" y="2525" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M25" value="M25 · FRESH RECHECK GATE&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;Variant, count, price, delivery again&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0E2;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-decision">
+          <mxGeometry x="1275" y="2770" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M26" value="M26 · LOST / CHANGED&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;S18 replacement; preserve prior choice&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FBECE6;strokeColor=#A3382B;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-stock">
+          <mxGeometry x="2350" y="3010" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M27" value="M27 · SELLER HANDOFF&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;S17 external link; no assumed purchase&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F3ECF4;strokeColor=#75537D;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-decision">
+          <mxGeometry x="1275" y="3010" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="M28" value="M28 · PURCHASE + CREDIT LEDGER&lt;br&gt;&lt;font style=&quot;font-size:16px;font-weight:normal&quot;&gt;S21 reported outcome; conditional credit&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-decision">
+          <mxGeometry x="1275" y="3250" width="550" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e0" value="authorized UI command" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M01" target="M02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e1" value="typed command / status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M02" target="M03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e2" value="read/write project events" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=.5;entryX=0;entryY=.5;" edge="1" parent="1" source="M03" target="M04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e3" value="usage + eval signal" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=.5;entryX=1;entryY=.5;" edge="1" parent="1" source="M03" target="M05">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="746.0" />
+              <mxPoint x="880" y="1001.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e4" value="capability request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M03" target="M06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e5" value="schedule async work" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.86;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M03" target="M07">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1748.0" y="860" />
+              <mxPoint x="2575.0" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e6" value="budget + promotion policy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=.5;entryX=0;entryY=.5;" edge="1" parent="1" source="M05" target="M06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e7" value="leased capability call" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=.5;entryX=1;entryY=.5;" edge="1" parent="1" source="M07" target="M06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e8" value="source_query" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M06" target="M08">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1550.0" y="1110" />
+              <mxPoint x="375.0" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e9" value="image_edit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M06" target="M09">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1550.0" y="1133" />
+              <mxPoint x="1125.0" y="1133" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e10" value="speech / intent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M06" target="M10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1550.0" y="1156" />
+              <mxPoint x="1875.0" y="1156" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e11" value="share / notify" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M06" target="M11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1550.0" y="1179" />
+              <mxPoint x="2625.0" y="1179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e12" value="authorized query" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M08" target="M12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e13" value="scene + SKU refs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M09" target="M13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e14" value="audio/text request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M10" target="M14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e15" value="share request + scope" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M11" target="M19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e16" value="source observations" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M12" target="M16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e17" value="composite + lineage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M13" target="M17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e18" value="transcript / patch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M14" target="M18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e19" value="authorized selected payload" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M19" target="M15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e20" value="verified vs lead" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M16" target="M20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375.0" y="1970" />
+              <mxPoint x="1550.0" y="1970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e21" value="fit + fidelity status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M17" target="M20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125.0" y="1995" />
+              <mxPoint x="1550.0" y="1995" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e22" value="accepted brief change" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M18" target="M20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1875.0" y="2020" />
+              <mxPoint x="1550.0" y="2020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e23" value="delivery/audit result" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M15" target="M20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2625.0" y="2045" />
+              <mxPoint x="1550.0" y="2045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e24" value="persist validated records" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=.5;entryX=1;entryY=.5;" edge="1" parent="1" source="M20" target="M04">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3015" y="2136.0" />
+              <mxPoint x="3015" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e25" value="trusted inputs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M20" target="M21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e26" value="selected option + total" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M21" target="M22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e27" value="optional review" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=.5;entryX=0;entryY=.5;" edge="1" parent="1" source="M21" target="M24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2250" y="2366.0" />
+              <mxPoint x="2250" y="2591.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e28" value="No / unknown" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=.5;entryX=.5;entryY=0;" edge="1" parent="1" source="M22" target="M23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="2591.0" />
+              <mxPoint x="820" y="2715" />
+              <mxPoint x="375.0" y="2715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e29" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M22" target="M25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e30" value="approval → still recheck" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=.5;entryX=1;entryY=.5;" edge="1" parent="1" source="M24" target="M25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2140" y="2591.0" />
+              <mxPoint x="2140" y="2836.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e31" value="No / changed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=.5;entryX=.5;entryY=0;" edge="1" parent="1" source="M25" target="M26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2200" y="2836.0" />
+              <mxPoint x="2200" y="2985" />
+              <mxPoint x="2625.0" y="2985" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="master-e32" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M25" target="M27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e33" value="user-reported outcome" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="M27" target="M28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="master-e34" value="fresh source request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=5 4;strokeColor=#A35E38;exitX=.5;exitY=1;entryX=0;entryY=.5;" edge="1" parent="1" source="M25" target="M12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1550.0" y="2930" />
+              <mxPoint x="70" y="2930" />
+              <mxPoint x="70" y="1626.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch2-router" name="01 · CAPABILITY ROUTER — provider-neutral by contract">
+    <mxGraphModel dx="1900" dy="1900" grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch2-router-title" value="01 · CAPABILITY ROUTER — provider-neutral by contract" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="34" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-sub" value="Homely proposed architecture · 2026-09-13 · follow arrows downward; Yes/No exits are explicit" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#526A58;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="1760" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-request" value="Capability request&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Type, deadline, consent and project version&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-contract" value="Validate typed input&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Source refs, output schema, idempotency key&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="345" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-policy" value="Allowed and within budget?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Privacy, rights, per-job/project cap&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="540" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-deny" value="Manual or deferred path&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Typed limitation; no hidden vendor call&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="740" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-registry" value="Versioned route registry&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Capability → provider, model, prompt, timeout&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="740" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-supports" value="Adapter supports capability?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Text, image edit, voice or source tool&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="940" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-fallback" value="Alternate capable adapter&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Future Claude/other only if supported&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1140" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-openai" value="OpenAI adapter initially&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Responses / Image / Audio as appropriate&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1140" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-normalize" value="Normalize output + usage&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Homely schema; provenance; actual metering&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1340" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-quality" value="Pass app-owned validation?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Stock/fit checks stay outside model&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1530" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-reject" value="Reject or ask for input&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Keep source evidence and prior project state&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1730" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-result" value="Persist validated event&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Portable result + route version + cost&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1730" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-router-request" target="arch2-router-contract">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-router-contract" target="arch2-router-policy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-e2" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-router-policy" target="arch2-router-registry">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-e3" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-router-policy" target="arch2-router-deny">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="615.0" />
+              <mxPoint x="1315.0" y="715" />
+              <mxPoint x="1470.0" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-router-e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-router-registry" target="arch2-router-supports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-e5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-router-supports" target="arch2-router-openai">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-e6" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-router-supports" target="arch2-router-fallback">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1015.0" />
+              <mxPoint x="1315.0" y="1115" />
+              <mxPoint x="1470.0" y="1115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-router-e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-router-openai" target="arch2-router-normalize">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-router-normalize" target="arch2-router-quality">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-e9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-router-quality" target="arch2-router-result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-router-e10" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-router-quality" target="arch2-router-reject">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1605.0" />
+              <mxPoint x="1315.0" y="1705" />
+              <mxPoint x="1470.0" y="1705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch2-stock" name="02 · SOURCE + STOCK — ready evidence or honest lead">
+    <mxGraphModel dx="1900" dy="1900" grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch2-stock-title" value="02 · SOURCE + STOCK — ready evidence or honest lead" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="34" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-sub" value="Homely proposed architecture · 2026-09-13 · follow arrows downward; Yes/No exits are explicit" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#526A58;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="1760" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-brief" value="Versioned brief · S07&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Exact variant needs, quantity, location and cap&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-access" value="Allowed source access?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Retailer/marketplace rights and rate policy&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="345" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-gap" value="Source gap · S09&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Explain blocked source; edit scope explicitly&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="545" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-search" value="Research/hunt job · S08/S19&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Queue, partial findings, cancel and cadence&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="545" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-snapshot" value="Record source snapshot&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;URL, seller, observed time, terms and image&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="740" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-identity" value="Exact SKU and quantity proved?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Finish, size, count, fulfillment method&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="935" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-lead" value="Unconfirmed lead · S12&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Listing presence is not inventory&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1135" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-fresh" value="Evidence still fresh?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Source-specific method, TTL and location&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1135" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-stale" value="Reverify or monitor · S18&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Keep old observation; no ready badge&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1335" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-ready" value="Ready evidence · S11&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Show variant, six units, source and checked-at&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1335" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-select" value="Compare / select · S14/S16&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;All-in cost and hard cap checked&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-decision">
+          <mxGeometry x="720" y="1530" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-recheck" value="Recheck before seller link&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Fail → lost-stock path; pass → S17&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1" link="data:page/id,arch2-decision">
+          <mxGeometry x="720" y="1725" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-stock-brief" target="arch2-stock-access">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-e1" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-stock-access" target="arch2-stock-search">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-e2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-stock-access" target="arch2-stock-gap">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="420.0" />
+              <mxPoint x="1315.0" y="520" />
+              <mxPoint x="1470.0" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-stock-e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-stock-search" target="arch2-stock-snapshot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-stock-snapshot" target="arch2-stock-identity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-e5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-stock-identity" target="arch2-stock-fresh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-e6" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-stock-identity" target="arch2-stock-lead">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1010.0" />
+              <mxPoint x="1315.0" y="1110" />
+              <mxPoint x="1470.0" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-stock-e7" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-stock-fresh" target="arch2-stock-ready">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-e8" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-stock-fresh" target="arch2-stock-stale">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1210.0" />
+              <mxPoint x="1315.0" y="1310" />
+              <mxPoint x="1470.0" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-stock-e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-stock-ready" target="arch2-stock-select">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-stock-e10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-stock-select" target="arch2-stock-recheck">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch2-visual" name="03 · PRODUCT IN ROOM — image plus independent fit">
+    <mxGraphModel dx="1900" dy="1900" grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch2-visual-title" value="03 · PRODUCT IN ROOM — image plus independent fit" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="34" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-sub" value="Homely proposed architecture · 2026-09-13 · follow arrows downward; Yes/No exits are explicit" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#526A58;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="1760" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-room" value="Original room · S04/S05&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Consent, retained furniture, immutable image&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-product" value="Exact SKU assets · S11&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Licensed product photos and dimensions&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="345" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-plan" value="Placement plan&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Floor plane, perspective, scale and occlusion&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="540" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-geometry" value="Geometry sufficient?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Measured versus estimated inputs labeled&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="735" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-measure" value="Request measurement&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Show source photo and dimension evidence&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="935" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-render" value="Async image edit · S13&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Flare first; Sunburst if precision eval calls for it&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="935" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-lineage" value="Record render lineage&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Room, SKU, source image, model and versions&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1130" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-identity" value="Exact product appearance holds?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Silhouette, color, material, finish&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1325" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-fail" value="Reject composite&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Show source image; explain identity uncertainty&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1525" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-fit" value="Independent numeric fit check&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Arm/seat/table clearance and circulation&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1525" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-view" value="Show original | placement | dims&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Illustrative image + measured fit status&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1720" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-visual-room" target="arch2-visual-product">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-visual-product" target="arch2-visual-plan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-visual-plan" target="arch2-visual-geometry">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-e3" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-visual-geometry" target="arch2-visual-render">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-e4" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-visual-geometry" target="arch2-visual-measure">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="810.0" />
+              <mxPoint x="1315.0" y="910" />
+              <mxPoint x="1470.0" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-visual-e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-visual-render" target="arch2-visual-lineage">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-visual-lineage" target="arch2-visual-identity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-e7" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-visual-identity" target="arch2-visual-fit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-visual-e8" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-visual-identity" target="arch2-visual-fail">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1400.0" />
+              <mxPoint x="1315.0" y="1500" />
+              <mxPoint x="1470.0" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-visual-e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-visual-fit" target="arch2-visual-view">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch2-voice" name="04 · VOICE — consent, mode, correction">
+    <mxGraphModel dx="1900" dy="1900" grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch2-voice-title" value="04 · VOICE — consent, mode, correction" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="34" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-sub" value="Homely proposed architecture · 2026-09-13 · follow arrows downward; Yes/No exits are explicit" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#526A58;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="1760" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-tap" value="Tap mic · S04&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Visible stop, correct and undo controls&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-consent" value="Mic allowed now?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Permission at point of use · S02&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="345" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-type" value="Type or touch instead&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Same brief editing path; no recording&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="345" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-mode" value="Choose interaction mode&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Short turn or low-latency duplex&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="545" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-turn" value="Turn-based speech&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;gpt-transcribe + optional mini TTS&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="180" y="760" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-live" value="Live speech&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;gpt-realtime-2.1-mini; interruption&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="760" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-transcript" value="Visible transcript&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Partial status and committed utterance&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1030" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-interpret" value="Propose typed brief patch&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Model output does not silently save intent&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1230" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-confirm" value="User accepts correction?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Edit, retry or undo · S07&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1430" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-retry" value="Return to manual correction&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Preserve prior project version&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1630" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-save" value="Save accepted intent&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Versioned app-owned project event&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1630" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-voice-tap" target="arch2-voice-consent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-e1" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-voice-consent" target="arch2-voice-mode">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-e2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-voice-consent" target="arch2-voice-type">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-e3" value="Short turn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-voice-mode" target="arch2-voice-turn">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560.0" y="620.0" />
+              <mxPoint x="560.0" y="735" />
+              <mxPoint x="400.0" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-voice-e4" value="Live" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-voice-mode" target="arch2-voice-live">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="620.0" />
+              <mxPoint x="1315.0" y="735" />
+              <mxPoint x="1470.0" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-voice-e5" value="Transcribed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0;entryY=0.5;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-voice-turn" target="arch2-voice-transcript">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400.0" y="1046.0" />
+              <mxPoint x="720" y="1046.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-voice-e6" value="Streamed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=1;entryY=0.5;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-voice-live" target="arch2-voice-transcript">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470.0" y="1046.0" />
+              <mxPoint x="1160" y="1046.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-voice-e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-voice-transcript" target="arch2-voice-interpret">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-voice-interpret" target="arch2-voice-confirm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-e9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-voice-confirm" target="arch2-voice-save">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-voice-e10" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-voice-confirm" target="arch2-voice-retry">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1505.0" />
+              <mxPoint x="1315.0" y="1605" />
+              <mxPoint x="1470.0" y="1605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch2-jobs" name="05 · ASYNC JOB — limits, recovery and model swaps">
+    <mxGraphModel dx="1900" dy="1900" grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch2-jobs-title" value="05 · ASYNC JOB — limits, recovery and model swaps" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="34" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-sub" value="Homely proposed architecture · 2026-09-13 · follow arrows downward; Yes/No exits are explicit" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#526A58;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="1760" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-command" value="Job command · S08/S13/S19&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Idempotency key + pinned route version&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-budget" value="Preflight within cap?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Estimated calls, images, minutes and tool fees&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="345" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-defer" value="Defer / reduce scope&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Tell user what budget prevented&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="545" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-queue" value="App-owned queue&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;queued → running → partial → terminal&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="545" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-worker" value="Worker calls adapter&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Timeout, retry/backoff, circuit breaker&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="740" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-cancel" value="Cancelled or superseded?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Abort when possible; discard late write&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="935" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-stopped" value="Cancelled event&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Preserve earlier project/result versions&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1135" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-validate" value="Validate provider result&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Schema, provenance and domain gates&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1135" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-pass" value="Quality and policy pass?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;No fabricated stock, fit or seller claim&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1330" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-fallback" value="Typed failure + recovery&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Manual/source path; retry if safe&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1530" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-persist" value="Persist artifact + actual usage&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Tokens, images, time, source calls and cost&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1530" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-eval" value="Eval before route promotion&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Real room/SKU fixtures, canary and rollback&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1725" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-jobs-command" target="arch2-jobs-budget">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-e1" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-jobs-budget" target="arch2-jobs-queue">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-e2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-jobs-budget" target="arch2-jobs-defer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="420.0" />
+              <mxPoint x="1315.0" y="520" />
+              <mxPoint x="1470.0" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-jobs-e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-jobs-queue" target="arch2-jobs-worker">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-jobs-worker" target="arch2-jobs-cancel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-e5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-jobs-cancel" target="arch2-jobs-validate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-e6" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-jobs-cancel" target="arch2-jobs-stopped">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1010.0" />
+              <mxPoint x="1315.0" y="1110" />
+              <mxPoint x="1470.0" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-jobs-e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-jobs-validate" target="arch2-jobs-pass">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-e8" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-jobs-pass" target="arch2-jobs-persist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-jobs-e9" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-jobs-pass" target="arch2-jobs-fallback">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1405.0" />
+              <mxPoint x="1315.0" y="1505" />
+              <mxPoint x="1470.0" y="1505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-jobs-e10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-jobs-persist" target="arch2-jobs-eval">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch2-decision" name="06 · DECISION — hard cap and fresh handoff">
+    <mxGraphModel dx="1900" dy="1900" grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch2-decision-title" value="06 · DECISION — hard cap and fresh handoff" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="34" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-sub" value="Homely proposed architecture · 2026-09-13 · follow arrows downward; Yes/No exits are explicit" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#526A58;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="1760" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-inputs" value="Verified candidate + fit record&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;S11 evidence + S13 illustration caveat&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-total" value="Calculate delivered total&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Item × quantity + tax, shipping and fees&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="345" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-cap" value="Known and under hard cap?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Flexible target may show explicit premium&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="540" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-exclude" value="Exclude / resolve unknown cost&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;S14: no ready under-cap claim&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="740" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-select" value="User selects versioned option&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;S16 decision preserves alternatives&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="740" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-share" value="Optional scoped client review&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;S20 approval ≠ stock reservation&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="940" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-refresh" value="Recheck exact selection&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;SKU × quantity, price, delivery, source time&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1140" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-pass" value="All checks still pass?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Hard cap is absolute at handoff&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1340" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-lost" value="Changed: keep history, rerank&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;S18 hunt/replacement; no silent swap&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1540" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-seller" value="Open external seller · S17&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Referral only if eligible and disclosed&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1540" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-ledger" value="Record reported outcome · S21&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Click ≠ purchase; credits after realized terms&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1735" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-decision-inputs" target="arch2-decision-total">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-decision-total" target="arch2-decision-cap">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-e2" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-decision-cap" target="arch2-decision-select">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-e3" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-decision-cap" target="arch2-decision-exclude">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="615.0" />
+              <mxPoint x="1315.0" y="715" />
+              <mxPoint x="1470.0" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-decision-e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-decision-select" target="arch2-decision-share">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-decision-share" target="arch2-decision-refresh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-decision-refresh" target="arch2-decision-pass">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-e7" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-decision-pass" target="arch2-decision-seller">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-decision-e8" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-decision-pass" target="arch2-decision-lost">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1415.0" />
+              <mxPoint x="1315.0" y="1515" />
+              <mxPoint x="1470.0" y="1515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-decision-e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-decision-seller" target="arch2-decision-ledger">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch2-agent" name="07 · BOUNDED RESEARCH AGENT — authorized tools and stop rules">
+    <mxGraphModel dx="1900" dy="1900" grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch2-agent-title" value="07 · BOUNDED RESEARCH AGENT — authorized tools and stop rules" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="34" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-sub" value="Homely proposed architecture · 2026-09-13 · follow arrows downward; Yes/No exits are explicit" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#526A58;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="1760" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-brief" value="Brief + source policy&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;SKU/quantity, location, time and budget&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-depth" value="Stock-sensitive search?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Routine sourcing versus broad landscape&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="345" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-broad" value="Separate research review&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Use current supported APIs; never stock proof&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="545" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-plan" value="Bounded plan&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Query budget, source set, termination rules&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="545" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-tool" value="Tool permission gate&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Only approved read-only source adapters&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="740" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-blocked" value="Report source gap&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;No scraping or invented availability&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="940" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-call" value="Search + fetch + normalize&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Cited raw snapshots, dedupe and timestamps&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="940" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-evidence" value="Exact variant evidence?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Count/location/fulfillment + freshness&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1135" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-lead" value="Unconfirmed S12 lead&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Keep provenance and uncertainty&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1335" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-ready" value="S11 verified candidate&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Machine gate accepts attributable evidence&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1335" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-stop" value="Stop budget or coverage met?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Max calls, time, candidate yield, cancellation&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1530" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-resume" value="Checkpoint partial result&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Queue next bounded pass if permitted&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1730" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-emit" value="Emit source ledger + summary&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;No invented source, stock or price&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1730" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-agent-brief" target="arch2-agent-depth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-e1" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-agent-depth" target="arch2-agent-plan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-e2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-agent-depth" target="arch2-agent-broad">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="420.0" />
+              <mxPoint x="1315.0" y="520" />
+              <mxPoint x="1470.0" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-agent-e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-agent-plan" target="arch2-agent-tool">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-e4" value="Allowed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-agent-tool" target="arch2-agent-call">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-e5" value="Denied" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-agent-tool" target="arch2-agent-blocked">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="815.0" />
+              <mxPoint x="1315.0" y="915" />
+              <mxPoint x="1470.0" y="915" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-agent-e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-agent-call" target="arch2-agent-evidence">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-e7" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-agent-evidence" target="arch2-agent-ready">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-e8" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-agent-evidence" target="arch2-agent-lead">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1210.0" />
+              <mxPoint x="1315.0" y="1310" />
+              <mxPoint x="1470.0" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-agent-e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-agent-ready" target="arch2-agent-stop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-e10" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-agent-stop" target="arch2-agent-emit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-agent-e11" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-agent-stop" target="arch2-agent-resume">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1605.0" />
+              <mxPoint x="1315.0" y="1705" />
+              <mxPoint x="1470.0" y="1705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch2-data" name="08 · DATA + ACCESS — portable app-owned truth">
+    <mxGraphModel dx="1900" dy="1900" grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch2-data-title" value="08 · DATA + ACCESS — portable app-owned truth" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="34" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-sub" value="Homely proposed architecture · 2026-09-13 · follow arrows downward; Yes/No exits are explicit" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#526A58;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="1760" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-command" value="Authenticated command&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Actor, tenant, project and request ID&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-scope" value="Authorized for object?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Owner/teammate/client field-level scope&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="345" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-deny" value="Deny and audit&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;No unrelated notes, photos or projects&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="545" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-event" value="Append project event&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Expected version + idempotency key&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="545" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-assets" value="Immutable asset record&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Original room/product refs, hashes, rights&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="740" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-evidence" value="Source/decision ledgers&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Observed-at, SKU, cost, actor and version&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="935" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-egress" value="Vendor data egress allowed?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Consent, retention, least input policy&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1130" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-local" value="Local/manual path&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Withhold data, keep project usable&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1330" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-adapter" value="Redacted capability request&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;No vendor-held canonical memory&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1330" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-return" value="Validate and persist result&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Schema, source lineage, usage/cost&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1525" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-lifecycle" value="Export / retention / deletion&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Revoke future access; document limits&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1720" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-data-command" target="arch2-data-scope">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-e1" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-data-scope" target="arch2-data-event">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-e2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-data-scope" target="arch2-data-deny">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="420.0" />
+              <mxPoint x="1315.0" y="520" />
+              <mxPoint x="1470.0" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-data-e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-data-event" target="arch2-data-assets">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-data-assets" target="arch2-data-evidence">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-data-evidence" target="arch2-data-egress">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-e6" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-data-egress" target="arch2-data-adapter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-e7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-data-egress" target="arch2-data-local">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1205.0" />
+              <mxPoint x="1315.0" y="1305" />
+              <mxPoint x="1470.0" y="1305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-data-e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-data-adapter" target="arch2-data-return">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-data-e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-data-return" target="arch2-data-lifecycle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch2-prompt" name="09 · PROMPT + VALIDATION — model outputs as proposals">
+    <mxGraphModel dx="1900" dy="1900" grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch2-prompt-title" value="09 · PROMPT + VALIDATION — model outputs as proposals" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="34" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-sub" value="Homely proposed architecture · 2026-09-13 · follow arrows downward; Yes/No exits are explicit" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#526A58;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="1760" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-input" value="Typed capability input&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Versioned brief, evidence refs, schema&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-layers" value="Compose prompt layers&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Global truth rules → capability → task&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="345" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-tools" value="Constrain tool set&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Authorized source reads; max calls and time&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="540" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-model" value="Versioned provider call&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Exact model, prompt, schema and route IDs&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="735" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-parse" value="Schema parse succeeds?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Required fields and enum validation&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="935" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-retry" value="Repair once or fail typed&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Preserve raw output only in protected trace&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1135" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-ground" value="Grounded in trusted data?&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Evidence refs, exact SKU, numeric gates&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2E8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1135" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-reject" value="Reject unsupported claim&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Lead/needs-input state; human review&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1335" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-accept" value="Accepted artifact&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Model prose separate from verified facts&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1335" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-meter" value="Log trace + usage&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Prompt/model versions, cost and latency&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F7FAF8;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1530" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-eval" value="Replay golden fixtures&lt;br&gt;&lt;font style=&quot;font-size:14px;font-weight:normal&quot;&gt;Stock, fit, privacy and hard-cap regressions&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1725" width="440" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-prompt-input" target="arch2-prompt-layers">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-prompt-layers" target="arch2-prompt-tools">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-prompt-tools" target="arch2-prompt-model">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-prompt-model" target="arch2-prompt-parse">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-e4" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-prompt-parse" target="arch2-prompt-ground">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-e5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-prompt-parse" target="arch2-prompt-retry">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1010.0" />
+              <mxPoint x="1315.0" y="1110" />
+              <mxPoint x="1470.0" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-prompt-e6" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-prompt-ground" target="arch2-prompt-accept">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-e7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-prompt-ground" target="arch2-prompt-reject">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315.0" y="1210.0" />
+              <mxPoint x="1315.0" y="1310" />
+              <mxPoint x="1470.0" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch2-prompt-e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-prompt-accept" target="arch2-prompt-meter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch2-prompt-e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#4D6C5D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=16;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch2-prompt-meter" target="arch2-prompt-eval">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

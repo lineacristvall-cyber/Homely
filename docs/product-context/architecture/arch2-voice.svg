@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1900" viewBox="0 0 1900 1900">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#4D6C5D"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<text x="70" y="76" font-family="Arial" font-size="30" font-weight="bold" fill="#1F2925">04 · VOICE — consent, mode, correction</text>
+<text x="70" y="125" font-family="Arial" font-size="17" fill="#526A58">Follow arrows downward · Yes/No branches are explicit · 2026-09-13</text>
+<polyline points="940.0,272 940.0,345" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,495 940.0,545" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="500.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="520.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,420.0 1250,406.0" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1190.0" y="388.0" width="44" height="26" rx="4" fill="white"/><text x="1197.0" y="408.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<polyline points="720,620.0 560.0,620.0 560.0,735 400.0,735 400.0,760" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="488.0" y="625.0" width="104" height="26" rx="4" fill="white"/><text x="495.0" y="645.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Short turn</text>
+<polyline points="1160,620.0 1315.0,620.0 1315.0,735 1470.0,735 1470.0,760" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="625.0" width="50" height="26" rx="4" fill="white"/><text x="1327.0" y="645.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Live</text>
+<polyline points="400.0,882 400.0,1046.0 720,1046.0 720,1091.0" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="553.0" y="1017.0" width="113" height="26" rx="4" fill="white"/><text x="560.0" y="1037.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Transcribed</text>
+<polyline points="1470.0,882 1470.0,1046.0 1160,1046.0 1160,1091.0" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1308.0" y="1017.0" width="86" height="26" rx="4" fill="white"/><text x="1315.0" y="1037.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Streamed</text>
+<polyline points="940.0,1152 940.0,1230" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1352 940.0,1430" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1580 940.0,1630" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="1585.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="1605.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,1505.0 1315.0,1505.0 1315.0,1605 1470.0,1605 1470.0,1630" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="1510.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="1530.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<rect x="720" y="150" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Tap mic · S04</text>
+<text x="940.0" y="232.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Visible stop, correct and undo controls</text>
+<polygon points="940.0,345 1160,420.0 940.0,495 720,420.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="412.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Mic allowed now?</text>
+<text x="940.0" y="441.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Permission at point of use · S02</text>
+<rect x="1250" y="345" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="398.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Type or touch instead</text>
+<text x="1470.0" y="427.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Same brief editing path; no recording</text>
+<polygon points="940.0,545 1160,620.0 940.0,695 720,620.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="612.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Choose interaction mode</text>
+<text x="940.0" y="641.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Short turn or low-latency duplex</text>
+<rect x="180" y="760" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="813.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Turn-based speech</text>
+<text x="400.0" y="842.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">gpt-transcribe + optional mini TTS</text>
+<rect x="1250" y="760" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="1470.0" y="813.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Live speech</text>
+<text x="1470.0" y="842.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">gpt-realtime-2.1-mini; interruption</text>
+<rect x="720" y="1030" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="1083.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Visible transcript</text>
+<text x="940.0" y="1112.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Partial status and committed utterance</text>
+<rect x="720" y="1230" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="1283.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Propose typed brief patch</text>
+<text x="940.0" y="1312.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Model output does not silently save intent</text>
+<polygon points="940.0,1430 1160,1505.0 940.0,1580 720,1505.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="1497.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">User accepts correction?</text>
+<text x="940.0" y="1526.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Edit, retry or undo · S07</text>
+<rect x="1250" y="1630" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="1683.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Return to manual correction</text>
+<text x="1470.0" y="1712.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Preserve prior project version</text>
+<rect x="720" y="1630" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="940.0" y="1683.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Save accepted intent</text>
+<text x="940.0" y="1712.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Versioned app-owned project event</text>
+</svg>

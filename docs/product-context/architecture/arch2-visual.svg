@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1900" viewBox="0 0 1900 1900">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#4D6C5D"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<text x="70" y="76" font-family="Arial" font-size="30" font-weight="bold" fill="#1F2925">03 · PRODUCT IN ROOM — image plus independent fit</text>
+<text x="70" y="125" font-family="Arial" font-size="17" fill="#526A58">Follow arrows downward · Yes/No branches are explicit · 2026-09-13</text>
+<polyline points="940.0,272 940.0,345" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,467 940.0,540" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,662 940.0,735" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,885 940.0,935" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="890.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="910.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,810.0 1315.0,810.0 1315.0,910 1470.0,910 1470.0,935" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="815.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="835.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<polyline points="940.0,1057 940.0,1130" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1252 940.0,1325" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1475 940.0,1525" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="1480.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="1500.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,1400.0 1315.0,1400.0 1315.0,1500 1470.0,1500 1470.0,1525" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="1405.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="1425.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<polyline points="940.0,1647 940.0,1720" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="720" y="150" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Original room · S04/S05</text>
+<text x="940.0" y="232.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Consent, retained furniture, immutable image</text>
+<rect x="720" y="345" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="398.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Exact SKU assets · S11</text>
+<text x="940.0" y="427.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Licensed product photos and dimensions</text>
+<rect x="720" y="540" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="593.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Placement plan</text>
+<text x="940.0" y="622.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Floor plane, perspective, scale and occlusion</text>
+<polygon points="940.0,735 1160,810.0 940.0,885 720,810.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="802.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Geometry sufficient?</text>
+<text x="940.0" y="831.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Measured versus estimated inputs labeled</text>
+<rect x="1250" y="935" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="988.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Request measurement</text>
+<text x="1470.0" y="1017.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Show source photo and dimension evidence</text>
+<rect x="720" y="935" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="988.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Async image edit · S13</text>
+<text x="940.0" y="1017.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Flare first; Sunburst if precision eval calls for it</text>
+<rect x="720" y="1130" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="1183.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Record render lineage</text>
+<text x="940.0" y="1212.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Room, SKU, source image, model and versions</text>
+<polygon points="940.0,1325 1160,1400.0 940.0,1475 720,1400.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="1392.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Exact product appearance holds?</text>
+<text x="940.0" y="1421.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Silhouette, color, material, finish</text>
+<rect x="1250" y="1525" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="1578.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Reject composite</text>
+<text x="1470.0" y="1607.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Show source image; explain identity uncertainty</text>
+<rect x="720" y="1525" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="1578.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Independent numeric fit check</text>
+<text x="940.0" y="1607.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Arm/seat/table clearance and circulation</text>
+<rect x="720" y="1720" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="940.0" y="1773.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Show original | placement | dims</text>
+<text x="940.0" y="1802.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Illustrative image + measured fit status</text>
+</svg>

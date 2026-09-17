@@ -1,0 +1,130 @@
+{
+  "id": "01aa0000-0000-4000-8000-000000000001",
+  "name": "DEMO · Avery’s dining room",
+  "mode": "pro",
+  "version": 1,
+  "createdAt": "2026-09-17T12:00:00Z",
+  "updatedAt": "2026-09-17T12:00:00Z",
+  "brief": {
+    "itemType": "Dining chairs",
+    "quantity": 6,
+    "style": "Warm, natural and quietly distinctive. Light-to-medium wood, tactile neutral seats, comfortable everyday dining; complement the retained table without a matching set.",
+    "location": "94612 · Oakland, CA (fictional delivery scenario)",
+    "flexibleTarget": 2400,
+    "hardCap": 2800,
+    "notes": "FICTIONAL DEMO — stock photo by Alex Tyson / Unsplash, photo 4vRQHAi7DJs; not the client's home. Designer: Mira Lane, fictional Fieldline Studio. Client: Avery Chen (fictional). Keep the depicted dining table, chandelier and kitchen cabinetry; replace dining chairs only. All budget, delivery and geometry details are invented test assumptions. Sample delivery ZIP 94612, not the photograph location. Six chairs; target $2,400; absolute $2,800 delivered including tax, shipping and fees. Prefer warm wood, wipeable natural-tone seats, comfortable backs; avoid bulky arms and fragile fabric. Synthetic delivery scenario: elevator building, weekday appointment, no stairs, 32-inch doorway assumed but unconfirmed; within six weeks preferred, not a supplier promise. Measurements are unknown in the app; confirm table underside, apron/leg spacing, room circulation and doorway before claiming fit. Photo is local display only: external AI processing consent is NOT granted. Three real product-page leads saved; availability and fit unverified.",
+    "measurements": {
+      "tableUndersideIn": null,
+      "chairArmIn": null,
+      "roomWidthIn": null,
+      "roomDepthIn": null
+    }
+  },
+  "room": {
+    "imageUrl": null,
+    "uploadedAt": null,
+    "consent": false
+  },
+  "candidates": [
+    {
+      "id": "53f9257c2f5aba0e849b",
+      "title": "IKEA ODGER chair, anthracite",
+      "seller": "IKEA",
+      "url": "https://www.ikea.com/us/en/p/odger-chair-anthracite-50457313/",
+      "sourceId": "www.ikea.com",
+      "exactSku": "504.573.13",
+      "variant": "Anthracite",
+      "unitPrice": 125,
+      "currency": "USD",
+      "dimensions": {
+        "widthIn": 17.75,
+        "depthIn": 20.125,
+        "heightIn": 31.875,
+        "seatHeightIn": 16.875
+      },
+      "imageUrl": null,
+      "shipping": null,
+      "tax": null,
+      "availableQuantity": null,
+      "observedAt": "2026-09-17T12:00:00Z",
+      "method": "public_product_page",
+      "status": "lead",
+      "reason": "Real product page inspected. Exact available quantity, delivered cost and fit unverified. Product image reuse permission not established.",
+      "sourceRefs": [
+        {
+          "url": "https://www.ikea.com/us/en/p/odger-chair-anthracite-50457313/",
+          "title": "IKEA ODGER chair, anthracite",
+          "observedAt": "2026-09-17T12:00:00Z",
+          "method": "public_product_page",
+          "rightsScope": "Link and factual product details only; no image reuse rights established."
+        }
+      ]
+    },
+    {
+      "id": "55d71c0f7c0f2b84a4ba",
+      "title": "IKEA LISABO chair, ash",
+      "seller": "IKEA",
+      "url": "https://www.ikea.com/us/en/p/lisabo-chair-ash-00457235/",
+      "sourceId": "www.ikea.com",
+      "exactSku": "004.572.35",
+      "variant": "Ash",
+      "unitPrice": 80,
+      "currency": "USD",
+      "dimensions": {
+        "widthIn": 18.125,
+        "depthIn": 20.125,
+        "heightIn": 31.5,
+        "seatHeightIn": 17.75
+      },
+      "imageUrl": null,
+      "shipping": null,
+      "tax": null,
+      "availableQuantity": null,
+      "observedAt": "2026-09-17T12:00:00Z",
+      "method": "public_product_page",
+      "status": "lead",
+      "reason": "Real product page inspected. Exact available quantity, delivered cost and fit unverified. Product image reuse permission not established.",
+      "sourceRefs": [
+        {
+          "url": "https://www.ikea.com/us/en/p/lisabo-chair-ash-00457235/",
+          "title": "IKEA LISABO chair, ash",
+          "observedAt": "2026-09-17T12:00:00Z",
+          "method": "public_product_page",
+          "rightsScope": "Link and factual product details only; no image reuse rights established."
+        }
+      ]
+    },
+    {
+      "id": "06b7175d88ad9ef27271",
+      "title": "Mid-Century Upholstered Dining Chair — Wood Legs",
+      "seller": "West Elm",
+      "url": "https://www.westelm.com/products/mid-century-dining-chairs-h1361/",
+      "sourceId": "www.westelm.com",
+      "exactSku": null,
+      "variant": null,
+      "unitPrice": null,
+      "currency": "USD",
+      "dimensions": {},
+      "imageUrl": null,
+      "shipping": null,
+      "tax": null,
+      "availableQuantity": null,
+      "observedAt": "2026-09-17T12:00:00Z",
+      "method": "public_product_page",
+      "status": "lead",
+      "reason": "Real product page inspected. Exact available quantity, delivered cost and fit unverified. Product image reuse permission not established.",
+      "sourceRefs": [
+        {
+          "url": "https://www.westelm.com/products/mid-century-dining-chairs-h1361/",
+          "title": "Mid-Century Upholstered Dining Chair — Wood Legs",
+          "observedAt": "2026-09-17T12:00:00Z",
+          "method": "public_product_page",
+          "rightsScope": "Link and factual product details only; no image reuse rights established."
+        }
+      ]
+    }
+  ],
+  "decisions": [],
+  "sourceCoverage": [],
+  "sourceCoverageComplete": false
+}

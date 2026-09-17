@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2720" viewBox="0 0 2400 2720">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#607B6C"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<polyline points="1180.0,330.0 1180.0,460.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,540.0 930.0,540.0 930.0,520.0 620.0,520.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,630.0 1180.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,810.0 1180.0,940.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,1020.0 930.0,1020.0 930.0,1000.0 620.0,1000.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="180.0,1000.0 150.0,1000.0 150.0,760.0 960.0,760.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1180.0,1110.0 1180.0,1180.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1290.0 1180.0,1420.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,1500.0 930.0,1500.0 930.0,1480.0 620.0,1480.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1590.0 1180.0,1660.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1770.0 1180.0,1900.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,2010.0 1180.0,2140.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,570.0 400.0,600.0 920.0,600.0 920.0,2110.0 1180.0,2110.0 1180.0,2140.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,1530.0 400.0,1870.0 1180.0,1870.0 1180.0,1900.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<text x="78.0" y="63.0" text-anchor="start" font-family="Arial, sans-serif" font-size="30.0" fill="#1F2925">06 · Optional earned-usage ledger</text>
+<text x="78.0" y="133.45" text-anchor="start" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Screens S17 and S21. Monetization is undecided. This proposed branch applies only to a contracted program that permits incentives; it never influences product ranking.</text>
+<rect x="960.0" y="220.0" width="440.0" height="110.0" rx="12" fill="#DDE8DC" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="269.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Seller handoff / credit ledger</text>
+<text x="1180.0" y="292.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Inspect attribution status</text>
+<polygon points="1180.0,460.0 1400.0,545.0 1180.0,630.0 960.0,545.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="539.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Eligible contract +</text>
+<text x="1180.0" y="562.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">attributable purchase?</text>
+<rect x="180.0" y="460.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="509.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S21.LEDGER</text>
+<text x="400.0" y="532.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">No credit assumed; explain status</text>
+<rect x="960.0" y="700.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="749.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S17.PENDING_CREDIT</text>
+<text x="1180.0" y="772.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Pending; no spendable credit</text>
+<polygon points="1180.0,940.0 1400.0,1025.0 1180.0,1110.0 960.0,1025.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="1019.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Eligible commission</text>
+<text x="1180.0" y="1042.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">actually realized?</text>
+<rect x="180.0" y="940.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="989.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Pending / not attributable</text>
+<text x="400.0" y="1012.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Show uncertainty and ledger reason</text>
+<rect x="960.0" y="1180.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="1229.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S17.RESERVED</text>
+<text x="1180.0" y="1252.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Hold reserve; bound by service cost</text>
+<polygon points="1180.0,1420.0 1400.0,1505.0 1180.0,1590.0 960.0,1505.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="1499.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Reserve clears</text>
+<text x="1180.0" y="1522.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">under program terms?</text>
+<rect x="180.0" y="1420.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="1469.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S21.REVERSED</text>
+<text x="400.0" y="1492.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Return / refund → explain reversal</text>
+<rect x="960.0" y="1660.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="1709.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S21.CREDIT</text>
+<text x="1180.0" y="1732.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Release only permitted usage credit</text>
+<rect x="960.0" y="1900.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="1949.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Inspect earned-usage explanation</text>
+<text x="1180.0" y="1972.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Fit ranking excludes commission</text>
+<rect x="960.0" y="2140.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1180.0" y="2189.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Back to decision / project</text>
+<text x="1180.0" y="2212.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Purchase history stays intact</text>
+<rect x="794.5" y="503.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="525.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No</text>
+<rect x="1137.5" y="648.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="670.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes</text>
+<rect x="1102.0" y="884.0" width="156.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="906.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Commission event</text>
+<rect x="776.0" y="983.0" width="122.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="1005.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No / unknown</text>
+<rect x="643.25" y="743.0" width="147.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="717.0" y="765.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Eligible update</text>
+<rect x="1137.5" y="1128.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="1150.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes</text>
+<rect x="754.75" y="1463.0" width="164.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="1485.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Refund / reversal</text>
+<rect x="1137.5" y="1608.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="1630.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes</text>
+<rect x="1137.5" y="1844.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="1866.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Inspect</text>
+<rect x="1137.5" y="2084.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="2106.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Back</text>
+<rect x="877.5" y="1338.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="920.0" y="1360.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Return</text>
+<rect x="876.5" y="1853.0" width="139.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="946.0" y="1875.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Inspect reason</text>
+<rect x="70.0" y="2650.0" width="240.0" height="40.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="190.0" y="2675.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">← Journey map</text>
+</svg>

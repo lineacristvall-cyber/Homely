@@ -1,0 +1,750 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-09-13T16:00:00.000Z" agent="Codex Homely" version="24.7.17" type="device">
+  <diagram id="arch-core" name="00 CORE · UI to decision and handoff">
+    <mxGraphModel dx="1900" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1430" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch-core-title" value="00 CORE · UI to decision and handoff" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="32" width="1780" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-sub" value="Homely proposed architecture · 2026-09-13 · click a linked box for detail page · arrows are labeled data/control flows" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#526A58;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="101" width="1780" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-ui" value="Mobile + laptop PWA&lt;br&gt;S01–S24 states" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-api" value="Identity, consent, roles&lt;br&gt;API + event stream" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-flow" value="App-owned workflow engine&lt;br&gt;versioned project state" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-router" value="Capability router&lt;br&gt;policy + budget + version" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E5EEE6;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1" link="data:page/id,arch-router">
+          <mxGeometry x="1400" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-context" value="Room photos, measurements&lt;br&gt;brief + user corrections" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-research" value="Research / hunt jobs&lt;br&gt;source-rights adapters" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1" link="data:page/id,arch-source">
+          <mxGeometry x="520" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-evidence" value="Exact SKU + quantity&lt;br&gt;evidence freshness gate" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1" link="data:page/id,arch-source">
+          <mxGeometry x="960" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-visual" value="Image placement pipeline&lt;br&gt;source image + room asset" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1" link="data:page/id,arch-visual">
+          <mxGeometry x="1400" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-store" value="Project/event/asset stores&lt;br&gt;portable across models" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-decision" value="Compare + hard-cap rules&lt;br&gt;S10/S14/S16" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-fit" value="Geometry + identity check&lt;br&gt;illustrative disclosure" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1" link="data:page/id,arch-visual">
+          <mxGeometry x="960" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-providers" value="OpenAI adapters now&lt;br&gt;other providers if capable" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E5EEE6;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1" link="data:page/id,arch-router">
+          <mxGeometry x="1400" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-ops" value="Job states, cost ledger&lt;br&gt;observability + eval gates" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1" link="data:page/id,arch-ops">
+          <mxGeometry x="80" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-review" value="Scoped client review&lt;br&gt;S20; purchase ledger S21" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-recheck" value="Fresh stock/price + cap&lt;br&gt;before seller link" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1" link="data:page/id,arch-source">
+          <mxGeometry x="960" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-seller" value="External seller handoff&lt;br&gt;no assumed purchase" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F1E9F2;strokeColor=#75537D;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-0" value="typed / voice / image + consent" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-ui" target="arch-core-api">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-1" value="authorized command" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-api" target="arch-core-flow">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-2" value="capability request" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-flow" target="arch-core-router">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-3" value="versioned project context" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-context" target="arch-core-flow">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-4" value="search job" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-flow" target="arch-core-research">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-5" value="candidate + source record" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-research" target="arch-core-evidence">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-6" value="verified lane or lead" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-evidence" target="arch-core-decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-7" value="variant + scene job" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-flow" target="arch-core-visual">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-8" value="composite + lineage" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-visual" target="arch-core-fit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-9" value="fit result / needs input" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-fit" target="arch-core-decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-10" value="configured adapter" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-router" target="arch-core-providers">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-11" value="reasoning outputs" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-providers" target="arch-core-research">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-12" value="image output" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-providers" target="arch-core-visual">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-13" value="read + write" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-store" target="arch-core-context">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-14" value="events + assets" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-flow" target="arch-core-store">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-15" value="shortlist + tradeoffs" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-decision" target="arch-core-review">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-16" value="selected variant" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-decision" target="arch-core-recheck">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-17" value="only if gates pass" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-recheck" target="arch-core-seller">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-18" value="external outcome reported" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-seller" target="arch-core-review">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-19" value="spend/quality policy" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-ops" target="arch-core-router">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-core-edge-20" value="usage + events" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-core-flow" target="arch-core-ops">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch-router" name="01 CAPABILITY ROUTER · swap models without losing context">
+    <mxGraphModel dx="1900" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1430" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch-router-title" value="01 CAPABILITY ROUTER · swap models without losing context" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="32" width="1780" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-sub" value="Homely proposed architecture · 2026-09-13 · click a linked box for detail page · arrows are labeled data/control flows" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#526A58;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="101" width="1780" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-request" value="Workflow request&lt;br&gt;capability + SLA + sensitivity" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-contract" value="Typed capability contract&lt;br&gt;inputs, outputs, errors" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-policy" value="Policy engine&lt;br&gt;consent, rights, budget" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-registry" value="Registry + versions&lt;br&gt;model IDs per workload" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E5EEE6;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-text" value="Reasoning / extraction&lt;br&gt;Luna default → Terra/Sol" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-audio" value="Transcribe / TTS&lt;br&gt;realtime as optional path" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-image" value="Image edit / placement&lt;br&gt;Flare → Sunburst" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-tool" value="Source tools&lt;br&gt;search/retailer adapters" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-openai" value="OpenAI adapter&lt;br&gt;Responses / Image / Audio" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E5EEE6;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-future" value="Future Claude/other&lt;br&gt;capability-tested adapters" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E5EEE6;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-fallback" value="Unsupported or failing?&lt;br&gt;manual / alternate path" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-normalize" value="Normalize result + usage&lt;br&gt;provider-neutral metadata" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-context" value="App-owned brief/evidence&lt;br&gt;asset refs, not vendor memory" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-eval" value="Replay + fidelity / cost eval&lt;br&gt;before route promotion" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-ledger" value="Latency, tokens, images&lt;br&gt;$/project caps + alerts" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-return" value="Validated UI event&lt;br&gt;no provider claim as fact" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-0" value="typed request" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-request" target="arch-router-contract">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-1" value="validate" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-contract" target="arch-router-policy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-2" value="allowed route" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-policy" target="arch-router-registry">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-3" value="text/vision" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-registry" target="arch-router-text">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-4" value="speech" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-registry" target="arch-router-audio">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-5" value="image edit" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-registry" target="arch-router-image">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-6" value="source access" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-registry" target="arch-router-tool">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-7" value="initial" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-text" target="arch-router-openai">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-8" value="initial" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-audio" target="arch-router-openai">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-9" value="initial" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-image" target="arch-router-openai">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-10" value="if rights/access absent" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-tool" target="arch-router-fallback">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-11" value="later, if supported" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-registry" target="arch-router-future">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-12" value="result + usage" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-openai" target="arch-router-normalize">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-13" value="result + usage" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-future" target="arch-router-normalize">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-14" value="structured limitation" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-fallback" target="arch-router-normalize">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-15" value="contract result" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-normalize" target="arch-router-return">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-16" value="portable inputs" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-context" target="arch-router-contract">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-17" value="persist provenance" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-normalize" target="arch-router-context">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-18" value="budget policy" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-ledger" target="arch-router-registry">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-19" value="actual usage" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-normalize" target="arch-router-ledger">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-router-edge-20" value="promote config only" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-router-eval" target="arch-router-registry">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch-source" name="02 SOURCE + STOCK · honest candidate lifecycle">
+    <mxGraphModel dx="1900" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1430" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch-source-title" value="02 SOURCE + STOCK · honest candidate lifecycle" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="32" width="1780" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-sub" value="Homely proposed architecture · 2026-09-13 · click a linked box for detail page · arrows are labeled data/control flows" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#526A58;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="101" width="1780" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-brief" value="S07 brief&lt;br&gt;exact need: six chairs" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-job" value="S08/S19 research job&lt;br&gt;queued → partial → done" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-sources" value="Allowed source adapters&lt;br&gt;rights + rate limits" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E5EEE6;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-raw" value="Source snapshot&lt;br&gt;URL, time, seller, scope" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-parse" value="Normalize product identity&lt;br&gt;finish, size, SKU, count" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-lead" value="Unconfirmed lead S12&lt;br&gt;listing ≠ inventory" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-verify" value="Exact variant + quantity&lt;br&gt;location + fulfillment" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-fresh" value="Evidence TTL / method&lt;br&gt;source-specific policy" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-ready" value="S11 ready evidence&lt;br&gt;source + checked-at shown" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-compare" value="S10/S14 comparison&lt;br&gt;all-in cost + hard cap" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-select" value="S16 select candidate&lt;br&gt;versioned decision" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-recheck" value="Fresh recheck before link&lt;br&gt;stock + price + delivery" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-gap" value="S09 source gap&lt;br&gt;edit brief; never fabricate" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-hunt" value="S18/S19 changed-stock hunt&lt;br&gt;meaningful alert + cadence" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-lost" value="Stock/cost changed&lt;br&gt;retain history, rerank" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-handoff" value="S17 seller handoff&lt;br&gt;external checkout" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F1E9F2;strokeColor=#75537D;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-0" value="search criteria" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-brief" target="arch-source-job">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-1" value="lawful query" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-job" target="arch-source-sources">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-2" value="snapshot" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-sources" target="arch-source-raw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-3" value="source fields" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-raw" target="arch-source-parse">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-4" value="unknown quantity" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-parse" target="arch-source-lead">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-5" value="candidate identity" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-parse" target="arch-source-verify">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-6" value="evidence result" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-verify" target="arch-source-fresh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-7" value="current + exact" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-fresh" target="arch-source-ready">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-8" value="stale / uncertain" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-fresh" target="arch-source-lead">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-9" value="eligible option" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-ready" target="arch-source-compare">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-10" value="user choice" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-compare" target="arch-source-select">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-11" value="selected SKU x6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-select" target="arch-source-recheck">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-12" value="pass" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-recheck" target="arch-source-handoff">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-13" value="fail" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-recheck" target="arch-source-lost">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-14" value="replacement" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-lost" target="arch-source-compare">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-15" value="watch again" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-lost" target="arch-source-hunt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-16" value="empty / blocked" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-job" target="arch-source-gap">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-17" value="explicit edit" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-gap" target="arch-source-brief">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-18" value="save monitoring" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-job" target="arch-source-hunt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-19" value="changed lead" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-hunt" target="arch-source-verify">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-source-edge-20" value="watch later" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-source-ready" target="arch-source-hunt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch-visual" name="03 ACTUAL PRODUCT IN ROOM · identity and fit">
+    <mxGraphModel dx="1900" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1430" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch-visual-title" value="03 ACTUAL PRODUCT IN ROOM · identity and fit" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="32" width="1780" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-sub" value="Homely proposed architecture · 2026-09-13 · click a linked box for detail page · arrows are labeled data/control flows" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#526A58;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="101" width="1780" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-scene" value="S04/S05 original room&lt;br&gt;retained furniture + consent" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-measure" value="Room/table dimensions&lt;br&gt;unit, origin, confidence" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-product" value="S11 exact SKU assets&lt;br&gt;licensed photos + dimensions" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-lineage" value="Asset lineage record&lt;br&gt;source, hash, variant, versions" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-plan" value="Placement plan&lt;br&gt;floor plane, scale, occlusion" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-need" value="Geometry sufficient?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-render" value="S13 async image edit&lt;br&gt;Flare; Sunburst if needed" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-result" value="Illustrative composite&lt;br&gt;never source of fit truth" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-fallback" value="Ask for measurement&lt;br&gt;or show source image" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-identity" value="Compare with SKU photos&lt;br&gt;color, silhouette, material" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-geometry" value="Independent fit checks&lt;br&gt;arm/seat/clearance/scale" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-display" value="Original | placement | dims&lt;br&gt;source image visible" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-swap" value="Swap selected variant&lt;br&gt;new render job + provenance" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-reject" value="Low confidence / failure&lt;br&gt;needs input; no false claim" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-audit" value="Fidelity eval on real rooms&lt;br&gt;measured SKU test set" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-decision" value="S14 compare + S16 choice&lt;br&gt;fit caveat retained" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-0" value="room geometry" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-scene" target="arch-visual-plan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-1" value="measurements" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-measure" target="arch-visual-plan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-2" value="SKU source" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-product" target="arch-visual-lineage">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-3" value="source asset refs" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-lineage" target="arch-visual-render">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-4" value="placement proposal" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-plan" target="arch-visual-need">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-5" value="sufficient" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-need" target="arch-visual-render">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-6" value="unknown" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-need" target="arch-visual-fallback">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-7" value="composite + usage" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-render" target="arch-visual-result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-8" value="identity test" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-result" target="arch-visual-identity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-9" value="geometry version" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-result" target="arch-visual-geometry">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-10" value="pass / disclosed" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-identity" target="arch-visual-display">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-11" value="fit grade" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-geometry" target="arch-visual-display">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-12" value="mismatch" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-identity" target="arch-visual-reject">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-13" value="uncertain/failed" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-geometry" target="arch-visual-reject">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-14" value="manual evidence" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-reject" target="arch-visual-fallback">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-15" value="illustrative view" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-display" target="arch-visual-decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-16" value="new exact SKU" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-swap" target="arch-visual-lineage">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-17" value="rerender" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-swap" target="arch-visual-render">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-18" value="promoted model/prompt" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-audit" target="arch-visual-render">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-visual-edge-19" value="threshold fail" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-visual-audit" target="arch-visual-reject">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch-voice" name="04 VOICE · live control, correction, recovery">
+    <mxGraphModel dx="1900" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1430" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch-voice-title" value="04 VOICE · live control, correction, recovery" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="32" width="1780" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-sub" value="Homely proposed architecture · 2026-09-13 · click a linked box for detail page · arrows are labeled data/control flows" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#526A58;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="101" width="1780" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-tap" value="S04 visible mic control&lt;br&gt;consent at use" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-mode" value="Choose mode&lt;br&gt;turn-based or live" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-stt" value="Turn STT: gpt-transcribe&lt;br&gt;short clips / cheaper" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E5EEE6;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-live" value="Live session: realtime mini&lt;br&gt;barge-in + low latency" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E5EEE6;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-partial" value="Partial transcript&lt;br&gt;visible + interruptible" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-interpret" value="Typed intent extraction&lt;br&gt;brief patch proposal" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-confirm" value="S07 user corrects&lt;br&gt;accept / edit / undo" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-update" value="Versioned brief update&lt;br&gt;never silent overwrite" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-tts" value="Optional spoken summary&lt;br&gt;mini TTS for turn-based" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E5EEE6;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-stream" value="Stream text/audio events&lt;br&gt;stop = cancel session" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-rights" value="Consent + retention&lt;br&gt;audio and transcript policy" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-fallback" value="No mic / lost network&lt;br&gt;type, touch, in-app" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-state" value="S04 listening/processing&lt;br&gt;S02 denied / S23 offline" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-router" value="Voice capability route&lt;br&gt;model/version in config" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E5EEE6;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-cost" value="Minutes + tokens&lt;br&gt;per-session budget" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-history" value="Persist corrected intent&lt;br&gt;not raw provider state" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-0" value="permission granted" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-tap" target="arch-voice-mode">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-1" value="denied" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-tap" target="arch-voice-fallback">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-2" value="short turn" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-mode" target="arch-voice-stt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-3" value="hands-free" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-mode" target="arch-voice-live">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-4" value="transcript" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-stt" target="arch-voice-partial">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-5" value="stream" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-live" target="arch-voice-partial">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-6" value="committed utterance" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-partial" target="arch-voice-interpret">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-7" value="proposed change" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-interpret" target="arch-voice-confirm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-8" value="accepted" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-confirm" target="arch-voice-update">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-9" value="correction" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-confirm" target="arch-voice-partial">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-10" value="event" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-update" target="arch-voice-history">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-11" value="brief response" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-interpret" target="arch-voice-tts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-12" value="audio output" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-tts" target="arch-voice-stream">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-13" value="duplex events" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-live" target="arch-voice-stream">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-14" value="status/stop" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-stream" target="arch-voice-state">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-15" value="allowed modality" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-rights" target="arch-voice-router">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-16" value="configured route" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-router" target="arch-voice-mode">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-17" value="session cap" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-cost" target="arch-voice-router">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-18" value="duration" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-stt" target="arch-voice-cost">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-19" value="audio tokens" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-live" target="arch-voice-cost">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-voice-edge-20" value="manual brief" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-voice-fallback" target="arch-voice-confirm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="arch-ops" name="05 JOBS + OPERATIONS · bounded and swappable">
+    <mxGraphModel dx="1900" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1430" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch-ops-title" value="05 JOBS + OPERATIONS · bounded and swappable" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#1F2925;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="32" width="1780" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-sub" value="Homely proposed architecture · 2026-09-13 · click a linked box for detail page · arrows are labeled data/control flows" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#526A58;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="101" width="1780" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-request" value="Research / image / hunt&lt;br&gt;request with idempotency key" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-queue" value="App-owned job queue&lt;br&gt;queued → running → partial" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-worker" value="Capability worker&lt;br&gt;retry/backoff/circuit break" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F5;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-provider" value="Versioned adapter call&lt;br&gt;request ID + timeout" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E5EEE6;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="165" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-cancel" value="Pause/cancel from UI&lt;br&gt;stop new work; abort if possible" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-events" value="Job event stream&lt;br&gt;progress + terminal status" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-result" value="Structured result&lt;br&gt;validation + provenance" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-persist" value="App event/asset store&lt;br&gt;privacy + retention rules" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="505" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-budget" value="Preflight budget&lt;br&gt;per job/project/user caps" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-usage" value="Actual cost ledger&lt;br&gt;tokens, images, minutes, tools" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-metrics" value="Latency, failure, quality&lt;br&gt;provider/model segmented" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-fallback" value="Degrade to manual/source&lt;br&gt;no fabricated evidence" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="845" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-fixture" value="Golden real-SKU/room fixtures&lt;br&gt;stock, fit, voice cases" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAF0F7;strokeColor=#365D78;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-eval" value="Offline eval + canary&lt;br&gt;quality/cost/latency gates" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8E8D8;strokeColor=#A35E38;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-promote" value="Config promotion/rollback&lt;br&gt;model pinned per job" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E5EEE6;strokeColor=#285449;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-ui" value="S08/S13/S19 state UI&lt;br&gt;clear failure + recovery" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F7F2EA;strokeColor=#795E47;strokeWidth=2;fontColor=#1F2925;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1175" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-0" value="estimate" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-request" target="arch-ops-budget">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-1" value="within cap" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-budget" target="arch-ops-queue">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-2" value="lease" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-queue" target="arch-ops-worker">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-3" value="call" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-worker" target="arch-ops-provider">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-4" value="response / error" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-provider" target="arch-ops-result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-5" value="validated artifacts" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-result" target="arch-ops-persist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-6" value="status" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-queue" target="arch-ops-events">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-7" value="partial/progress" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-worker" target="arch-ops-events">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-8" value="state update" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-events" target="arch-ops-ui">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-9" value="final result" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-result" target="arch-ops-ui">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-10" value="cancel token" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-cancel" target="arch-ops-queue">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-11" value="best effort abort" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-cancel" target="arch-ops-provider">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-12" value="metering" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-provider" target="arch-ops-usage">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-13" value="remaining" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-usage" target="arch-ops-budget">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-14" value="latency/error" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-provider" target="arch-ops-metrics">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-15" value="invalid/unsupported" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-result" target="arch-ops-fallback">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-16" value="honest recovery" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-fallback" target="arch-ops-ui">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-17" value="test cases" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-fixture" target="arch-ops-eval">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-18" value="production signal" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-metrics" target="arch-ops-eval">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-19" value="pass only" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-eval" target="arch-ops-promote">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-ops-edge-20" value="route version" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#658070;fontSize=13;fontColor=#285449;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="arch-ops-promote" target="arch-ops-worker">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

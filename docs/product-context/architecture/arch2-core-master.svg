@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3500" height="3500" viewBox="0 0 3500 3500">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#4D6C5D"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<g transform="translate(200,0)">
+<rect x="35" y="125" width="3030" height="485" rx="12" fill="#FBF8F2" stroke="#D6DDD6"/>
+<text x="60" y="155" font-family="Arial" font-size="18" font-weight="bold" fill="#5A6D62">CLIENT / APP EDGE</text>
+<rect x="35" y="610" width="3030" height="570" rx="12" fill="#F4F8F5" stroke="#D6DDD6"/>
+<text x="60" y="640" font-family="Arial" font-size="18" font-weight="bold" fill="#5A6D62">HOMELY-OWNED CONTROL PLANE</text>
+<rect x="35" y="1180" width="3030" height="200" rx="12" fill="#F8FAF8" stroke="#D6DDD6"/>
+<text x="60" y="1210" font-family="Arial" font-size="18" font-weight="bold" fill="#5A6D62">PARALLEL DOMAIN SERVICES</text>
+<rect x="35" y="1380" width="3030" height="160" rx="12" fill="#F6F9FC" stroke="#D6DDD6"/>
+<text x="60" y="1410" font-family="Arial" font-size="18" font-weight="bold" fill="#5A6D62">HOMELY PRE-DISCLOSURE ACCESS GATE</text>
+<rect x="35" y="1540" width="3030" height="250" rx="12" fill="#F6F2F8" stroke="#D6DDD6"/>
+<text x="60" y="1570" font-family="Arial" font-size="18" font-weight="bold" fill="#5A6D62">EXTERNAL / PROVIDER ADAPTER BOUNDARY</text>
+<rect x="35" y="1790" width="3030" height="440" rx="12" fill="#F6F9FC" stroke="#D6DDD6"/>
+<text x="60" y="1820" font-family="Arial" font-size="18" font-weight="bold" fill="#5A6D62">HOMELY-OWNED EVIDENCE + INTENT GATES</text>
+<rect x="35" y="2230" width="3030" height="1215" rx="12" fill="#FFFAF5" stroke="#D6DDD6"/>
+<text x="60" y="2260" font-family="Arial" font-size="18" font-weight="bold" fill="#5A6D62">DECISION / COMMERCE BOUNDARY</text>
+<text x="65" y="70" font-family="Arial" font-size="38" font-weight="bold" fill="#1F2925">HOMELY · COMPLETE SYSTEM ARCHITECTURE</text>
+<text x="65" y="115" font-family="Arial" font-size="20" fill="#526A58">Top-down system hierarchy · parallel capabilities · named request/result/control links</text>
+<polyline points="1550.0,302 1550.0,425" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1542.0" y="335.5" width="232" height="27" rx="4" fill="white" opacity="0.93"/><text x="1550.0" y="354.5" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">authorized UI command</text>
+<polyline points="1550.0,557 1550.0,680" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1542.0" y="590.5" width="242" height="27" rx="4" fill="white" opacity="0.93"/><text x="1550.0" y="609.5" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">typed command / status</text>
+<polyline points="1825,746.0 2300,746.0" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="2054.5" y="718.0" width="272" height="27" rx="4" fill="white" opacity="0.93"/><text x="2062.5" y="737.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">read/write project events</text>
+<polyline points="1275,746.0 880,746.0 880,1001.0 650,1001.0" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="757.0" y="973.0" width="212" height="27" rx="4" fill="white" opacity="0.93"/><text x="765.0" y="992.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">usage + eval signal</text>
+<polyline points="1550.0,812 1550.0,935" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1542.0" y="845.5" width="202" height="27" rx="4" fill="white" opacity="0.93"/><text x="1550.0" y="864.5" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">capability request</text>
+<polyline points="1748.0,812 1748.0,860 2575.0,860 2575.0,935" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="2112" y="833" width="212" height="27" rx="4" fill="white" opacity="0.93"/><text x="2120" y="852" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">schedule async work</text>
+<polyline points="650,1001.0 1275,1001.0" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="954.5" y="973.0" width="272" height="27" rx="4" fill="white" opacity="0.93"/><text x="962.5" y="992.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">budget + promotion policy</text>
+<polyline points="2300,1001.0 1825,1001.0" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="2054.5" y="973.0" width="242" height="27" rx="4" fill="white" opacity="0.93"/><text x="2062.5" y="992.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">leased capability call</text>
+<polyline points="1550.0,1067 1550.0,1110 375.0,1110 375.0,1240" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="367.0" y="1147.0" width="142" height="27" rx="4" fill="white" opacity="0.93"/><text x="375.0" y="1166.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">source_query</text>
+<polyline points="1550.0,1067 1550.0,1133 1125.0,1133 1125.0,1240" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1117.0" y="1158.5" width="122" height="27" rx="4" fill="white" opacity="0.93"/><text x="1125.0" y="1177.5" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">image_edit</text>
+<polyline points="1550.0,1067 1550.0,1156 1875.0,1156 1875.0,1240" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1867.0" y="1170.0" width="172" height="27" rx="4" fill="white" opacity="0.93"/><text x="1875.0" y="1189.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">speech / intent</text>
+<polyline points="1550.0,1067 1550.0,1179 2625.0,1179 2625.0,1240" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="2617.0" y="1181.5" width="162" height="27" rx="4" fill="white" opacity="0.93"/><text x="2625.0" y="1200.5" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">share / notify</text>
+<polyline points="375.0,1372 375.0,1560" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="367.0" y="1438.0" width="182" height="27" rx="4" fill="white" opacity="0.93"/><text x="375.0" y="1457.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">authorized query</text>
+<polyline points="1125.0,1372 1125.0,1560" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1117.0" y="1438.0" width="182" height="27" rx="4" fill="white" opacity="0.93"/><text x="1125.0" y="1457.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">scene + SKU refs</text>
+<polyline points="1875.0,1372 1875.0,1560" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1867.0" y="1438.0" width="202" height="27" rx="4" fill="white" opacity="0.93"/><text x="1875.0" y="1457.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">audio/text request</text>
+<polyline points="2625.0,1372 2625.0,1400" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="2617.0" y="1358.0" width="232" height="27" rx="4" fill="white" opacity="0.93"/><text x="2625.0" y="1377.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">share request + scope</text>
+<polyline points="375.0,1692 375.0,1820" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="367.0" y="1728.0" width="212" height="27" rx="4" fill="white" opacity="0.93"/><text x="375.0" y="1747.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">source observations</text>
+<polyline points="1125.0,1692 1125.0,1820" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1117.0" y="1728.0" width="212" height="27" rx="4" fill="white" opacity="0.93"/><text x="1125.0" y="1747.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">composite + lineage</text>
+<polyline points="1875.0,1692 1875.0,1820" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1867.0" y="1728.0" width="202" height="27" rx="4" fill="white" opacity="0.93"/><text x="1875.0" y="1747.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">transcript / patch</text>
+<polyline points="2625.0,1532 2625.0,1580" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="2617.0" y="1528.0" width="292" height="27" rx="4" fill="white" opacity="0.93"/><text x="2625.0" y="1547.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">authorized selected payload</text>
+<polyline points="375.0,1952 375.0,1970 1550.0,1970 1550.0,2070" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="379.0" y="1966" width="182" height="27" rx="4" fill="white" opacity="0.93"/><text x="387.0" y="1985" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">verified vs lead</text>
+<polyline points="1125.0,1952 1125.0,1995 1550.0,1995 1550.0,2070" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1129.0" y="1966" width="232" height="27" rx="4" fill="white" opacity="0.93"/><text x="1137.0" y="1985" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">fit + fidelity status</text>
+<polyline points="1875.0,1952 1875.0,2020 1550.0,2020 1550.0,2070" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1879.0" y="1966" width="232" height="27" rx="4" fill="white" opacity="0.93"/><text x="1887.0" y="1985" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">accepted brief change</text>
+<polyline points="2625.0,1712 2625.0,2045 1550.0,2045 1550.0,2070" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="2629.0" y="1726" width="232" height="27" rx="4" fill="white" opacity="0.93"/><text x="2637.0" y="1745" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">delivery/audit result</text>
+<polyline points="1825,2136.0 3015,2136.0 3015,810 2850,810" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="3007.0" y="1446.0" width="272" height="27" rx="4" fill="white" opacity="0.93"/><text x="3015.0" y="1465.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">persist validated records</text>
+<polyline points="1550.0,2202 1550.0,2300" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1542.0" y="2223.0" width="162" height="27" rx="4" fill="white" opacity="0.93"/><text x="1550.0" y="2242.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">trusted inputs</text>
+<polyline points="1550.0,2432 1550.0,2525" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1542.0" y="2450.5" width="252" height="27" rx="4" fill="white" opacity="0.93"/><text x="1550.0" y="2469.5" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">selected option + total</text>
+<polyline points="1825,2366.0 2250,2366.0 2250,2591.0 2350,2591.0" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="2242.0" y="2451.5" width="172" height="27" rx="4" fill="white" opacity="0.93"/><text x="2250.0" y="2470.5" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">optional review</text>
+<polyline points="1275,2591.0 820,2591.0 820,2715 375.0,2715 375.0,2740" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="812.0" y="2626.0" width="142" height="27" rx="4" fill="white" opacity="0.93"/><text x="820.0" y="2645.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No / unknown</text>
+<polyline points="1550.0,2657 1550.0,2770" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1542.0" y="2685.5" width="70" height="27" rx="4" fill="white" opacity="0.93"/><text x="1550.0" y="2704.5" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="2350,2591.0 2140,2591.0 2140,2836.0 1825,2836.0" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="2132.0" y="2686.5" width="262" height="27" rx="4" fill="white" opacity="0.93"/><text x="2140.0" y="2705.5" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">approval → still recheck</text>
+<polyline points="1825,2836.0 2200,2836.0 2200,2985 2625.0,2985 2625.0,3010" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="2192.0" y="2883.5" width="142" height="27" rx="4" fill="white" opacity="0.93"/><text x="2200.0" y="2902.5" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No / changed</text>
+<polyline points="1550.0,2902 1550.0,3010" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1542.0" y="2928.0" width="70" height="27" rx="4" fill="white" opacity="0.93"/><text x="1550.0" y="2947.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1550.0,3142 1550.0,3250" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1542.0" y="3168.0" width="232" height="27" rx="4" fill="white" opacity="0.93"/><text x="1550.0" y="3187.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">user-reported outcome</text>
+<polyline points="1550.0,2902 1550.0,2930 70,2930 70,1626.0 100,1626.0" fill="none" stroke="#A35E38" stroke-width="3" marker-end="url(#arr)" stroke-dasharray="8 6"/>
+<rect x="74" y="2431" width="222" height="27" rx="4" fill="white" opacity="0.93"/><text x="82" y="2450" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">fresh source request</text>
+<rect x="1275" y="170" width="550" height="132" rx="14" fill="#FFFDF8" stroke="#70583F" stroke-width="3"/>
+<text x="1550.0" y="221" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M01 · CLIENT PWA</text>
+<text x="1550.0" y="254" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Designer/DIY/client · S01–S24</text>
+<rect x="1275" y="425" width="550" height="132" rx="14" fill="#EAF2EB" stroke="#285449" stroke-width="3"/>
+<text x="1550.0" y="476" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M02 · API + ACCESS</text>
+<text x="1550.0" y="509" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Auth, consent, roles, tenant scope</text>
+<rect x="1275" y="680" width="550" height="132" rx="14" fill="#EAF2EB" stroke="#285449" stroke-width="3"/>
+<text x="1550.0" y="731" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M03 · WORKFLOW ENGINE</text>
+<text x="1550.0" y="764" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Versioned project commands + events</text>
+<rect x="2300" y="680" width="550" height="132" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="2575.0" y="731" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M04 · PROJECT STORE</text>
+<text x="2575.0" y="764" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Brief, room/assets, source + decision ledgers</text>
+<rect x="100" y="935" width="550" height="132" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="375.0" y="986" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M05 · COST + EVAL POLICY</text>
+<text x="375.0" y="1019" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Budgets, model tests, rollout/rollback</text>
+<rect x="1275" y="935" width="550" height="132" rx="14" fill="#EAF2EB" stroke="#285449" stroke-width="3"/>
+<text x="1550.0" y="986" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M06 · CAPABILITY ROUTER</text>
+<text x="1550.0" y="1019" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Typed request, provider/model registry</text>
+<rect x="2300" y="935" width="550" height="132" rx="14" fill="#EAF2EB" stroke="#285449" stroke-width="3"/>
+<text x="2575.0" y="986" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M07 · ASYNC QUEUE</text>
+<text x="2575.0" y="1019" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Research, render, hunt · cancel/retry</text>
+<rect x="100" y="1240" width="550" height="132" rx="14" fill="#F4F8F5" stroke="#285449" stroke-width="3"/>
+<text x="375.0" y="1291" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M08 · SOURCE SERVICE</text>
+<text x="375.0" y="1324" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Search, normalize, monitor listings</text>
+<rect x="850" y="1240" width="550" height="132" rx="14" fill="#F4F8F5" stroke="#285449" stroke-width="3"/>
+<text x="1125.0" y="1291" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M09 · VISUAL SERVICE</text>
+<text x="1125.0" y="1324" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Placement plan + render job</text>
+<rect x="1600" y="1240" width="550" height="132" rx="14" fill="#F4F8F5" stroke="#285449" stroke-width="3"/>
+<text x="1875.0" y="1291" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M10 · VOICE SERVICE</text>
+<text x="1875.0" y="1324" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Transcript, turn/live, correction</text>
+<rect x="2350" y="1240" width="550" height="132" rx="14" fill="#F4F8F5" stroke="#285449" stroke-width="3"/>
+<text x="2625.0" y="1291" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M11 · REVIEW + ALERTS</text>
+<text x="2625.0" y="1324" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Scoped client view + notifications</text>
+<rect x="100" y="1560" width="550" height="132" rx="14" fill="#F3ECF4" stroke="#75537D" stroke-width="3"/>
+<text x="375.0" y="1611" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M12 · SOURCE + TEXT ADAPTERS</text>
+<text x="375.0" y="1644" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Lawful retailer tools; text model</text>
+<rect x="850" y="1560" width="550" height="132" rx="14" fill="#F3ECF4" stroke="#75537D" stroke-width="3"/>
+<text x="1125.0" y="1611" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M13 · IMAGE ADAPTER</text>
+<text x="1125.0" y="1644" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">OpenAI image edit initially; swappable</text>
+<rect x="1600" y="1560" width="550" height="132" rx="14" fill="#F3ECF4" stroke="#75537D" stroke-width="3"/>
+<text x="1875.0" y="1611" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M14 · SPEECH ADAPTER</text>
+<text x="1875.0" y="1644" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Transcribe / realtime / TTS route</text>
+<rect x="2350" y="1580" width="550" height="132" rx="14" fill="#F3ECF4" stroke="#75537D" stroke-width="3"/>
+<text x="2625.0" y="1631" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M15 · DELIVERY ADAPTER</text>
+<text x="2625.0" y="1664" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Push/in-app; external share channels</text>
+<rect x="100" y="1820" width="550" height="132" rx="14" fill="#FFF0E2" stroke="#A35E38" stroke-width="3"/>
+<text x="375.0" y="1871" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M16 · STOCK EVIDENCE GATE</text>
+<text x="375.0" y="1904" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Exact SKU × quantity, source + freshness</text>
+<rect x="850" y="1820" width="550" height="132" rx="14" fill="#FFF0E2" stroke="#A35E38" stroke-width="3"/>
+<text x="1125.0" y="1871" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M17 · IDENTITY + FIT GATE</text>
+<text x="1125.0" y="1904" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Source image lineage; numeric geometry</text>
+<rect x="1600" y="1820" width="550" height="132" rx="14" fill="#FFF0E2" stroke="#A35E38" stroke-width="3"/>
+<text x="1875.0" y="1871" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M18 · INTENT CONFIRMATION</text>
+<text x="1875.0" y="1904" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">User-corrected brief; typed event</text>
+<rect x="2350" y="1400" width="550" height="132" rx="14" fill="#FFF0E2" stroke="#A35E38" stroke-width="3"/>
+<text x="2625.0" y="1451" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M19 · SHARE ACCESS GATE</text>
+<text x="2625.0" y="1484" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Selected content only; revoke/expiry</text>
+<rect x="1275" y="2070" width="550" height="132" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1550.0" y="2121" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M20 · VALIDATED RESULT BUS</text>
+<text x="1550.0" y="2154" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">App-owned evidence/artifact/event contracts</text>
+<rect x="1275" y="2300" width="550" height="132" rx="14" fill="#EAF2EB" stroke="#285449" stroke-width="3"/>
+<text x="1550.0" y="2351" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M21 · DECISION ENGINE</text>
+<text x="1550.0" y="2384" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Compare, explain tradeoffs, keep history</text>
+<polygon points="1550.0,2525 1825,2591.0 1550.0,2657 1275,2591.0" fill="#FFF0E2" stroke="#A35E38" stroke-width="3"/>
+<text x="1550.0" y="2576" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M22 · HARD CAP GATE</text>
+<text x="1550.0" y="2609" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Known all-in total and absolute cap?</text>
+<rect x="100" y="2740" width="550" height="132" rx="14" fill="#FBECE6" stroke="#A3382B" stroke-width="3"/>
+<text x="375.0" y="2791" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M23 · CAP / COST HOLD</text>
+<text x="375.0" y="2824" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Exclude or resolve unknown amount</text>
+<rect x="2350" y="2525" width="550" height="132" rx="14" fill="#F4F8F5" stroke="#285449" stroke-width="3"/>
+<text x="2625.0" y="2576" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M24 · CLIENT REVIEW</text>
+<text x="2625.0" y="2609" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Optional S20 approval; no stock reserve</text>
+<polygon points="1550.0,2770 1825,2836.0 1550.0,2902 1275,2836.0" fill="#FFF0E2" stroke="#A35E38" stroke-width="3"/>
+<text x="1550.0" y="2821" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M25 · FRESH RECHECK GATE</text>
+<text x="1550.0" y="2854" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">Variant, count, price, delivery again</text>
+<rect x="2350" y="3010" width="550" height="132" rx="14" fill="#FBECE6" stroke="#A3382B" stroke-width="3"/>
+<text x="2625.0" y="3061" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M26 · LOST / CHANGED</text>
+<text x="2625.0" y="3094" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">S18 replacement; preserve prior choice</text>
+<rect x="1275" y="3010" width="550" height="132" rx="14" fill="#F3ECF4" stroke="#75537D" stroke-width="3"/>
+<text x="1550.0" y="3061" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M27 · SELLER HANDOFF</text>
+<text x="1550.0" y="3094" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">S17 external link; no assumed purchase</text>
+<rect x="1275" y="3250" width="550" height="132" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1550.0" y="3301" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1F2925">M28 · PURCHASE + CREDIT LEDGER</text>
+<text x="1550.0" y="3334" text-anchor="middle" font-family="Arial" font-size="16" fill="#3F5148">S21 reported outcome; conditional credit</text>
+</g></svg>

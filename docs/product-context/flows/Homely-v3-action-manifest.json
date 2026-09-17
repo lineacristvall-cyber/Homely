@@ -1,0 +1,3274 @@
+{
+  "pages": [
+    {
+      "id": "journey-00",
+      "title": "00 \u00b7 Room to decision \u2014 end-to-end flow"
+    },
+    {
+      "id": "journey-01",
+      "title": "01 \u00b7 Enter, capture and describe the room"
+    },
+    {
+      "id": "journey-02",
+      "title": "02 \u00b7 Brief, research and source gaps"
+    },
+    {
+      "id": "journey-03",
+      "title": "03 \u00b7 Evidence, actual-product room view and comparison"
+    },
+    {
+      "id": "journey-04",
+      "title": "04 \u00b7 Decide, client review, recheck and seller return"
+    },
+    {
+      "id": "journey-05",
+      "title": "05 \u00b7 Saved hunts, changes and decision history"
+    },
+    {
+      "id": "journey-06",
+      "title": "06 \u00b7 Optional earned-usage ledger"
+    },
+    {
+      "id": "journey-07",
+      "title": "07 \u00b7 Offline recovery, privacy and data"
+    },
+    {
+      "id": "journey-08",
+      "title": "08 \u00b7 Laptop room and research workspace"
+    },
+    {
+      "id": "state-S01-AUTH",
+      "title": "S01.AUTH \u00b7 Welcome & intent"
+    },
+    {
+      "id": "state-S01-AUTH_ERROR",
+      "title": "S01.AUTH_ERROR \u00b7 Welcome & intent"
+    },
+    {
+      "id": "state-S01-INTENT",
+      "title": "S01.INTENT \u00b7 Welcome & intent"
+    },
+    {
+      "id": "state-S01-LOADING",
+      "title": "S01.LOADING \u00b7 Welcome & intent"
+    },
+    {
+      "id": "state-S01-START",
+      "title": "S01.START \u00b7 Welcome & intent"
+    },
+    {
+      "id": "state-S02-DENIED",
+      "title": "S02.DENIED \u00b7 Permissions at point of use"
+    },
+    {
+      "id": "state-S02-PRIMER",
+      "title": "S02.PRIMER \u00b7 Permissions at point of use"
+    },
+    {
+      "id": "state-S02-REQUESTING",
+      "title": "S02.REQUESTING \u00b7 Permissions at point of use"
+    },
+    {
+      "id": "state-S03-CREATING",
+      "title": "S03.CREATING \u00b7 Project home & session"
+    },
+    {
+      "id": "state-S03-EMPTY",
+      "title": "S03.EMPTY \u00b7 Project home & session"
+    },
+    {
+      "id": "state-S03-HOME",
+      "title": "S03.HOME \u00b7 Project home & session"
+    },
+    {
+      "id": "state-S03-NOT_FOUND",
+      "title": "S03.NOT_FOUND \u00b7 Project home & session"
+    },
+    {
+      "id": "state-S04-CORRECTING",
+      "title": "S04.CORRECTING \u00b7 Room canvas & voice"
+    },
+    {
+      "id": "state-S04-IDLE",
+      "title": "S04.IDLE \u00b7 Room canvas & voice"
+    },
+    {
+      "id": "state-S04-LISTENING",
+      "title": "S04.LISTENING \u00b7 Room canvas & voice"
+    },
+    {
+      "id": "state-S04-TRANSCRIPT",
+      "title": "S04.TRANSCRIPT \u00b7 Room canvas & voice"
+    },
+    {
+      "id": "state-S05-CAPTURE",
+      "title": "S05.CAPTURE \u00b7 Capture, edit & dimensions"
+    },
+    {
+      "id": "state-S05-DELETING",
+      "title": "S05.DELETING \u00b7 Capture, edit & dimensions"
+    },
+    {
+      "id": "state-S05-EDITING",
+      "title": "S05.EDITING \u00b7 Capture, edit & dimensions"
+    },
+    {
+      "id": "state-S05-MANUAL",
+      "title": "S05.MANUAL \u00b7 Capture, edit & dimensions"
+    },
+    {
+      "id": "state-S05-MEASURE",
+      "title": "S05.MEASURE \u00b7 Capture, edit & dimensions"
+    },
+    {
+      "id": "state-S05-MEASURED",
+      "title": "S05.MEASURED \u00b7 Capture, edit & dimensions"
+    },
+    {
+      "id": "state-S05-PHOTO",
+      "title": "S05.PHOTO \u00b7 Capture, edit & dimensions"
+    },
+    {
+      "id": "state-S05-UNKNOWN",
+      "title": "S05.UNKNOWN \u00b7 Capture, edit & dimensions"
+    },
+    {
+      "id": "state-S05-UPLOADING",
+      "title": "S05.UPLOADING \u00b7 Capture, edit & dimensions"
+    },
+    {
+      "id": "state-S05-UPLOAD_ERROR",
+      "title": "S05.UPLOAD_ERROR \u00b7 Capture, edit & dimensions"
+    },
+    {
+      "id": "state-S06-EDITING",
+      "title": "S06.EDITING \u00b7 Taste & inspiration"
+    },
+    {
+      "id": "state-S06-EMPTY",
+      "title": "S06.EMPTY \u00b7 Taste & inspiration"
+    },
+    {
+      "id": "state-S06-RATIONALE",
+      "title": "S06.RATIONALE \u00b7 Taste & inspiration"
+    },
+    {
+      "id": "state-S06-STYLE",
+      "title": "S06.STYLE \u00b7 Taste & inspiration"
+    },
+    {
+      "id": "state-S06-UPLOADING",
+      "title": "S06.UPLOADING \u00b7 Taste & inspiration"
+    },
+    {
+      "id": "state-S07-EDITING",
+      "title": "S07.EDITING \u00b7 Structured brief & constraints"
+    },
+    {
+      "id": "state-S07-INVALID",
+      "title": "S07.INVALID \u00b7 Structured brief & constraints"
+    },
+    {
+      "id": "state-S07-READY",
+      "title": "S07.READY \u00b7 Structured brief & constraints"
+    },
+    {
+      "id": "state-S07-REVIEW",
+      "title": "S07.REVIEW \u00b7 Structured brief & constraints"
+    },
+    {
+      "id": "state-S07-VALIDATING",
+      "title": "S07.VALIDATING \u00b7 Structured brief & constraints"
+    },
+    {
+      "id": "state-S08-CANCELLED",
+      "title": "S08.CANCELLED \u00b7 Research job & progress"
+    },
+    {
+      "id": "state-S08-LEDGER",
+      "title": "S08.LEDGER \u00b7 Research job & progress"
+    },
+    {
+      "id": "state-S08-PARTIAL",
+      "title": "S08.PARTIAL \u00b7 Research job & progress"
+    },
+    {
+      "id": "state-S08-PAUSED",
+      "title": "S08.PAUSED \u00b7 Research job & progress"
+    },
+    {
+      "id": "state-S08-QUEUED",
+      "title": "S08.QUEUED \u00b7 Research job & progress"
+    },
+    {
+      "id": "state-S08-RUNNING",
+      "title": "S08.RUNNING \u00b7 Research job & progress"
+    },
+    {
+      "id": "state-S09-DIAGNOSIS",
+      "title": "S09.DIAGNOSIS \u00b7 No result & source gap"
+    },
+    {
+      "id": "state-S09-EMPTY",
+      "title": "S09.EMPTY \u00b7 No result & source gap"
+    },
+    {
+      "id": "state-S09-SOURCE_GAP",
+      "title": "S09.SOURCE_GAP \u00b7 No result & source gap"
+    },
+    {
+      "id": "state-S10-FILTERING",
+      "title": "S10.FILTERING \u00b7 Findings & spoken briefing"
+    },
+    {
+      "id": "state-S10-FILTER_EMPTY",
+      "title": "S10.FILTER_EMPTY \u00b7 Findings & spoken briefing"
+    },
+    {
+      "id": "state-S10-PARTIAL",
+      "title": "S10.PARTIAL \u00b7 Findings & spoken briefing"
+    },
+    {
+      "id": "state-S10-PLAYING",
+      "title": "S10.PLAYING \u00b7 Findings & spoken briefing"
+    },
+    {
+      "id": "state-S10-REFRESHING",
+      "title": "S10.REFRESHING \u00b7 Findings & spoken briefing"
+    },
+    {
+      "id": "state-S10-RESULTS",
+      "title": "S10.RESULTS \u00b7 Findings & spoken briefing"
+    },
+    {
+      "id": "state-S11-DETAIL",
+      "title": "S11.DETAIL \u00b7 Exact candidate evidence"
+    },
+    {
+      "id": "state-S11-EVIDENCE",
+      "title": "S11.EVIDENCE \u00b7 Exact candidate evidence"
+    },
+    {
+      "id": "state-S11-FIT",
+      "title": "S11.FIT \u00b7 Exact candidate evidence"
+    },
+    {
+      "id": "state-S11-RECHECKING",
+      "title": "S11.RECHECKING \u00b7 Exact candidate evidence"
+    },
+    {
+      "id": "state-S11-UNAVAILABLE",
+      "title": "S11.UNAVAILABLE \u00b7 Exact candidate evidence"
+    },
+    {
+      "id": "state-S11-VARIANT_PENDING",
+      "title": "S11.VARIANT_PENDING \u00b7 Exact candidate evidence"
+    },
+    {
+      "id": "state-S11-VERIFIED",
+      "title": "S11.VERIFIED \u00b7 Exact candidate evidence"
+    },
+    {
+      "id": "state-S12-LEAD",
+      "title": "S12.LEAD \u00b7 Unconfirmed lead"
+    },
+    {
+      "id": "state-S12-PENDING",
+      "title": "S12.PENDING \u00b7 Unconfirmed lead"
+    },
+    {
+      "id": "state-S12-SOURCE",
+      "title": "S12.SOURCE \u00b7 Unconfirmed lead"
+    },
+    {
+      "id": "state-S12-UNKNOWN",
+      "title": "S12.UNKNOWN \u00b7 Unconfirmed lead"
+    },
+    {
+      "id": "state-S13-EDITING",
+      "title": "S13.EDITING \u00b7 Actual product in room"
+    },
+    {
+      "id": "state-S13-ERROR",
+      "title": "S13.ERROR \u00b7 Actual product in room"
+    },
+    {
+      "id": "state-S13-LOADING",
+      "title": "S13.LOADING \u00b7 Actual product in room"
+    },
+    {
+      "id": "state-S13-NEEDS_INPUT",
+      "title": "S13.NEEDS_INPUT \u00b7 Actual product in room"
+    },
+    {
+      "id": "state-S13-PLACEMENT",
+      "title": "S13.PLACEMENT \u00b7 Actual product in room"
+    },
+    {
+      "id": "state-S13-PROCESSING",
+      "title": "S13.PROCESSING \u00b7 Actual product in room"
+    },
+    {
+      "id": "state-S14-COMPARE",
+      "title": "S14.COMPARE \u00b7 Mobile comparison"
+    },
+    {
+      "id": "state-S14-COST_UNKNOWN",
+      "title": "S14.COST_UNKNOWN \u00b7 Mobile comparison"
+    },
+    {
+      "id": "state-S14-OVER_CAP",
+      "title": "S14.OVER_CAP \u00b7 Mobile comparison"
+    },
+    {
+      "id": "state-S14-RECALCULATING",
+      "title": "S14.RECALCULATING \u00b7 Mobile comparison"
+    },
+    {
+      "id": "state-S15-CANVAS",
+      "title": "S15.CANVAS \u00b7 Desktop project canvas"
+    },
+    {
+      "id": "state-S15-ERROR",
+      "title": "S15.ERROR \u00b7 Desktop project canvas"
+    },
+    {
+      "id": "state-S15-LOADING",
+      "title": "S15.LOADING \u00b7 Desktop project canvas"
+    },
+    {
+      "id": "state-S16-BUDGET",
+      "title": "S16.BUDGET \u00b7 Decision, budget & stock gate"
+    },
+    {
+      "id": "state-S16-COST_UNKNOWN",
+      "title": "S16.COST_UNKNOWN \u00b7 Decision, budget & stock gate"
+    },
+    {
+      "id": "state-S16-OVER_CAP",
+      "title": "S16.OVER_CAP \u00b7 Decision, budget & stock gate"
+    },
+    {
+      "id": "state-S16-RECALCULATING",
+      "title": "S16.RECALCULATING \u00b7 Decision, budget & stock gate"
+    },
+    {
+      "id": "state-S16-RECHECKING",
+      "title": "S16.RECHECKING \u00b7 Decision, budget & stock gate"
+    },
+    {
+      "id": "state-S16-SAVED",
+      "title": "S16.SAVED \u00b7 Decision, budget & stock gate"
+    },
+    {
+      "id": "state-S17-EXTERNAL",
+      "title": "S17.EXTERNAL \u00b7 External seller handoff & earned usage"
+    },
+    {
+      "id": "state-S17-HANDOFF",
+      "title": "S17.HANDOFF \u00b7 External seller handoff & earned usage"
+    },
+    {
+      "id": "state-S17-PENDING_CREDIT",
+      "title": "S17.PENDING_CREDIT \u00b7 External seller handoff & earned usage"
+    },
+    {
+      "id": "state-S17-RESERVED",
+      "title": "S17.RESERVED \u00b7 External seller handoff & earned usage"
+    },
+    {
+      "id": "state-S17-RETURN",
+      "title": "S17.RETURN \u00b7 External seller handoff & earned usage"
+    },
+    {
+      "id": "state-S18-CHANGE",
+      "title": "S18.CHANGE \u00b7 Stock-change alert & replacement"
+    },
+    {
+      "id": "state-S18-DETAIL",
+      "title": "S18.DETAIL \u00b7 Stock-change alert & replacement"
+    },
+    {
+      "id": "state-S18-LOST",
+      "title": "S18.LOST \u00b7 Stock-change alert & replacement"
+    },
+    {
+      "id": "state-S19-ACTIVE",
+      "title": "S19.ACTIVE \u00b7 Saved hunts & notification inbox"
+    },
+    {
+      "id": "state-S19-ENDED",
+      "title": "S19.ENDED \u00b7 Saved hunts & notification inbox"
+    },
+    {
+      "id": "state-S19-INBOX",
+      "title": "S19.INBOX \u00b7 Saved hunts & notification inbox"
+    },
+    {
+      "id": "state-S19-PAUSED",
+      "title": "S19.PAUSED \u00b7 Saved hunts & notification inbox"
+    },
+    {
+      "id": "state-S19-SETTINGS",
+      "title": "S19.SETTINGS \u00b7 Saved hunts & notification inbox"
+    },
+    {
+      "id": "state-S19-SETUP",
+      "title": "S19.SETUP \u00b7 Saved hunts & notification inbox"
+    },
+    {
+      "id": "state-S19-SOURCE_GAP",
+      "title": "S19.SOURCE_GAP \u00b7 Saved hunts & notification inbox"
+    },
+    {
+      "id": "state-S20-APPROVED",
+      "title": "S20.APPROVED \u00b7 Client share, approval & revisions"
+    },
+    {
+      "id": "state-S20-COMMENTING",
+      "title": "S20.COMMENTING \u00b7 Client share, approval & revisions"
+    },
+    {
+      "id": "state-S20-EXPIRED",
+      "title": "S20.EXPIRED \u00b7 Client share, approval & revisions"
+    },
+    {
+      "id": "state-S20-PREVIEW",
+      "title": "S20.PREVIEW \u00b7 Client share, approval & revisions"
+    },
+    {
+      "id": "state-S20-REVIEW",
+      "title": "S20.REVIEW \u00b7 Client share, approval & revisions"
+    },
+    {
+      "id": "state-S20-REVISION",
+      "title": "S20.REVISION \u00b7 Client share, approval & revisions"
+    },
+    {
+      "id": "state-S20-VALIDATING",
+      "title": "S20.VALIDATING \u00b7 Client share, approval & revisions"
+    },
+    {
+      "id": "state-S21-CREDIT",
+      "title": "S21.CREDIT \u00b7 Decision & purchase ledger"
+    },
+    {
+      "id": "state-S21-LEDGER",
+      "title": "S21.LEDGER \u00b7 Decision & purchase ledger"
+    },
+    {
+      "id": "state-S21-PURCHASED",
+      "title": "S21.PURCHASED \u00b7 Decision & purchase ledger"
+    },
+    {
+      "id": "state-S21-RETURNED",
+      "title": "S21.RETURNED \u00b7 Decision & purchase ledger"
+    },
+    {
+      "id": "state-S21-REVERSED",
+      "title": "S21.REVERSED \u00b7 Decision & purchase ledger"
+    },
+    {
+      "id": "state-S21-UNKNOWN",
+      "title": "S21.UNKNOWN \u00b7 Decision & purchase ledger"
+    },
+    {
+      "id": "state-S22-EXPORTING",
+      "title": "S22.EXPORTING \u00b7 Account, privacy & data"
+    },
+    {
+      "id": "state-S22-EXPORT_ERROR",
+      "title": "S22.EXPORT_ERROR \u00b7 Account, privacy & data"
+    },
+    {
+      "id": "state-S22-MEMORY",
+      "title": "S22.MEMORY \u00b7 Account, privacy & data"
+    },
+    {
+      "id": "state-S22-PRIVACY",
+      "title": "S22.PRIVACY \u00b7 Account, privacy & data"
+    },
+    {
+      "id": "state-S22-PURGE_CONFIRM",
+      "title": "S22.PURGE_CONFIRM \u00b7 Account, privacy & data"
+    },
+    {
+      "id": "state-S22-SETTINGS",
+      "title": "S22.SETTINGS \u00b7 Account, privacy & data"
+    },
+    {
+      "id": "state-S22-TRASH",
+      "title": "S22.TRASH \u00b7 Account, privacy & data"
+    },
+    {
+      "id": "state-S23-CACHED",
+      "title": "S23.CACHED \u00b7 Offline, reconnect & conflicts"
+    },
+    {
+      "id": "state-S23-CONFLICT",
+      "title": "S23.CONFLICT \u00b7 Offline, reconnect & conflicts"
+    },
+    {
+      "id": "state-S23-OFFLINE",
+      "title": "S23.OFFLINE \u00b7 Offline, reconnect & conflicts"
+    },
+    {
+      "id": "state-S23-QUEUED",
+      "title": "S23.QUEUED \u00b7 Offline, reconnect & conflicts"
+    },
+    {
+      "id": "state-S23-QUOTA",
+      "title": "S23.QUOTA \u00b7 Offline, reconnect & conflicts"
+    },
+    {
+      "id": "state-S23-RECONCILING",
+      "title": "S23.RECONCILING \u00b7 Offline, reconnect & conflicts"
+    },
+    {
+      "id": "state-S23-SYNCED",
+      "title": "S23.SYNCED \u00b7 Offline, reconnect & conflicts"
+    },
+    {
+      "id": "state-S24-EVIDENCE",
+      "title": "S24.EVIDENCE \u00b7 Desktop research workspace"
+    },
+    {
+      "id": "state-S24-FILTERED",
+      "title": "S24.FILTERED \u00b7 Desktop research workspace"
+    },
+    {
+      "id": "state-S24-LOADING",
+      "title": "S24.LOADING \u00b7 Desktop research workspace"
+    },
+    {
+      "id": "state-S24-REFRESHING",
+      "title": "S24.REFRESHING \u00b7 Desktop research workspace"
+    },
+    {
+      "id": "state-S24-WORKSPACE",
+      "title": "S24.WORKSPACE \u00b7 Desktop research workspace"
+    }
+  ],
+  "states": [
+    "S01.AUTH",
+    "S01.AUTH_ERROR",
+    "S01.INTENT",
+    "S01.LOADING",
+    "S01.START",
+    "S02.DENIED",
+    "S02.PRIMER",
+    "S02.REQUESTING",
+    "S03.CREATING",
+    "S03.EMPTY",
+    "S03.HOME",
+    "S03.NOT_FOUND",
+    "S04.CORRECTING",
+    "S04.IDLE",
+    "S04.LISTENING",
+    "S04.TRANSCRIPT",
+    "S05.CAPTURE",
+    "S05.DELETING",
+    "S05.EDITING",
+    "S05.MANUAL",
+    "S05.MEASURE",
+    "S05.MEASURED",
+    "S05.PHOTO",
+    "S05.UNKNOWN",
+    "S05.UPLOADING",
+    "S05.UPLOAD_ERROR",
+    "S06.EDITING",
+    "S06.EMPTY",
+    "S06.RATIONALE",
+    "S06.STYLE",
+    "S06.UPLOADING",
+    "S07.EDITING",
+    "S07.INVALID",
+    "S07.READY",
+    "S07.REVIEW",
+    "S07.VALIDATING",
+    "S08.CANCELLED",
+    "S08.LEDGER",
+    "S08.PARTIAL",
+    "S08.PAUSED",
+    "S08.QUEUED",
+    "S08.RUNNING",
+    "S09.DIAGNOSIS",
+    "S09.EMPTY",
+    "S09.SOURCE_GAP",
+    "S10.FILTERING",
+    "S10.FILTER_EMPTY",
+    "S10.PARTIAL",
+    "S10.PLAYING",
+    "S10.REFRESHING",
+    "S10.RESULTS",
+    "S11.DETAIL",
+    "S11.EVIDENCE",
+    "S11.FIT",
+    "S11.RECHECKING",
+    "S11.UNAVAILABLE",
+    "S11.VARIANT_PENDING",
+    "S11.VERIFIED",
+    "S12.LEAD",
+    "S12.PENDING",
+    "S12.SOURCE",
+    "S12.UNKNOWN",
+    "S13.EDITING",
+    "S13.ERROR",
+    "S13.LOADING",
+    "S13.NEEDS_INPUT",
+    "S13.PLACEMENT",
+    "S13.PROCESSING",
+    "S14.COMPARE",
+    "S14.COST_UNKNOWN",
+    "S14.OVER_CAP",
+    "S14.RECALCULATING",
+    "S15.CANVAS",
+    "S15.ERROR",
+    "S15.LOADING",
+    "S16.BUDGET",
+    "S16.COST_UNKNOWN",
+    "S16.OVER_CAP",
+    "S16.RECALCULATING",
+    "S16.RECHECKING",
+    "S16.SAVED",
+    "S17.EXTERNAL",
+    "S17.HANDOFF",
+    "S17.PENDING_CREDIT",
+    "S17.RESERVED",
+    "S17.RETURN",
+    "S18.CHANGE",
+    "S18.DETAIL",
+    "S18.LOST",
+    "S19.ACTIVE",
+    "S19.ENDED",
+    "S19.INBOX",
+    "S19.PAUSED",
+    "S19.SETTINGS",
+    "S19.SETUP",
+    "S19.SOURCE_GAP",
+    "S20.APPROVED",
+    "S20.COMMENTING",
+    "S20.EXPIRED",
+    "S20.PREVIEW",
+    "S20.REVIEW",
+    "S20.REVISION",
+    "S20.VALIDATING",
+    "S21.CREDIT",
+    "S21.LEDGER",
+    "S21.PURCHASED",
+    "S21.RETURNED",
+    "S21.REVERSED",
+    "S21.UNKNOWN",
+    "S22.EXPORTING",
+    "S22.EXPORT_ERROR",
+    "S22.MEMORY",
+    "S22.PRIVACY",
+    "S22.PURGE_CONFIRM",
+    "S22.SETTINGS",
+    "S22.TRASH",
+    "S23.CACHED",
+    "S23.CONFLICT",
+    "S23.OFFLINE",
+    "S23.QUEUED",
+    "S23.QUOTA",
+    "S23.RECONCILING",
+    "S23.SYNCED",
+    "S24.EVIDENCE",
+    "S24.FILTERED",
+    "S24.LOADING",
+    "S24.REFRESHING",
+    "S24.WORKSPACE"
+  ],
+  "actions": [
+    {
+      "id": "S01-A01",
+      "from": "S01.START",
+      "action": "Open Homely",
+      "effect": "Restore signed-in session if valid",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S01-A02",
+      "from": "S01.START",
+      "action": "Open logged-out link",
+      "effect": "Show pro/DIY choice and sign-in",
+      "to": "S01.INTENT"
+    },
+    {
+      "id": "S01-A03",
+      "from": "S01.INTENT",
+      "action": "Choose professional",
+      "effect": "Save provisional intent; explain team workflow",
+      "to": "S01.AUTH"
+    },
+    {
+      "id": "S01-A04",
+      "from": "S01.INTENT",
+      "action": "Choose DIY",
+      "effect": "Save provisional intent; simpler guidance",
+      "to": "S01.AUTH"
+    },
+    {
+      "id": "S01-A05",
+      "from": "S01.INTENT",
+      "action": "Preview without account",
+      "effect": "Local draft only; disclose sync limits",
+      "to": "S03.EMPTY"
+    },
+    {
+      "id": "S01-A06",
+      "from": "S01.AUTH",
+      "action": "Submit sign-in",
+      "effect": "Show progress; keep unsent draft",
+      "to": "S01.LOADING"
+    },
+    {
+      "id": "S01-A07",
+      "from": "S01.LOADING",
+      "action": "Authentication succeeds",
+      "effect": "Merge draft with account project",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S01-A08",
+      "from": "S01.LOADING",
+      "action": "Authentication fails",
+      "effect": "Inline error; Retry and recover draft",
+      "to": "S01.AUTH_ERROR"
+    },
+    {
+      "id": "S01-A09",
+      "from": "S01.AUTH_ERROR",
+      "action": "Retry or edit credentials",
+      "effect": "Clear error, preserve draft",
+      "to": "S01.AUTH"
+    },
+    {
+      "id": "S01-A10",
+      "from": "S01.AUTH",
+      "action": "Back or cancel",
+      "effect": "Keep preview draft; no consent granted",
+      "to": "S01.INTENT"
+    },
+    {
+      "id": "S01-A11",
+      "from": "S01.AUTH",
+      "action": "Deep link to scoped share",
+      "effect": "Authenticate or limited token route",
+      "to": "S20.REVIEW"
+    },
+    {
+      "id": "S01-A12",
+      "from": "S01.LOADING",
+      "action": "Cancel pending operation",
+      "effect": "Preserve prior version; discard late result for canceled request",
+      "to": "S01.AUTH"
+    },
+    {
+      "id": "S02-A01",
+      "from": "S02.PRIMER",
+      "action": "Read purpose and choose Allow",
+      "effect": "Invoke platform permission for requested feature",
+      "to": "S02.REQUESTING"
+    },
+    {
+      "id": "S02-A02",
+      "from": "S02.REQUESTING",
+      "action": "Platform grants camera",
+      "effect": "Resume capture; record consent",
+      "to": "S05.CAPTURE"
+    },
+    {
+      "id": "S02-A03",
+      "from": "S02.REQUESTING",
+      "action": "Platform grants microphone",
+      "effect": "Resume visible listening action",
+      "to": "S04.LISTENING"
+    },
+    {
+      "id": "S02-A04",
+      "from": "S02.REQUESTING",
+      "action": "Platform grants notifications",
+      "effect": "Enable push where supported",
+      "to": "S19.ACTIVE"
+    },
+    {
+      "id": "S02-A05",
+      "from": "S02.REQUESTING",
+      "action": "Platform denies or restricts",
+      "effect": "Explain manual/silent/in-app equivalent",
+      "to": "S02.DENIED"
+    },
+    {
+      "id": "S02-A06",
+      "from": "S02.DENIED",
+      "action": "Choose manual photo path",
+      "effect": "Never block room creation",
+      "to": "S05.MANUAL"
+    },
+    {
+      "id": "S02-A07",
+      "from": "S02.DENIED",
+      "action": "Choose typed or touch path",
+      "effect": "Never block brief editing",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S02-A08",
+      "from": "S02.DENIED",
+      "action": "Choose in-app alerts",
+      "effect": "Save hunt without push",
+      "to": "S19.INBOX"
+    },
+    {
+      "id": "S02-A09",
+      "from": "S02.DENIED",
+      "action": "Open system settings help",
+      "effect": "No repeated prompt loop",
+      "to": "S02.DENIED"
+    },
+    {
+      "id": "S02-A10",
+      "from": "S02.PRIMER",
+      "action": "Not now on microphone request",
+      "effect": "Return to room without recording",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S02-A11",
+      "from": "S02.PRIMER",
+      "action": "Not now on camera request",
+      "effect": "Return to manual photo entry",
+      "to": "S05.MANUAL"
+    },
+    {
+      "id": "S02-A12",
+      "from": "S02.PRIMER",
+      "action": "Not now on push request",
+      "effect": "Keep hunt and in-app activity",
+      "to": "S19.INBOX"
+    },
+    {
+      "id": "S02-A13",
+      "from": "S02.REQUESTING",
+      "action": "Permission revoked mid-capture",
+      "effect": "Stop audio/video immediately",
+      "to": "S02.DENIED"
+    },
+    {
+      "id": "S03-A01",
+      "from": "S03.HOME",
+      "action": "Open project card",
+      "effect": "Restore room and last task",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S03-A02",
+      "from": "S03.EMPTY",
+      "action": "Create first project",
+      "effect": "Name, pro/DIY role and location",
+      "to": "S03.CREATING"
+    },
+    {
+      "id": "S03-A03",
+      "from": "S03.HOME",
+      "action": "Create new project",
+      "effect": "Blank project form",
+      "to": "S03.CREATING"
+    },
+    {
+      "id": "S03-A04",
+      "from": "S03.CREATING",
+      "action": "Save valid name",
+      "effect": "Persist project version; show room setup",
+      "to": "S05.CAPTURE"
+    },
+    {
+      "id": "S03-A05",
+      "from": "S03.CREATING",
+      "action": "Cancel",
+      "effect": "Discard only unsaved form",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S03-A06",
+      "from": "S03.HOME",
+      "action": "Open saved hunt",
+      "effect": "Restore activity and cadence",
+      "to": "S19.ACTIVE"
+    },
+    {
+      "id": "S03-A07",
+      "from": "S03.HOME",
+      "action": "Open pending client review",
+      "effect": "Enforce scoped permission",
+      "to": "S20.REVIEW"
+    },
+    {
+      "id": "S03-A08",
+      "from": "S03.HOME",
+      "action": "Open desktop planning",
+      "effect": "Same project model",
+      "to": "S15.CANVAS"
+    },
+    {
+      "id": "S03-A09",
+      "from": "S03.HOME",
+      "action": "Open account/settings",
+      "effect": "Show consent, export, billing",
+      "to": "S22.SETTINGS"
+    },
+    {
+      "id": "S03-A10",
+      "from": "S03.HOME",
+      "action": "Sign out",
+      "effect": "Warn about unsynced draft; keep safe local draft",
+      "to": "S01.INTENT"
+    },
+    {
+      "id": "S03-A11",
+      "from": "S03.HOME",
+      "action": "Deep link to missing/denied project",
+      "effect": "Explain permission or deleted room",
+      "to": "S03.NOT_FOUND"
+    },
+    {
+      "id": "S03-A12",
+      "from": "S03.NOT_FOUND",
+      "action": "Back to projects",
+      "effect": "No phantom project creation",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S03-A13",
+      "from": "S03.HOME",
+      "action": "Sync conflict event",
+      "effect": "Freeze overwritten edit, compare versions",
+      "to": "S23.CONFLICT"
+    },
+    {
+      "id": "S04-A01",
+      "from": "S04.IDLE",
+      "action": "Tap microphone without permission",
+      "effect": "Show point-of-use primer; do not record",
+      "to": "S02.PRIMER"
+    },
+    {
+      "id": "S04-A02",
+      "from": "S04.IDLE",
+      "action": "Tap microphone with permission",
+      "effect": "Start visible recording with Stop control",
+      "to": "S04.LISTENING"
+    },
+    {
+      "id": "S04-A03",
+      "from": "S04.LISTENING",
+      "action": "Speak room goal",
+      "effect": "Show live provisional transcript",
+      "to": "S04.TRANSCRIPT"
+    },
+    {
+      "id": "S04-A04",
+      "from": "S04.LISTENING",
+      "action": "Tap Stop or interrupt",
+      "effect": "Preserve partial text, stop capture",
+      "to": "S04.TRANSCRIPT"
+    },
+    {
+      "id": "S04-A05",
+      "from": "S04.TRANSCRIPT",
+      "action": "Correct text or recognized amount",
+      "effect": "Highlight edited phrase before apply",
+      "to": "S04.CORRECTING"
+    },
+    {
+      "id": "S04-A06",
+      "from": "S04.CORRECTING",
+      "action": "Save correction",
+      "effect": "Propose exact constraint chips",
+      "to": "S07.REVIEW"
+    },
+    {
+      "id": "S04-A07",
+      "from": "S04.TRANSCRIPT",
+      "action": "Accept speech",
+      "effect": "Parse and preview fields, not auto-search",
+      "to": "S07.REVIEW"
+    },
+    {
+      "id": "S04-A08",
+      "from": "S04.TRANSCRIPT",
+      "action": "Cancel",
+      "effect": "Discard provisional transcript only",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S04-A09",
+      "from": "S04.IDLE",
+      "action": "Tag table Keep / undo tag",
+      "effect": "Version retained-item annotation",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S04-A10",
+      "from": "S04.IDLE",
+      "action": "Tap measurement marker",
+      "effect": "Open table/room values",
+      "to": "S05.MEASURE"
+    },
+    {
+      "id": "S04-A11",
+      "from": "S04.IDLE",
+      "action": "Add or replace room photo",
+      "effect": "Keep original/history and request capture",
+      "to": "S05.CAPTURE"
+    },
+    {
+      "id": "S04-A12",
+      "from": "S04.IDLE",
+      "action": "Tap Explore",
+      "effect": "Use current versioned brief",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S04-A13",
+      "from": "S04.IDLE",
+      "action": "Back to projects",
+      "effect": "Persist annotations",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S04-A14",
+      "from": "S04.LISTENING",
+      "action": "Permission revoked or recognition failure",
+      "effect": "Stop capture; typed equivalent",
+      "to": "S02.DENIED"
+    },
+    {
+      "id": "S04-A15",
+      "from": "S04.CORRECTING",
+      "action": "Cancel correction",
+      "effect": "Keep provisional transcript for review",
+      "to": "S04.TRANSCRIPT"
+    },
+    {
+      "id": "S05-A01",
+      "from": "S05.CAPTURE",
+      "action": "Use camera",
+      "effect": "Request camera only now, show capture overlay",
+      "to": "S02.PRIMER"
+    },
+    {
+      "id": "S05-A02",
+      "from": "S05.CAPTURE",
+      "action": "Import photo",
+      "effect": "Pick image; explain storage and rights",
+      "to": "S05.UPLOADING"
+    },
+    {
+      "id": "S05-A03",
+      "from": "S05.MANUAL",
+      "action": "Upload from files",
+      "effect": "Same photo validation",
+      "to": "S05.UPLOADING"
+    },
+    {
+      "id": "S05-A04",
+      "from": "S05.UPLOADING",
+      "action": "Image accepted",
+      "effect": "Save original, orientation and version",
+      "to": "S05.PHOTO"
+    },
+    {
+      "id": "S05-A05",
+      "from": "S05.UPLOADING",
+      "action": "Upload fails / blurred / quota",
+      "effect": "Keep draft and offer Retry",
+      "to": "S05.UPLOAD_ERROR"
+    },
+    {
+      "id": "S05-A06",
+      "from": "S05.UPLOAD_ERROR",
+      "action": "Retake or retry",
+      "effect": "Do not lose existing original",
+      "to": "S05.CAPTURE"
+    },
+    {
+      "id": "S05-A07",
+      "from": "S05.PHOTO",
+      "action": "Retake / add another view",
+      "effect": "Preserve earlier original and choose current",
+      "to": "S05.CAPTURE"
+    },
+    {
+      "id": "S05-A08",
+      "from": "S05.PHOTO",
+      "action": "Crop, rotate or annotate",
+      "effect": "Store edit layer; Undo available",
+      "to": "S05.EDITING"
+    },
+    {
+      "id": "S05-A09",
+      "from": "S05.EDITING",
+      "action": "Save or undo image edit",
+      "effect": "Maintain original photo",
+      "to": "S05.PHOTO"
+    },
+    {
+      "id": "S05-A10",
+      "from": "S05.PHOTO",
+      "action": "Mark existing furniture Keep",
+      "effect": "Link item to room photo",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S05-A11",
+      "from": "S05.PHOTO",
+      "action": "Measure table underside",
+      "effect": "Prompt units, measured/estimated source",
+      "to": "S05.MEASURE"
+    },
+    {
+      "id": "S05-A12",
+      "from": "S05.MEASURE",
+      "action": "Enter positive dimension",
+      "effect": "Validate units and record source/confidence",
+      "to": "S05.MEASURED"
+    },
+    {
+      "id": "S05-A13",
+      "from": "S05.MEASURE",
+      "action": "Skip unknown value",
+      "effect": "Show unknown fit state; ask later",
+      "to": "S05.UNKNOWN"
+    },
+    {
+      "id": "S05-A14",
+      "from": "S05.MEASURED",
+      "action": "Save and continue",
+      "effect": "Version geometry; invalidate prior fit",
+      "to": "S06.STYLE"
+    },
+    {
+      "id": "S05-A15",
+      "from": "S05.UNKNOWN",
+      "action": "Continue with uncertainty",
+      "effect": "No validated physical-fit badge",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S05-A16",
+      "from": "S05.PHOTO",
+      "action": "Delete image",
+      "effect": "Recoverable remove with Undo; warn if last",
+      "to": "S05.DELETING"
+    },
+    {
+      "id": "S05-A17",
+      "from": "S05.DELETING",
+      "action": "Undo image deletion",
+      "effect": "Restore removed original and selection",
+      "to": "S05.PHOTO"
+    },
+    {
+      "id": "S05-A18",
+      "from": "S05.PHOTO",
+      "action": "Back / cancel capture",
+      "effect": "Keep saved image; discard unsaved edit",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S05-A19",
+      "from": "S05.DELETING",
+      "action": "Confirm removal",
+      "effect": "Remove selection recoverably; choose another image",
+      "to": "S05.CAPTURE"
+    },
+    {
+      "id": "S05-A20",
+      "from": "S05.CAPTURE",
+      "action": "Take photo when camera allowed",
+      "effect": "Submit captured image to validation",
+      "to": "S05.UPLOADING"
+    },
+    {
+      "id": "S05-A21",
+      "from": "S05.UPLOAD_ERROR",
+      "action": "Cancel upload",
+      "effect": "Keep original image and room draft",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S05-A22",
+      "from": "S05.CAPTURE",
+      "action": "Cancel capture",
+      "effect": "Return to room without adding an image",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S05-A23",
+      "from": "S05.UPLOADING",
+      "action": "Cancel pending operation",
+      "effect": "Preserve prior version; discard late result for canceled request",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S06-A01",
+      "from": "S06.STYLE",
+      "action": "Pick inspiration cards",
+      "effect": "Show why each relates to room",
+      "to": "S06.EDITING"
+    },
+    {
+      "id": "S06-A02",
+      "from": "S06.STYLE",
+      "action": "Import inspiration image",
+      "effect": "Request file, preserve source label",
+      "to": "S06.UPLOADING"
+    },
+    {
+      "id": "S06-A03",
+      "from": "S06.UPLOADING",
+      "action": "Image accepted",
+      "effect": "Add to board; user confirms rights",
+      "to": "S06.EDITING"
+    },
+    {
+      "id": "S06-A04",
+      "from": "S06.UPLOADING",
+      "action": "Failure or no image",
+      "effect": "Retry or continue without image",
+      "to": "S06.EMPTY"
+    },
+    {
+      "id": "S06-A05",
+      "from": "S06.EDITING",
+      "action": "Mark like/dislike/material ban",
+      "effect": "Update visible preference chips",
+      "to": "S06.EDITING"
+    },
+    {
+      "id": "S06-A06",
+      "from": "S06.EDITING",
+      "action": "Remove inferred taste label",
+      "effect": "Undo; prevent hidden preference",
+      "to": "S06.EDITING"
+    },
+    {
+      "id": "S06-A07",
+      "from": "S06.EDITING",
+      "action": "Explain style rationale",
+      "effect": "Show room/retained-piece evidence",
+      "to": "S06.RATIONALE"
+    },
+    {
+      "id": "S06-A08",
+      "from": "S06.RATIONALE",
+      "action": "Close",
+      "effect": "Return with no implicit preference change",
+      "to": "S06.EDITING"
+    },
+    {
+      "id": "S06-A09",
+      "from": "S06.EDITING",
+      "action": "Continue",
+      "effect": "Version taste and merge into brief",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S06-A10",
+      "from": "S06.EMPTY",
+      "action": "Continue without inspiration",
+      "effect": "No invented aesthetic certainty",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S06-A11",
+      "from": "S06.EDITING",
+      "action": "Back or cancel unsaved changes",
+      "effect": "Restore last saved style version",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S06-A12",
+      "from": "S06.EMPTY",
+      "action": "Retry inspiration upload",
+      "effect": "Preserve taste board",
+      "to": "S06.UPLOADING"
+    },
+    {
+      "id": "S06-A13",
+      "from": "S06.STYLE",
+      "action": "Continue without inspiration",
+      "effect": "Keep aesthetic uncertainty explicit",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S06-A14",
+      "from": "S06.UPLOADING",
+      "action": "Cancel pending operation",
+      "effect": "Preserve prior version; discard late result for canceled request",
+      "to": "S06.STYLE"
+    },
+    {
+      "id": "S07-A01",
+      "from": "S07.EDITING",
+      "action": "Edit quantity/category/location",
+      "effect": "Validate positive count and deliverability",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S07-A02",
+      "from": "S07.EDITING",
+      "action": "Edit flexible target",
+      "effect": "Show comparison premium rule",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S07-A03",
+      "from": "S07.EDITING",
+      "action": "Edit absolute hard cap",
+      "effect": "Flag any target/cap conflict",
+      "to": "S07.VALIDATING"
+    },
+    {
+      "id": "S07-A04",
+      "from": "S07.EDITING",
+      "action": "Add dimensional hard constraint",
+      "effect": "Require unit/source or mark unknown",
+      "to": "S07.VALIDATING"
+    },
+    {
+      "id": "S07-A05",
+      "from": "S07.EDITING",
+      "action": "Add style/condition/source preference",
+      "effect": "Distinguish hard vs soft chip",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S07-A06",
+      "from": "S07.REVIEW",
+      "action": "Correct parsed voice chip",
+      "effect": "Highlight field; no search yet",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S07-A07",
+      "from": "S07.VALIDATING",
+      "action": "Target exceeds cap or invalid units",
+      "effect": "Inline exact-field error; no silent cap raise",
+      "to": "S07.INVALID"
+    },
+    {
+      "id": "S07-A08",
+      "from": "S07.INVALID",
+      "action": "Edit indicated field",
+      "effect": "Preserve other valid chips",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S07-A09",
+      "from": "S07.VALIDATING",
+      "action": "All hard constraints valid",
+      "effect": "Show snapshot and Start research",
+      "to": "S07.READY"
+    },
+    {
+      "id": "S07-A10",
+      "from": "S07.READY",
+      "action": "Start research",
+      "effect": "Save version, invalidate old comparisons",
+      "to": "S08.QUEUED"
+    },
+    {
+      "id": "S07-A11",
+      "from": "S07.EDITING",
+      "action": "Save draft or back",
+      "effect": "Version brief without starting research",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S07-A12",
+      "from": "S07.READY",
+      "action": "Cancel new search",
+      "effect": "Keep draft and prior result history",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S07-A13",
+      "from": "S07.EDITING",
+      "action": "Review and validate brief",
+      "effect": "Validate all fields even if no hard cap was edited",
+      "to": "S07.VALIDATING"
+    },
+    {
+      "id": "S07-A14",
+      "from": "S07.REVIEW",
+      "action": "Accept proposed voice changes",
+      "effect": "Commit explicit chips and validate before search",
+      "to": "S07.VALIDATING"
+    },
+    {
+      "id": "S07-A15",
+      "from": "S07.REVIEW",
+      "action": "Cancel proposed changes",
+      "effect": "Preserve prior saved brief",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S08-A01",
+      "from": "S08.QUEUED",
+      "action": "Begin approved source job",
+      "effect": "Show actual source set and progress",
+      "to": "S08.RUNNING"
+    },
+    {
+      "id": "S08-A02",
+      "from": "S08.RUNNING",
+      "action": "Open source ledger",
+      "effect": "Show checked time, errors and exclusions",
+      "to": "S08.LEDGER"
+    },
+    {
+      "id": "S08-A03",
+      "from": "S08.LEDGER",
+      "action": "Close",
+      "effect": "Keep job running",
+      "to": "S08.RUNNING"
+    },
+    {
+      "id": "S08-A04",
+      "from": "S08.RUNNING",
+      "action": "Pause checks",
+      "effect": "Halt future cycles where feasible; in-flight caveat",
+      "to": "S08.PAUSED"
+    },
+    {
+      "id": "S08-A05",
+      "from": "S08.PAUSED",
+      "action": "Resume",
+      "effect": "Requeue allowed sources; show new check time",
+      "to": "S08.QUEUED"
+    },
+    {
+      "id": "S08-A06",
+      "from": "S08.RUNNING",
+      "action": "Refine query",
+      "effect": "Edit brief; cancel/version old job",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S08-A07",
+      "from": "S08.RUNNING",
+      "action": "Cancel job",
+      "effect": "Keep partial evidence as history",
+      "to": "S08.CANCELLED"
+    },
+    {
+      "id": "S08-A08",
+      "from": "S08.CANCELLED",
+      "action": "Back to brief",
+      "effect": "No hidden running task",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S08-A09",
+      "from": "S08.RUNNING",
+      "action": "Source blocked/timeout",
+      "effect": "Mark source explicitly, keep partial evidence",
+      "to": "S08.PARTIAL"
+    },
+    {
+      "id": "S08-A10",
+      "from": "S08.PARTIAL",
+      "action": "Retry permitted source",
+      "effect": "Backoff; never promise unavailable integration",
+      "to": "S08.RUNNING"
+    },
+    {
+      "id": "S08-A11",
+      "from": "S08.PARTIAL",
+      "action": "View partial verified findings",
+      "effect": "Show missing coverage",
+      "to": "S10.PARTIAL"
+    },
+    {
+      "id": "S08-A12",
+      "from": "S08.RUNNING",
+      "action": "Verified candidates ready",
+      "effect": "Complete job and show briefing",
+      "to": "S10.RESULTS"
+    },
+    {
+      "id": "S08-A13",
+      "from": "S08.RUNNING",
+      "action": "No verified candidates",
+      "effect": "Explain binding constraints/source gaps",
+      "to": "S09.EMPTY"
+    },
+    {
+      "id": "S08-A14",
+      "from": "S08.RUNNING",
+      "action": "Save ongoing hunt",
+      "effect": "Explain server checks and alert cost/scope",
+      "to": "S19.SETUP"
+    },
+    {
+      "id": "S08-A15",
+      "from": "S08.RUNNING",
+      "action": "Offline",
+      "effect": "Job state unknown; cached ledger labeled stale",
+      "to": "S23.OFFLINE"
+    },
+    {
+      "id": "S08-A16",
+      "from": "S08.PAUSED",
+      "action": "Cancel paused job",
+      "effect": "Retain completed evidence in history",
+      "to": "S08.CANCELLED"
+    },
+    {
+      "id": "S09-A01",
+      "from": "S09.EMPTY",
+      "action": "Inspect why no verified matches",
+      "effect": "Show constraint and source-specific causes",
+      "to": "S09.DIAGNOSIS"
+    },
+    {
+      "id": "S09-A02",
+      "from": "S09.DIAGNOSIS",
+      "action": "Open unconfirmed leads",
+      "effect": "Separate investigational lane",
+      "to": "S12.LEAD"
+    },
+    {
+      "id": "S09-A03",
+      "from": "S09.DIAGNOSIS",
+      "action": "Widen chosen soft preference",
+      "effect": "Preview exact change and re-search",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S09-A04",
+      "from": "S09.DIAGNOSIS",
+      "action": "Change hard cap explicitly",
+      "effect": "Require user's direct edit",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S09-A05",
+      "from": "S09.DIAGNOSIS",
+      "action": "Retry failed permitted sources",
+      "effect": "Queue retry with ledger",
+      "to": "S08.QUEUED"
+    },
+    {
+      "id": "S09-A06",
+      "from": "S09.DIAGNOSIS",
+      "action": "Save hunt",
+      "effect": "Choose cadence and legal source coverage",
+      "to": "S19.SETUP"
+    },
+    {
+      "id": "S09-A07",
+      "from": "S09.EMPTY",
+      "action": "Back to last results",
+      "effect": "Preserve prior version and timestamp",
+      "to": "S10.RESULTS"
+    },
+    {
+      "id": "S09-A08",
+      "from": "S09.EMPTY",
+      "action": "Source access unavailable",
+      "effect": "Explain gap and manual source option",
+      "to": "S09.SOURCE_GAP"
+    },
+    {
+      "id": "S09-A09",
+      "from": "S09.SOURCE_GAP",
+      "action": "Back or close",
+      "effect": "No fake coverage claim",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S10-A01",
+      "from": "S10.RESULTS",
+      "action": "Play brief spoken summary",
+      "effect": "Captions, mute and Stop visible",
+      "to": "S10.PLAYING"
+    },
+    {
+      "id": "S10-A02",
+      "from": "S10.PLAYING",
+      "action": "Pause/mute/open transcript",
+      "effect": "Full silent equivalent",
+      "to": "S10.RESULTS"
+    },
+    {
+      "id": "S10-A03",
+      "from": "S10.RESULTS",
+      "action": "Open Best fit option",
+      "effect": "Exact variant evidence",
+      "to": "S11.DETAIL"
+    },
+    {
+      "id": "S10-A04",
+      "from": "S10.RESULTS",
+      "action": "Open Within target option",
+      "effect": "Exact variant evidence",
+      "to": "S11.DETAIL"
+    },
+    {
+      "id": "S10-A05",
+      "from": "S10.RESULTS",
+      "action": "Open Savings option",
+      "effect": "Exact variant evidence",
+      "to": "S11.DETAIL"
+    },
+    {
+      "id": "S10-A06",
+      "from": "S10.RESULTS",
+      "action": "Expand all results/filter/sort",
+      "effect": "Explain ranking criteria; no commission rank",
+      "to": "S10.FILTERING"
+    },
+    {
+      "id": "S10-A07",
+      "from": "S10.FILTERING",
+      "action": "Apply filters",
+      "effect": "Recompute visible set and count",
+      "to": "S10.RESULTS"
+    },
+    {
+      "id": "S10-A08",
+      "from": "S10.FILTERING",
+      "action": "No matches after filtering",
+      "effect": "Show empty filtered set without discarding source results",
+      "to": "S10.FILTER_EMPTY"
+    },
+    {
+      "id": "S10-A09",
+      "from": "S10.FILTER_EMPTY",
+      "action": "Reset filters",
+      "effect": "Restore ranked set",
+      "to": "S10.RESULTS"
+    },
+    {
+      "id": "S10-A10",
+      "from": "S10.RESULTS",
+      "action": "Open unconfirmed leads",
+      "effect": "Never ready badge",
+      "to": "S12.LEAD"
+    },
+    {
+      "id": "S10-A11",
+      "from": "S10.RESULTS",
+      "action": "Compare selected options",
+      "effect": "All-in logistics and hard cap",
+      "to": "S14.COMPARE"
+    },
+    {
+      "id": "S10-A12",
+      "from": "S10.RESULTS",
+      "action": "Save hunt",
+      "effect": "Set scope and cadence",
+      "to": "S19.SETUP"
+    },
+    {
+      "id": "S10-A13",
+      "from": "S10.PARTIAL",
+      "action": "Open source ledger",
+      "effect": "List missing sources and last checked",
+      "to": "S08.LEDGER"
+    },
+    {
+      "id": "S10-A14",
+      "from": "S10.RESULTS",
+      "action": "Pull to refresh",
+      "effect": "Recheck exact stock/price, stale until done",
+      "to": "S10.REFRESHING"
+    },
+    {
+      "id": "S10-A15",
+      "from": "S10.REFRESHING",
+      "action": "Stock changed",
+      "effect": "Move lost item to history/replacement",
+      "to": "S18.CHANGE"
+    },
+    {
+      "id": "S10-A16",
+      "from": "S10.RESULTS",
+      "action": "Back to research",
+      "effect": "Restore ledger/job version",
+      "to": "S08.RUNNING"
+    },
+    {
+      "id": "S10-A17",
+      "from": "S10.FILTERING",
+      "action": "Clear or cancel filters",
+      "effect": "Restore the prior ranked set",
+      "to": "S10.RESULTS"
+    },
+    {
+      "id": "S10-A18",
+      "from": "S10.REFRESHING",
+      "action": "Fresh stock unchanged",
+      "effect": "Update verification timestamps",
+      "to": "S10.RESULTS"
+    },
+    {
+      "id": "S10-A19",
+      "from": "S10.REFRESHING",
+      "action": "Refresh fails",
+      "effect": "Keep cached results visibly stale and show source gap",
+      "to": "S10.PARTIAL"
+    },
+    {
+      "id": "S11-A01",
+      "from": "S11.DETAIL",
+      "action": "Choose finish/size variant",
+      "effect": "Clear prior stock/price and reverify",
+      "to": "S11.VARIANT_PENDING"
+    },
+    {
+      "id": "S11-A02",
+      "from": "S11.VARIANT_PENDING",
+      "action": "Recheck succeeds exact six",
+      "effect": "Show source/time/method; ready badge",
+      "to": "S11.VERIFIED"
+    },
+    {
+      "id": "S11-A03",
+      "from": "S11.VARIANT_PENDING",
+      "action": "Variant wrong or count short",
+      "effect": "Remove ready badge and offer substitute",
+      "to": "S11.UNAVAILABLE"
+    },
+    {
+      "id": "S11-A04",
+      "from": "S11.DETAIL",
+      "action": "Open stock evidence",
+      "effect": "Source URL, count, location, timestamp/expiry",
+      "to": "S11.EVIDENCE"
+    },
+    {
+      "id": "S11-A05",
+      "from": "S11.EVIDENCE",
+      "action": "Close or back",
+      "effect": "Return to same variant",
+      "to": "S11.DETAIL"
+    },
+    {
+      "id": "S11-A06",
+      "from": "S11.DETAIL",
+      "action": "Inspect fit dimensions",
+      "effect": "Seat/arm/clearance measured vs estimated",
+      "to": "S11.FIT"
+    },
+    {
+      "id": "S11-A07",
+      "from": "S11.FIT",
+      "action": "Missing table/seat measure",
+      "effect": "Prompt specific input; no verified fit",
+      "to": "S05.MEASURE"
+    },
+    {
+      "id": "S11-A08",
+      "from": "S11.FIT",
+      "action": "Back",
+      "effect": "Retain evidence view",
+      "to": "S11.DETAIL"
+    },
+    {
+      "id": "S11-A09",
+      "from": "S11.DETAIL",
+      "action": "Inspect all-in cost",
+      "effect": "Item, tax, delivery, condition/restoration",
+      "to": "S16.BUDGET"
+    },
+    {
+      "id": "S11-A10",
+      "from": "S11.DETAIL",
+      "action": "Tap See in room",
+      "effect": "Bind exact variant/source photo",
+      "to": "S13.LOADING"
+    },
+    {
+      "id": "S11-A11",
+      "from": "S11.DETAIL",
+      "action": "Add to compare or save",
+      "effect": "Snapshot variant and evidence time",
+      "to": "S14.COMPARE"
+    },
+    {
+      "id": "S11-A12",
+      "from": "S11.DETAIL",
+      "action": "Recheck availability",
+      "effect": "Pending state, stale badge meanwhile",
+      "to": "S11.RECHECKING"
+    },
+    {
+      "id": "S11-A13",
+      "from": "S11.RECHECKING",
+      "action": "Confirm exact variant & count",
+      "effect": "Update time/evidence",
+      "to": "S11.VERIFIED"
+    },
+    {
+      "id": "S11-A14",
+      "from": "S11.RECHECKING",
+      "action": "Count drops, stale or error",
+      "effect": "Unavailable/unknown; no purchase action",
+      "to": "S11.UNAVAILABLE"
+    },
+    {
+      "id": "S11-A15",
+      "from": "S11.UNAVAILABLE",
+      "action": "Find close replacement",
+      "effect": "Preserve prior choice/history",
+      "to": "S18.CHANGE"
+    },
+    {
+      "id": "S11-A16",
+      "from": "S11.DETAIL",
+      "action": "Back to results",
+      "effect": "Preserve selected filters/scroll",
+      "to": "S10.RESULTS"
+    },
+    {
+      "id": "S11-A17",
+      "from": "S11.VERIFIED",
+      "action": "Open updated product details",
+      "effect": "Exact six and timestamp remain visible",
+      "to": "S11.DETAIL"
+    },
+    {
+      "id": "S11-A18",
+      "from": "S11.VERIFIED",
+      "action": "Recheck again",
+      "effect": "Mark stale while checking",
+      "to": "S11.RECHECKING"
+    },
+    {
+      "id": "S11-A19",
+      "from": "S11.VERIFIED",
+      "action": "See exact variant in room",
+      "effect": "Bind verified SKU to visualization",
+      "to": "S13.LOADING"
+    },
+    {
+      "id": "S11-A20",
+      "from": "S11.UNAVAILABLE",
+      "action": "Back to findings",
+      "effect": "Keep failed verification visible in history",
+      "to": "S10.RESULTS"
+    },
+    {
+      "id": "S12-A01",
+      "from": "S12.LEAD",
+      "action": "Open listing/source",
+      "effect": "Show access limits and timestamp",
+      "to": "S12.SOURCE"
+    },
+    {
+      "id": "S12-A02",
+      "from": "S12.SOURCE",
+      "action": "Return",
+      "effect": "Keep lead status",
+      "to": "S12.LEAD"
+    },
+    {
+      "id": "S12-A03",
+      "from": "S12.LEAD",
+      "action": "Ask seller / request quantity",
+      "effect": "Record pending inquiry, no ready badge",
+      "to": "S12.PENDING"
+    },
+    {
+      "id": "S12-A04",
+      "from": "S12.PENDING",
+      "action": "Seller confirms exact variant/count",
+      "effect": "Require evidence and freshness policy check",
+      "to": "S11.VARIANT_PENDING"
+    },
+    {
+      "id": "S12-A05",
+      "from": "S12.PENDING",
+      "action": "No response / listing removed",
+      "effect": "Label unresolved or unavailable",
+      "to": "S12.UNKNOWN"
+    },
+    {
+      "id": "S12-A06",
+      "from": "S12.UNKNOWN",
+      "action": "Save to hunt",
+      "effect": "Monitor only if access permitted",
+      "to": "S19.SETUP"
+    },
+    {
+      "id": "S12-A07",
+      "from": "S12.LEAD",
+      "action": "Save or reject lead",
+      "effect": "Store reason without polluting ready rank",
+      "to": "S12.LEAD"
+    },
+    {
+      "id": "S12-A08",
+      "from": "S12.LEAD",
+      "action": "Try manual source entry",
+      "effect": "Validate URL/rights and mark unverified",
+      "to": "S12.PENDING"
+    },
+    {
+      "id": "S12-A09",
+      "from": "S12.LEAD",
+      "action": "Back to findings",
+      "effect": "Maintain separate lane",
+      "to": "S10.RESULTS"
+    },
+    {
+      "id": "S12-A10",
+      "from": "S12.UNKNOWN",
+      "action": "Retry inquiry",
+      "effect": "Require permitted access; do not claim ready stock",
+      "to": "S12.PENDING"
+    },
+    {
+      "id": "S12-A11",
+      "from": "S12.UNKNOWN",
+      "action": "Back to findings",
+      "effect": "Keep lead unresolved",
+      "to": "S10.RESULTS"
+    },
+    {
+      "id": "S13-A01",
+      "from": "S13.LOADING",
+      "action": "Render exact variant in original room",
+      "effect": "Bind image, SKU, geometry and renderer version",
+      "to": "S13.PROCESSING"
+    },
+    {
+      "id": "S13-A02",
+      "from": "S13.PROCESSING",
+      "action": "Displayable output validated",
+      "effect": "Label illustrative, never physical proof",
+      "to": "S13.PLACEMENT"
+    },
+    {
+      "id": "S13-A03",
+      "from": "S13.PROCESSING",
+      "action": "Missing exact finish/source image",
+      "effect": "No substitute claiming same SKU",
+      "to": "S13.NEEDS_INPUT"
+    },
+    {
+      "id": "S13-A04",
+      "from": "S13.PROCESSING",
+      "action": "Geometry unknown or occluded",
+      "effect": "Ask specific measure; show low confidence",
+      "to": "S13.NEEDS_INPUT"
+    },
+    {
+      "id": "S13-A05",
+      "from": "S13.PROCESSING",
+      "action": "Render/rights failure",
+      "effect": "Source photo plus dimension fallback",
+      "to": "S13.ERROR"
+    },
+    {
+      "id": "S13-A06",
+      "from": "S13.NEEDS_INPUT",
+      "action": "Enter measurement",
+      "effect": "Version geometry, rerender",
+      "to": "S05.MEASURE"
+    },
+    {
+      "id": "S13-A07",
+      "from": "S13.NEEDS_INPUT",
+      "action": "Continue without render",
+      "effect": "Honest source/fit view",
+      "to": "S11.FIT"
+    },
+    {
+      "id": "S13-A08",
+      "from": "S13.ERROR",
+      "action": "Retry when permitted",
+      "effect": "Keep original photo visible",
+      "to": "S13.LOADING"
+    },
+    {
+      "id": "S13-A09",
+      "from": "S13.ERROR",
+      "action": "View source image only",
+      "effect": "No fabricated composite",
+      "to": "S11.EVIDENCE"
+    },
+    {
+      "id": "S13-A10",
+      "from": "S13.PLACEMENT",
+      "action": "Toggle Original / Placement / Dimensions",
+      "effect": "Maintain camera framing and disclosure",
+      "to": "S13.PLACEMENT"
+    },
+    {
+      "id": "S13-A11",
+      "from": "S13.PLACEMENT",
+      "action": "Swap alternative exact variant",
+      "effect": "Invalidate old render; bind new SKU",
+      "to": "S13.LOADING"
+    },
+    {
+      "id": "S13-A12",
+      "from": "S13.PLACEMENT",
+      "action": "Adjust placement or orientation",
+      "effect": "Preview reversible transform; scale bounds",
+      "to": "S13.EDITING"
+    },
+    {
+      "id": "S13-A13",
+      "from": "S13.EDITING",
+      "action": "Save / undo / reset",
+      "effect": "Version composite without altering original",
+      "to": "S13.PLACEMENT"
+    },
+    {
+      "id": "S13-A14",
+      "from": "S13.PLACEMENT",
+      "action": "Open source image or fit caveat",
+      "effect": "Explain lineage/measurements",
+      "to": "S11.EVIDENCE"
+    },
+    {
+      "id": "S13-A15",
+      "from": "S13.PLACEMENT",
+      "action": "Compare options",
+      "effect": "Preserve photo/geometry baseline",
+      "to": "S14.COMPARE"
+    },
+    {
+      "id": "S13-A16",
+      "from": "S13.PLACEMENT",
+      "action": "Back to candidate",
+      "effect": "Preserve chosen variant",
+      "to": "S11.DETAIL"
+    },
+    {
+      "id": "S13-A17",
+      "from": "S13.PROCESSING",
+      "action": "Cancel pending operation",
+      "effect": "Preserve prior version; discard late result for canceled request",
+      "to": "S11.DETAIL"
+    },
+    {
+      "id": "S14-A01",
+      "from": "S14.COMPARE",
+      "action": "Add/remove candidate",
+      "effect": "Update columns, retain source snapshot",
+      "to": "S14.COMPARE"
+    },
+    {
+      "id": "S14-A02",
+      "from": "S14.COMPARE",
+      "action": "Swipe options / expand evidence",
+      "effect": "Show fit, stock time, condition, source",
+      "to": "S11.DETAIL"
+    },
+    {
+      "id": "S14-A03",
+      "from": "S14.COMPARE",
+      "action": "Toggle room visual",
+      "effect": "Same original frame and caveats",
+      "to": "S13.PLACEMENT"
+    },
+    {
+      "id": "S14-A04",
+      "from": "S14.COMPARE",
+      "action": "Edit delivery location",
+      "effect": "Recompute shipping/taxes; mark pending",
+      "to": "S14.RECALCULATING"
+    },
+    {
+      "id": "S14-A05",
+      "from": "S14.COMPARE",
+      "action": "Edit flexible target",
+      "effect": "Show dollar and percent premium",
+      "to": "S14.RECALCULATING"
+    },
+    {
+      "id": "S14-A06",
+      "from": "S14.COMPARE",
+      "action": "Edit hard cap",
+      "effect": "Exclude over-cap candidates, no auto override",
+      "to": "S14.RECALCULATING"
+    },
+    {
+      "id": "S14-A07",
+      "from": "S14.RECALCULATING",
+      "action": "Cost complete",
+      "effect": "Re-rank eligible options",
+      "to": "S14.COMPARE"
+    },
+    {
+      "id": "S14-A08",
+      "from": "S14.RECALCULATING",
+      "action": "Cost unknown",
+      "effect": "Label estimate and block certainty",
+      "to": "S14.COST_UNKNOWN"
+    },
+    {
+      "id": "S14-A09",
+      "from": "S14.COST_UNKNOWN",
+      "action": "Ask for missing quote",
+      "effect": "Keep costs unknown and selection blocked",
+      "to": "S12.LEAD"
+    },
+    {
+      "id": "S14-A10",
+      "from": "S14.COMPARE",
+      "action": "Select option within hard cap",
+      "effect": "Snapshot evidence and brief version",
+      "to": "S16.BUDGET"
+    },
+    {
+      "id": "S14-A11",
+      "from": "S14.COMPARE",
+      "action": "Choose over hard cap",
+      "effect": "Disable selection; edit cap deliberately",
+      "to": "S14.OVER_CAP"
+    },
+    {
+      "id": "S14-A12",
+      "from": "S14.OVER_CAP",
+      "action": "Back / choose eligible",
+      "effect": "Preserve hard cap",
+      "to": "S14.COMPARE"
+    },
+    {
+      "id": "S14-A13",
+      "from": "S14.COMPARE",
+      "action": "Back to findings",
+      "effect": "Restore filters and scroll",
+      "to": "S10.RESULTS"
+    },
+    {
+      "id": "S14-A14",
+      "from": "S14.COST_UNKNOWN",
+      "action": "Choose another option",
+      "effect": "Preserve cap; return to comparison",
+      "to": "S14.COMPARE"
+    },
+    {
+      "id": "S15-A01",
+      "from": "S15.CANVAS",
+      "action": "Choose project/room in rail",
+      "effect": "Load same object/version",
+      "to": "S15.LOADING"
+    },
+    {
+      "id": "S15-A02",
+      "from": "S15.LOADING",
+      "action": "Room ready",
+      "effect": "Original photo and retained pieces",
+      "to": "S15.CANVAS"
+    },
+    {
+      "id": "S15-A03",
+      "from": "S15.LOADING",
+      "action": "Image missing/error",
+      "effect": "Placeholder and Retry; no lost brief",
+      "to": "S15.ERROR"
+    },
+    {
+      "id": "S15-A04",
+      "from": "S15.ERROR",
+      "action": "Retry room loading",
+      "effect": "Keep brief and original project version",
+      "to": "S15.LOADING"
+    },
+    {
+      "id": "S15-A05",
+      "from": "S15.CANVAS",
+      "action": "Toggle Original/Placement/Measures",
+      "effect": "Sync selected layer, confidence labels",
+      "to": "S15.CANVAS"
+    },
+    {
+      "id": "S15-A06",
+      "from": "S15.CANVAS",
+      "action": "Click retained item",
+      "effect": "Edit Keep/tag/dimensions with Undo",
+      "to": "S05.MEASURE"
+    },
+    {
+      "id": "S15-A07",
+      "from": "S15.CANVAS",
+      "action": "Edit brief in inspector",
+      "effect": "Version chips and invalidate old rank",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S15-A08",
+      "from": "S15.CANVAS",
+      "action": "Start research",
+      "effect": "Show source ledger",
+      "to": "S08.QUEUED"
+    },
+    {
+      "id": "S15-A09",
+      "from": "S15.CANVAS",
+      "action": "Open research workspace",
+      "effect": "Same candidate model",
+      "to": "S24.WORKSPACE"
+    },
+    {
+      "id": "S15-A10",
+      "from": "S15.CANVAS",
+      "action": "Speak shortcut with permission",
+      "effect": "Use visible recording and transcript lifecycle",
+      "to": "S04.LISTENING"
+    },
+    {
+      "id": "S15-A11",
+      "from": "S15.CANVAS",
+      "action": "Client preview",
+      "effect": "Scope share only",
+      "to": "S20.PREVIEW"
+    },
+    {
+      "id": "S15-A12",
+      "from": "S15.CANVAS",
+      "action": "Sync conflict",
+      "effect": "Show actor/time versions",
+      "to": "S23.CONFLICT"
+    },
+    {
+      "id": "S15-A13",
+      "from": "S15.CANVAS",
+      "action": "Back to projects",
+      "effect": "Persist canvas/brief state",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S15-A14",
+      "from": "S15.ERROR",
+      "action": "Choose another room",
+      "effect": "Return to projects with existing draft",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S15-A15",
+      "from": "S15.CANVAS",
+      "action": "Speak shortcut without permission",
+      "effect": "Request microphone at point of use",
+      "to": "S02.PRIMER"
+    },
+    {
+      "id": "S16-A01",
+      "from": "S16.BUDGET",
+      "action": "Inspect line items",
+      "effect": "Product, delivery, tax, fees, pickup/restoration",
+      "to": "S16.BUDGET"
+    },
+    {
+      "id": "S16-A02",
+      "from": "S16.BUDGET",
+      "action": "Adjust quantity/location",
+      "effect": "Recalculate and reverify exact variant",
+      "to": "S16.RECALCULATING"
+    },
+    {
+      "id": "S16-A03",
+      "from": "S16.RECALCULATING",
+      "action": "New cost/evidence ready",
+      "effect": "Show target delta and hard-cap status",
+      "to": "S16.BUDGET"
+    },
+    {
+      "id": "S16-A04",
+      "from": "S16.RECALCULATING",
+      "action": "Cost unknown",
+      "effect": "Explain uncertainty; block ready handoff",
+      "to": "S16.COST_UNKNOWN"
+    },
+    {
+      "id": "S16-A05",
+      "from": "S16.BUDGET",
+      "action": "Save choice",
+      "effect": "Version decision with evidence snapshot",
+      "to": "S16.SAVED"
+    },
+    {
+      "id": "S16-A06",
+      "from": "S16.BUDGET",
+      "action": "Share with client",
+      "effect": "Preview scoped content",
+      "to": "S20.PREVIEW"
+    },
+    {
+      "id": "S16-A07",
+      "from": "S16.BUDGET",
+      "action": "Tap open seller",
+      "effect": "Start mandatory stock, price, cap recheck",
+      "to": "S16.RECHECKING"
+    },
+    {
+      "id": "S16-A08",
+      "from": "S16.RECHECKING",
+      "action": "Exact six/variant/cost under cap",
+      "effect": "Show timestamp and external destination",
+      "to": "S17.HANDOFF"
+    },
+    {
+      "id": "S16-A09",
+      "from": "S16.RECHECKING",
+      "action": "Stock lost / count short",
+      "effect": "Preserve choice, offer replacement",
+      "to": "S18.CHANGE"
+    },
+    {
+      "id": "S16-A10",
+      "from": "S16.RECHECKING",
+      "action": "Price rises over cap",
+      "effect": "Block handoff; edit cap or choose other",
+      "to": "S16.OVER_CAP"
+    },
+    {
+      "id": "S16-A11",
+      "from": "S16.RECHECKING",
+      "action": "Source error/unknown",
+      "effect": "Keep as lead; retry, no ready CTA",
+      "to": "S16.COST_UNKNOWN"
+    },
+    {
+      "id": "S16-A12",
+      "from": "S16.OVER_CAP",
+      "action": "Choose other or explicitly edit cap",
+      "effect": "Never silently increase cap",
+      "to": "S14.COMPARE"
+    },
+    {
+      "id": "S16-A13",
+      "from": "S16.SAVED",
+      "action": "Resume decision",
+      "effect": "Recheck because evidence may expire",
+      "to": "S16.RECHECKING"
+    },
+    {
+      "id": "S16-A14",
+      "from": "S16.BUDGET",
+      "action": "Back to comparison",
+      "effect": "Preserve alternatives",
+      "to": "S14.COMPARE"
+    },
+    {
+      "id": "S16-A15",
+      "from": "S16.COST_UNKNOWN",
+      "action": "Retry cost and source check",
+      "effect": "Keep seller handoff disabled",
+      "to": "S16.RECALCULATING"
+    },
+    {
+      "id": "S16-A16",
+      "from": "S16.COST_UNKNOWN",
+      "action": "Choose another option",
+      "effect": "Preserve unknown-cost record",
+      "to": "S14.COMPARE"
+    },
+    {
+      "id": "S16-A17",
+      "from": "S16.COST_UNKNOWN",
+      "action": "Back to budget",
+      "effect": "Show missing amount prominently",
+      "to": "S16.BUDGET"
+    },
+    {
+      "id": "S16-A18",
+      "from": "S16.RECHECKING",
+      "action": "Cancel pending operation",
+      "effect": "Preserve prior version; discard late result for canceled request",
+      "to": "S16.BUDGET"
+    },
+    {
+      "id": "S17-A01",
+      "from": "S17.HANDOFF",
+      "action": "Open external seller",
+      "effect": "Disclose destination and stale-risk recheck time",
+      "to": "S17.EXTERNAL"
+    },
+    {
+      "id": "S17-A02",
+      "from": "S17.EXTERNAL",
+      "action": "Return to Homely",
+      "effect": "Ask purchased, still considering or canceled",
+      "to": "S17.RETURN"
+    },
+    {
+      "id": "S17-A03",
+      "from": "S17.RETURN",
+      "action": "Still considering",
+      "effect": "Keep decision saved, no purchase claim",
+      "to": "S16.SAVED"
+    },
+    {
+      "id": "S17-A04",
+      "from": "S17.RETURN",
+      "action": "Mark purchased",
+      "effect": "User confirmation with optional receipt",
+      "to": "S21.PURCHASED"
+    },
+    {
+      "id": "S17-A05",
+      "from": "S17.RETURN",
+      "action": "Cancel / seller unavailable",
+      "effect": "Keep history, recheck or replace",
+      "to": "S18.CHANGE"
+    },
+    {
+      "id": "S17-A06",
+      "from": "S17.HANDOFF",
+      "action": "Eligible affiliate link",
+      "effect": "Record contracted attribution only",
+      "to": "S17.PENDING_CREDIT"
+    },
+    {
+      "id": "S17-A07",
+      "from": "S17.PENDING_CREDIT",
+      "action": "Eligible realized commission",
+      "effect": "Hold return reserve and cost-limit credit",
+      "to": "S17.RESERVED"
+    },
+    {
+      "id": "S17-A08",
+      "from": "S17.PENDING_CREDIT",
+      "action": "No contract/attribution",
+      "effect": "No assumed earning, transparent ledger",
+      "to": "S21.LEDGER"
+    },
+    {
+      "id": "S17-A09",
+      "from": "S17.RESERVED",
+      "action": "Reserve clears under program terms",
+      "effect": "Release permitted usage credit",
+      "to": "S21.CREDIT"
+    },
+    {
+      "id": "S17-A10",
+      "from": "S17.RESERVED",
+      "action": "Return/refund/reversal",
+      "effect": "Reverse pending credit with ledger reason",
+      "to": "S21.REVERSED"
+    },
+    {
+      "id": "S17-A11",
+      "from": "S17.HANDOFF",
+      "action": "Back before opening seller",
+      "effect": "No purchase or attribution invented",
+      "to": "S16.BUDGET"
+    },
+    {
+      "id": "S18-A01",
+      "from": "S18.CHANGE",
+      "action": "Open meaningful alert",
+      "effect": "Show what changed and checked time",
+      "to": "S18.DETAIL"
+    },
+    {
+      "id": "S18-A02",
+      "from": "S18.DETAIL",
+      "action": "Lost quantity (4 of 6)",
+      "effect": "Prior saved item unavailable for brief",
+      "to": "S18.LOST"
+    },
+    {
+      "id": "S18-A03",
+      "from": "S18.LOST",
+      "action": "View previous decision",
+      "effect": "Retain snapshot and approval history",
+      "to": "S16.SAVED"
+    },
+    {
+      "id": "S18-A04",
+      "from": "S18.LOST",
+      "action": "Open replacement candidate",
+      "effect": "Explain differences and reverify six",
+      "to": "S11.DETAIL"
+    },
+    {
+      "id": "S18-A05",
+      "from": "S18.LOST",
+      "action": "No verified replacement",
+      "effect": "Show honest gap, save hunt",
+      "to": "S09.EMPTY"
+    },
+    {
+      "id": "S18-A06",
+      "from": "S18.DETAIL",
+      "action": "New high-fit result",
+      "effect": "Open exact variant and evidence",
+      "to": "S11.DETAIL"
+    },
+    {
+      "id": "S18-A07",
+      "from": "S18.DETAIL",
+      "action": "Unconfirmed local lead",
+      "effect": "Separate from ready replacements",
+      "to": "S12.LEAD"
+    },
+    {
+      "id": "S18-A08",
+      "from": "S18.DETAIL",
+      "action": "Dismiss duplicate alert",
+      "effect": "Keep in activity without re-notifying",
+      "to": "S19.ACTIVE"
+    },
+    {
+      "id": "S18-A09",
+      "from": "S18.DETAIL",
+      "action": "Change cadence/pause",
+      "effect": "Save notification preference",
+      "to": "S19.SETTINGS"
+    },
+    {
+      "id": "S18-A10",
+      "from": "S18.DETAIL",
+      "action": "Back to inbox",
+      "effect": "Preserve read/unread and event",
+      "to": "S19.INBOX"
+    },
+    {
+      "id": "S19-A01",
+      "from": "S19.SETUP",
+      "action": "Set sources/radius/category",
+      "effect": "Show unavailable sources and check limits",
+      "to": "S19.SETTINGS"
+    },
+    {
+      "id": "S19-A02",
+      "from": "S19.SETTINGS",
+      "action": "Choose cadence/quiet hours",
+      "effect": "Estimate notification volume/cost",
+      "to": "S19.SETTINGS"
+    },
+    {
+      "id": "S19-A03",
+      "from": "S19.SETTINGS",
+      "action": "Save active hunt",
+      "effect": "Version query; schedule allowed server checks",
+      "to": "S19.ACTIVE"
+    },
+    {
+      "id": "S19-A04",
+      "from": "S19.SETTINGS",
+      "action": "Enable push",
+      "effect": "Permission primer only now",
+      "to": "S02.PRIMER"
+    },
+    {
+      "id": "S19-A05",
+      "from": "S19.ACTIVE",
+      "action": "Open activity card",
+      "effect": "New/lost/price event with exact timestamp",
+      "to": "S18.CHANGE"
+    },
+    {
+      "id": "S19-A06",
+      "from": "S19.ACTIVE",
+      "action": "Pause hunt",
+      "effect": "Stop future scheduled checks as feasible",
+      "to": "S19.PAUSED"
+    },
+    {
+      "id": "S19-A07",
+      "from": "S19.PAUSED",
+      "action": "Resume hunt",
+      "effect": "Revalidate rights, sources, location and freshness",
+      "to": "S19.ACTIVE"
+    },
+    {
+      "id": "S19-A08",
+      "from": "S19.ACTIVE",
+      "action": "End hunt",
+      "effect": "Confirm, retain historical results",
+      "to": "S19.ENDED"
+    },
+    {
+      "id": "S19-A09",
+      "from": "S19.ACTIVE",
+      "action": "Refine brief",
+      "effect": "New job/query version, old activity retained",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S19-A10",
+      "from": "S19.ACTIVE",
+      "action": "Push denied/unsupported",
+      "effect": "In-app inbox remains usable",
+      "to": "S19.INBOX"
+    },
+    {
+      "id": "S19-A11",
+      "from": "S19.INBOX",
+      "action": "Open read/unread event",
+      "effect": "Recheck before action",
+      "to": "S18.CHANGE"
+    },
+    {
+      "id": "S19-A12",
+      "from": "S19.ACTIVE",
+      "action": "Source access suspended",
+      "effect": "Explain coverage gap, no phantom checks",
+      "to": "S19.SOURCE_GAP"
+    },
+    {
+      "id": "S19-A13",
+      "from": "S19.SOURCE_GAP",
+      "action": "Retry allowed source or edit scope",
+      "effect": "Respect rights and backoff",
+      "to": "S19.SETTINGS"
+    },
+    {
+      "id": "S19-A14",
+      "from": "S19.ACTIVE",
+      "action": "Offline",
+      "effect": "Cached inbox stale, no live claim",
+      "to": "S23.OFFLINE"
+    },
+    {
+      "id": "S19-A15",
+      "from": "S19.ACTIVE",
+      "action": "Back to project",
+      "effect": "Keep hunt server status visible",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S19-A16",
+      "from": "S19.ENDED",
+      "action": "Start a new hunt",
+      "effect": "Revalidate source scope and cadence",
+      "to": "S19.SETUP"
+    },
+    {
+      "id": "S19-A17",
+      "from": "S19.ENDED",
+      "action": "Back to project",
+      "effect": "Historical activity remains visible",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S19-A18",
+      "from": "S19.SETTINGS",
+      "action": "Cancel hunt setup or edits",
+      "effect": "Preserve previously saved hunt settings if any",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S19-A19",
+      "from": "S19.PAUSED",
+      "action": "Back to project",
+      "effect": "Keep hunt paused",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S20-A01",
+      "from": "S20.PREVIEW",
+      "action": "Select photos/notes to share",
+      "effect": "Show exact client-visible preview",
+      "to": "S20.PREVIEW"
+    },
+    {
+      "id": "S20-A02",
+      "from": "S20.PREVIEW",
+      "action": "Choose client role and expiry",
+      "effect": "Enforce least-privilege scope",
+      "to": "S20.VALIDATING"
+    },
+    {
+      "id": "S20-A03",
+      "from": "S20.VALIDATING",
+      "action": "Create link/invite",
+      "effect": "Log actor, permission, version",
+      "to": "S20.REVIEW"
+    },
+    {
+      "id": "S20-A04",
+      "from": "S20.VALIDATING",
+      "action": "Invalid contact/scope",
+      "effect": "Inline correction, no sharing",
+      "to": "S20.PREVIEW"
+    },
+    {
+      "id": "S20-A05",
+      "from": "S20.REVIEW",
+      "action": "Client opens link",
+      "effect": "Auth or limited token, check expiry/revocation",
+      "to": "S20.REVIEW"
+    },
+    {
+      "id": "S20-A06",
+      "from": "S20.REVIEW",
+      "action": "Link expired/revoked",
+      "effect": "Access denied, owner renewal route",
+      "to": "S20.EXPIRED"
+    },
+    {
+      "id": "S20-A07",
+      "from": "S20.REVIEW",
+      "action": "Compare option / room image",
+      "effect": "Show illustrative visual + stock time",
+      "to": "S13.PLACEMENT"
+    },
+    {
+      "id": "S20-A08",
+      "from": "S20.REVIEW",
+      "action": "Comment on product",
+      "effect": "Thread to exact variant/version",
+      "to": "S20.COMMENTING"
+    },
+    {
+      "id": "S20-A09",
+      "from": "S20.COMMENTING",
+      "action": "Post comment",
+      "effect": "Persist comment and notify owner",
+      "to": "S20.REVIEW"
+    },
+    {
+      "id": "S20-A10",
+      "from": "S20.REVIEW",
+      "action": "Approve variant",
+      "effect": "Record actor/time/version; no stock hold",
+      "to": "S20.APPROVED"
+    },
+    {
+      "id": "S20-A11",
+      "from": "S20.REVIEW",
+      "action": "Request changes",
+      "effect": "Record reason and route designer brief",
+      "to": "S20.REVISION"
+    },
+    {
+      "id": "S20-A12",
+      "from": "S20.REVISION",
+      "action": "Designer refine",
+      "effect": "Preserve earlier comments/approval record",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S20-A13",
+      "from": "S20.APPROVED",
+      "action": "Proceed toward seller",
+      "effect": "Mandatory stock/cost recheck",
+      "to": "S16.RECHECKING"
+    },
+    {
+      "id": "S20-A14",
+      "from": "S20.REVIEW",
+      "action": "Owner revoke share",
+      "effect": "Prevent future access; exports remain outside scope",
+      "to": "S20.EXPIRED"
+    },
+    {
+      "id": "S20-A15",
+      "from": "S20.REVIEW",
+      "action": "Back to project",
+      "effect": "Persist decision trail",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S20-A16",
+      "from": "S20.EXPIRED",
+      "action": "Owner renews share",
+      "effect": "Preview scope and new expiry",
+      "to": "S20.PREVIEW"
+    },
+    {
+      "id": "S20-A17",
+      "from": "S20.EXPIRED",
+      "action": "Client signs in or requests access",
+      "effect": "No expired content exposed",
+      "to": "S01.INTENT"
+    },
+    {
+      "id": "S20-A18",
+      "from": "S20.COMMENTING",
+      "action": "Cancel comment",
+      "effect": "Discard unsent comment; do not notify",
+      "to": "S20.REVIEW"
+    },
+    {
+      "id": "S20-A19",
+      "from": "S20.PREVIEW",
+      "action": "Cancel sharing",
+      "effect": "No link created; retain saved decision",
+      "to": "S16.BUDGET"
+    },
+    {
+      "id": "S21-A01",
+      "from": "S21.LEDGER",
+      "action": "Open decision history",
+      "effect": "Show saved, proposed, approved, changed",
+      "to": "S21.LEDGER"
+    },
+    {
+      "id": "S21-A02",
+      "from": "S21.LEDGER",
+      "action": "Mark purchased explicitly",
+      "effect": "Record actor/time, optional receipt evidence",
+      "to": "S21.PURCHASED"
+    },
+    {
+      "id": "S21-A03",
+      "from": "S21.LEDGER",
+      "action": "External order unknown",
+      "effect": "Do not infer purchase from click",
+      "to": "S21.UNKNOWN"
+    },
+    {
+      "id": "S21-A04",
+      "from": "S21.UNKNOWN",
+      "action": "Confirm later or stay considering",
+      "effect": "No false commission credit",
+      "to": "S21.LEDGER"
+    },
+    {
+      "id": "S21-A05",
+      "from": "S21.PURCHASED",
+      "action": "Add receipt/warranty/condition",
+      "effect": "Private project attachment controls",
+      "to": "S21.PURCHASED"
+    },
+    {
+      "id": "S21-A06",
+      "from": "S21.PURCHASED",
+      "action": "Mark returned/canceled",
+      "effect": "Update decision and credit reversal",
+      "to": "S21.RETURNED"
+    },
+    {
+      "id": "S21-A07",
+      "from": "S21.LEDGER",
+      "action": "Inspect earned usage",
+      "effect": "Pending/reserved/released/reversed terms",
+      "to": "S21.CREDIT"
+    },
+    {
+      "id": "S21-A08",
+      "from": "S21.CREDIT",
+      "action": "Open attribution explanation",
+      "effect": "Ranking independent of commission",
+      "to": "S21.CREDIT"
+    },
+    {
+      "id": "S21-A09",
+      "from": "S21.REVERSED",
+      "action": "Inspect reversal reason",
+      "effect": "Refund/return and held reserve shown",
+      "to": "S21.CREDIT"
+    },
+    {
+      "id": "S21-A10",
+      "from": "S21.LEDGER",
+      "action": "Reopen sourcing",
+      "effect": "Keep purchased history, new brief version",
+      "to": "S07.EDITING"
+    },
+    {
+      "id": "S21-A11",
+      "from": "S21.LEDGER",
+      "action": "Back to project",
+      "effect": "Persist ledger",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S21-A12",
+      "from": "S21.RETURNED",
+      "action": "Inspect changed decision ledger",
+      "effect": "Show return and credit reversal",
+      "to": "S21.LEDGER"
+    },
+    {
+      "id": "S21-A13",
+      "from": "S21.RETURNED",
+      "action": "Start a replacement hunt",
+      "effect": "Preserve purchase history",
+      "to": "S19.SETUP"
+    },
+    {
+      "id": "S22-A01",
+      "from": "S22.SETTINGS",
+      "action": "Edit profile or project memory",
+      "effect": "Show what is remembered and source",
+      "to": "S22.MEMORY"
+    },
+    {
+      "id": "S22-A02",
+      "from": "S22.MEMORY",
+      "action": "Correct/delete preference",
+      "effect": "Version change, Undo when recoverable",
+      "to": "S22.SETTINGS"
+    },
+    {
+      "id": "S22-A03",
+      "from": "S22.SETTINGS",
+      "action": "Change transcript/recording retention",
+      "effect": "Explain storage and deletion timing",
+      "to": "S22.PRIVACY"
+    },
+    {
+      "id": "S22-A04",
+      "from": "S22.PRIVACY",
+      "action": "Save consent/retention",
+      "effect": "Stop capture/use if revoked",
+      "to": "S22.SETTINGS"
+    },
+    {
+      "id": "S22-A05",
+      "from": "S22.SETTINGS",
+      "action": "Edit push/quiet hours",
+      "effect": "Sync to hunts; browser support caveat",
+      "to": "S19.SETTINGS"
+    },
+    {
+      "id": "S22-A06",
+      "from": "S22.SETTINGS",
+      "action": "Inspect billing/credits",
+      "effect": "Model and ledger separate from ranking",
+      "to": "S21.CREDIT"
+    },
+    {
+      "id": "S22-A07",
+      "from": "S22.SETTINGS",
+      "action": "Export photos/data",
+      "effect": "Queue archive, show status/download",
+      "to": "S22.EXPORTING"
+    },
+    {
+      "id": "S22-A08",
+      "from": "S22.EXPORTING",
+      "action": "Export ready",
+      "effect": "Download to device; log time",
+      "to": "S22.SETTINGS"
+    },
+    {
+      "id": "S22-A09",
+      "from": "S22.EXPORTING",
+      "action": "Export error",
+      "effect": "Retry without losing data",
+      "to": "S22.EXPORT_ERROR"
+    },
+    {
+      "id": "S22-A10",
+      "from": "S22.EXPORT_ERROR",
+      "action": "Retry export",
+      "effect": "Queue archive again without deleting data",
+      "to": "S22.EXPORTING"
+    },
+    {
+      "id": "S22-A11",
+      "from": "S22.SETTINGS",
+      "action": "Delete photo/project recoverably",
+      "effect": "Show affected room, Undo/recovery period",
+      "to": "S22.TRASH"
+    },
+    {
+      "id": "S22-A12",
+      "from": "S22.TRASH",
+      "action": "Restore deleted item",
+      "effect": "Recover item within retention period",
+      "to": "S22.SETTINGS"
+    },
+    {
+      "id": "S22-A13",
+      "from": "S22.SETTINGS",
+      "action": "Request permanent purge",
+      "effect": "Action-time confirmation of irreversibility",
+      "to": "S22.PURGE_CONFIRM"
+    },
+    {
+      "id": "S22-A14",
+      "from": "S22.PURGE_CONFIRM",
+      "action": "Confirm permanent purge",
+      "effect": "Purge selected data after explicit confirmation",
+      "to": "S22.SETTINGS"
+    },
+    {
+      "id": "S22-A15",
+      "from": "S22.SETTINGS",
+      "action": "Sign out",
+      "effect": "Warn about unsynced local edits",
+      "to": "S01.INTENT"
+    },
+    {
+      "id": "S22-A16",
+      "from": "S22.SETTINGS",
+      "action": "Back",
+      "effect": "Return to invoking project",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S22-A17",
+      "from": "S22.EXPORT_ERROR",
+      "action": "Cancel export retry",
+      "effect": "Keep account and existing data",
+      "to": "S22.SETTINGS"
+    },
+    {
+      "id": "S22-A18",
+      "from": "S22.TRASH",
+      "action": "Keep item in trash",
+      "effect": "Keep recoverable until retention expires",
+      "to": "S22.SETTINGS"
+    },
+    {
+      "id": "S22-A19",
+      "from": "S22.PURGE_CONFIRM",
+      "action": "Abort permanent purge",
+      "effect": "Delete nothing; preserve data",
+      "to": "S22.SETTINGS"
+    },
+    {
+      "id": "S23-A01",
+      "from": "S23.OFFLINE",
+      "action": "Open cached room",
+      "effect": "Clearly label last sync time, allow viewing",
+      "to": "S23.CACHED"
+    },
+    {
+      "id": "S23-A02",
+      "from": "S23.CACHED",
+      "action": "Edit note/brief offline",
+      "effect": "Queue versioned safe local edit",
+      "to": "S23.QUEUED"
+    },
+    {
+      "id": "S23-A03",
+      "from": "S23.CACHED",
+      "action": "Try stock check/seller handoff",
+      "effect": "Disable live action, explain reconnection",
+      "to": "S23.OFFLINE"
+    },
+    {
+      "id": "S23-A04",
+      "from": "S23.CACHED",
+      "action": "Storage quota exceeded",
+      "effect": "Keep unsaved work visible and export/copy fallback",
+      "to": "S23.QUOTA"
+    },
+    {
+      "id": "S23-A05",
+      "from": "S23.QUOTA",
+      "action": "Resolve storage / retry",
+      "effect": "Do not claim edit synced",
+      "to": "S23.QUEUED"
+    },
+    {
+      "id": "S23-A06",
+      "from": "S23.QUEUED",
+      "action": "Reconnect",
+      "effect": "Compare remote revision and permissions",
+      "to": "S23.RECONCILING"
+    },
+    {
+      "id": "S23-A07",
+      "from": "S23.RECONCILING",
+      "action": "No conflict",
+      "effect": "Sync safe edits, refresh stock before action",
+      "to": "S23.SYNCED"
+    },
+    {
+      "id": "S23-A08",
+      "from": "S23.RECONCILING",
+      "action": "Concurrent edit or revoked role",
+      "effect": "Present both actor/time versions",
+      "to": "S23.CONFLICT"
+    },
+    {
+      "id": "S23-A09",
+      "from": "S23.CONFLICT",
+      "action": "Merge selected fields",
+      "effect": "Preview resolved version; save",
+      "to": "S23.SYNCED"
+    },
+    {
+      "id": "S23-A10",
+      "from": "S23.CONFLICT",
+      "action": "Keep remote or local copy",
+      "effect": "Preserve losing version in history",
+      "to": "S23.SYNCED"
+    },
+    {
+      "id": "S23-A11",
+      "from": "S23.SYNCED",
+      "action": "Return to project caller",
+      "effect": "Resume with refreshed project",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S23-A12",
+      "from": "S23.SYNCED",
+      "action": "Return to room caller",
+      "effect": "Refresh room, preserve focus",
+      "to": "S04.IDLE"
+    },
+    {
+      "id": "S23-A13",
+      "from": "S23.SYNCED",
+      "action": "Return to research caller",
+      "effect": "Refresh source ledger and job",
+      "to": "S08.RUNNING"
+    },
+    {
+      "id": "S23-A14",
+      "from": "S23.SYNCED",
+      "action": "Return to decision caller",
+      "effect": "Require fresh stock/cost",
+      "to": "S16.RECHECKING"
+    },
+    {
+      "id": "S23-A15",
+      "from": "S23.SYNCED",
+      "action": "Return to hunt caller",
+      "effect": "Refresh activity",
+      "to": "S19.ACTIVE"
+    },
+    {
+      "id": "S23-A16",
+      "from": "S23.SYNCED",
+      "action": "Return to desktop caller",
+      "effect": "Refresh same project version",
+      "to": "S15.CANVAS"
+    },
+    {
+      "id": "S23-A17",
+      "from": "S23.OFFLINE",
+      "action": "Back/cancel",
+      "effect": "Keep queued edit and status visible",
+      "to": "S03.HOME"
+    },
+    {
+      "id": "S24-A01",
+      "from": "S24.WORKSPACE",
+      "action": "Change project/brief in rail",
+      "effect": "Load versioned results and scroll state",
+      "to": "S24.LOADING"
+    },
+    {
+      "id": "S24-A02",
+      "from": "S24.LOADING",
+      "action": "Data ready",
+      "effect": "Show cards, source ledger and total budget",
+      "to": "S24.WORKSPACE"
+    },
+    {
+      "id": "S24-A03",
+      "from": "S24.LOADING",
+      "action": "Failure/empty",
+      "effect": "Retry or edit brief, no fabricated cards",
+      "to": "S09.EMPTY"
+    },
+    {
+      "id": "S24-A04",
+      "from": "S24.WORKSPACE",
+      "action": "Filter/sort candidates",
+      "effect": "Show objective criteria and eligible count",
+      "to": "S24.FILTERED"
+    },
+    {
+      "id": "S24-A05",
+      "from": "S24.FILTERED",
+      "action": "Inspect filtered candidate",
+      "effect": "Preserve filters and chosen exact variant",
+      "to": "S11.DETAIL"
+    },
+    {
+      "id": "S24-A06",
+      "from": "S24.WORKSPACE",
+      "action": "Expand provenance/source gap",
+      "effect": "Show source URLs, times, unavailable access",
+      "to": "S24.EVIDENCE"
+    },
+    {
+      "id": "S24-A07",
+      "from": "S24.EVIDENCE",
+      "action": "Close inspector",
+      "effect": "Return same comparison position",
+      "to": "S24.WORKSPACE"
+    },
+    {
+      "id": "S24-A08",
+      "from": "S24.WORKSPACE",
+      "action": "Open unconfirmed leads",
+      "effect": "Separate from ready matrix",
+      "to": "S12.LEAD"
+    },
+    {
+      "id": "S24-A09",
+      "from": "S24.WORKSPACE",
+      "action": "Select chairs and compare",
+      "effect": "All-in and hard-cap gate",
+      "to": "S14.COMPARE"
+    },
+    {
+      "id": "S24-A10",
+      "from": "S24.WORKSPACE",
+      "action": "See variant in room",
+      "effect": "Preserve same original photo geometry",
+      "to": "S13.LOADING"
+    },
+    {
+      "id": "S24-A11",
+      "from": "S24.WORKSPACE",
+      "action": "Recheck all",
+      "effect": "Stale badges until exact count/price confirmed",
+      "to": "S24.REFRESHING"
+    },
+    {
+      "id": "S24-A12",
+      "from": "S24.REFRESHING",
+      "action": "Stock changed",
+      "effect": "Preserve historical choice, replacement route",
+      "to": "S18.CHANGE"
+    },
+    {
+      "id": "S24-A13",
+      "from": "S24.WORKSPACE",
+      "action": "Share client review",
+      "effect": "Scope preview and permissions",
+      "to": "S20.PREVIEW"
+    },
+    {
+      "id": "S24-A14",
+      "from": "S24.WORKSPACE",
+      "action": "Back to project canvas",
+      "effect": "Same data/version",
+      "to": "S15.CANVAS"
+    },
+    {
+      "id": "S24-A15",
+      "from": "S24.WORKSPACE",
+      "action": "Sync conflict/offline",
+      "effect": "Status and reconciliation",
+      "to": "S23.CONFLICT"
+    },
+    {
+      "id": "S24-A16",
+      "from": "S24.FILTERED",
+      "action": "Reset filters",
+      "effect": "Restore research workspace results",
+      "to": "S24.WORKSPACE"
+    },
+    {
+      "id": "S24-A17",
+      "from": "S24.REFRESHING",
+      "action": "Stock and cost unchanged",
+      "effect": "Refresh evidence timestamps",
+      "to": "S24.WORKSPACE"
+    },
+    {
+      "id": "S24-A18",
+      "from": "S24.REFRESHING",
+      "action": "Recheck failed",
+      "effect": "Keep stale evidence and disclose source gap",
+      "to": "S24.EVIDENCE"
+    }
+  ]
+}

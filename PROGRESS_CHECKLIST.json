@@ -1,0 +1,676 @@
+{
+  "schemaVersion": 1,
+  "planningAssumptions": "Weights 1\u20135 reflect relative acceptance importance for this POC, chosen by the supervisor; percentages are earned checked-weight divided by total listed weight, not time elapsed. Production has separate criteria. A visible UI placeholder never counts as implemented backend behavior. Handoff expands POC weight from 107 to 125 for explicit cloud persistence/isolation and conversational action requirements; checked work remains 46. Auth was already in POC; private cloud assets and live isolation now explicit too.",
+  "components": [
+    {
+      "id": "project-brief",
+      "name": "Projects, rooms & brief",
+      "owner": "Interface + supervisor",
+      "currentTask": "Nine-step flow implemented; final visual comparison and device voice acceptance",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Create and reopen a project in live browser",
+          "weight": 2,
+          "checked": true,
+          "evidence": "Browser QA created QA Dining Room and reloaded project list."
+        },
+        {
+          "label": "Versioned brief save rejects conflicts and cap errors",
+          "weight": 2,
+          "checked": true,
+          "evidence": "backend/tests/test_server.py"
+        },
+        {
+          "label": "Brief draft survives navigation and reload",
+          "weight": 2,
+          "checked": true,
+          "evidence": "Independent live desktop/mobile reviewer verified dirty status and navigation/project-switch persistence."
+        },
+        {
+          "label": "Complete room-to-brief mobile/laptop journey",
+          "weight": 2,
+          "checked": false,
+          "evidence": "Actual desktop/mobile local browser: progressive keep and fresh branches, stock-photo upload without model consent, retained marker correction/reload, categories, strict fit and saved decision. Device microphone remains untested; full criterion not checked."
+        }
+      ],
+      "production": [
+        {
+          "label": "Supabase authenticated user/project records with RLS",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Concurrent version conflict and backup/recovery tested",
+          "weight": 2,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "uploads",
+      "name": "Room uploads & retained pieces",
+      "owner": "Supervisor + interface",
+      "currentTask": "Browser upload and object-storage path",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Consented upload preserves original bytes",
+          "weight": 2,
+          "checked": true,
+          "evidence": "backend/tests/test_server.py"
+        },
+        {
+          "label": "Upload and retained furniture usable in browser",
+          "weight": 2,
+          "checked": false,
+          "evidence": "Browser acceptance pending."
+        },
+        {
+          "label": "Multiple room views and image history",
+          "weight": 1,
+          "checked": false,
+          "evidence": "Pending feature UI."
+        }
+      ],
+      "production": [
+        {
+          "label": "Private cloud object storage with user scope",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Retention, export and deletion tested",
+          "weight": 2,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "web-discovery",
+      "name": "Live web discovery",
+      "owner": "Sourcing + supervisor",
+      "currentTask": "Evaluate source coverage and results",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Live OpenAI web research job returns cited product leads",
+          "weight": 3,
+          "checked": true,
+          "evidence": "API smoke job returned 7 leads from Article and West Elm."
+        },
+        {
+          "label": "Partial/blocked source states and cancellation UI",
+          "weight": 2,
+          "checked": false,
+          "evidence": "Job error path exists; full UI acceptance pending."
+        },
+        {
+          "label": "Diverse supported source coverage beyond one retailer",
+          "weight": 2,
+          "checked": false,
+          "evidence": "One live run had 2 domains; source breadth needs work."
+        }
+      ],
+      "production": [
+        {
+          "label": "Source agreements/permissions and monitoring limits established",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Load/cost budgets and source failure SLO tested",
+          "weight": 2,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "scraper",
+      "name": "Public product URL import & extraction",
+      "owner": "Sourcing + supervisor",
+      "currentTask": "UI/browser URL import acceptance",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Safe source-agnostic JSON-LD/metadata extractor with provenance",
+          "weight": 3,
+          "checked": true,
+          "evidence": "23 sourcing tests and field-evidence fixtures."
+        },
+        {
+          "label": "Live product URL import works through server API",
+          "weight": 3,
+          "checked": true,
+          "evidence": "Poly & Bark import HTTP 201, SKU/price extracted, quantity null."
+        },
+        {
+          "label": "UI URL import tested at mobile and laptop sizes",
+          "weight": 2,
+          "checked": false,
+          "evidence": "Form landed; browser acceptance pending."
+        }
+      ],
+      "production": [
+        {
+          "label": "Approved per-source parser/terms review and monitoring policy",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Live importer hardening and adversarial host tests",
+          "weight": 2,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "stock-truth",
+      "name": "Exact variant, quantity & freshness",
+      "owner": "Sourcing + product",
+      "currentTask": "Obtain authorized inventory method",
+      "blockers": [
+        "No authorized merchant inventory/count adapter configured."
+      ],
+      "poc": [
+        {
+          "label": "Unknown count/listing remains an unconfirmed lead",
+          "weight": 3,
+          "checked": true,
+          "evidence": "23 sourcing tests; 7/7 live research results were leads."
+        },
+        {
+          "label": "Exact variant and requested quantity verifiable from authorized source",
+          "weight": 3,
+          "checked": false,
+          "evidence": "No stock adapter."
+        },
+        {
+          "label": "Fresh source-specific recheck before handoff",
+          "weight": 3,
+          "checked": false,
+          "evidence": "Handoff intentionally blocked."
+        }
+      ],
+      "production": [
+        {
+          "label": "Contracted source inventory/fulfillment integration",
+          "weight": 4,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Freshness/recheck operations with audit and exceptions",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "fit-budget",
+      "name": "Numeric fit & hard spending cap",
+      "owner": "Visualization + supervisor",
+      "currentTask": "Strict exact-variant geometry implemented and negative cases tested; real-room accuracy remains",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Independent measured chair/table fit check with unknown status",
+          "weight": 2,
+          "checked": true,
+          "evidence": "18 deterministic fit tests plus visualization compatibility; actual browser blocked missing candidate dimensions, then passed only recorded synthetic room-grid constraints."
+        },
+        {
+          "label": "Hard-cap and unknown delivered-cost checks",
+          "weight": 3,
+          "checked": true,
+          "evidence": "Server contract tests and blocked handoff."
+        },
+        {
+          "label": "Browser displays measured/estimated fit and full cost breakdown",
+          "weight": 2,
+          "checked": false,
+          "evidence": "UI acceptance pending."
+        }
+      ],
+      "production": [
+        {
+          "label": "Measurement protocol and accuracy validation on real rooms",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Tax/shipping/restoration cost completeness by source",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "name": "Findings, evidence & shortlist",
+      "owner": "Interface + UX reviewer",
+      "currentTask": "Minor cap-label refinement and assistant integration",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Distinct ready vs lead findings with source timestamps",
+          "weight": 2,
+          "checked": true,
+          "evidence": "Live UI shows 7/7 leads; reviewer observed 10/10 leads."
+        },
+        {
+          "label": "Readable evidence links and variant/quantity disclosure",
+          "weight": 2,
+          "checked": true,
+          "evidence": "Independent live review verified readable source links, timestamps and initial heading focus."
+        },
+        {
+          "label": "Mobile/laptop comparison and shortlist accepted in browser",
+          "weight": 2,
+          "checked": true,
+          "evidence": "Independent live mobile review verified selection, swipe cue, second column and target/unknown labels."
+        }
+      ],
+      "production": [
+        {
+          "label": "Recommendation quality benchmark with designers",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Accessible evidence and comparison audited",
+          "weight": 2,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "visualization",
+      "name": "Actual-product room visualization & swap",
+      "owner": "Visualization + supervisor",
+      "currentTask": "Live synthetic image edit passed; app job/storage and real product fidelity acceptance next",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Server image edit request preserves original/product lineage",
+          "weight": 3,
+          "checked": true,
+          "evidence": "18 module tests plus9 recovery tests; exact uploaded sourceImageUrl and immutable render version fixed and reviewed."
+        },
+        {
+          "label": "Live permitted product-in-room edit produces reviewable artifact",
+          "weight": 3,
+          "checked": true,
+          "evidence": "Actual one1024medium gpt-image-2.5-flare call generated synthetic room/chair composite in11.32s, source/output inspected, $0.030834 from returned usage. Illustrative and fit unknown; no merchant SKU claim."
+        },
+        {
+          "label": "Swap/re-render and independent fit pass browser acceptance",
+          "weight": 3,
+          "checked": false,
+          "evidence": "End-to-end pending."
+        }
+      ],
+      "production": [
+        {
+          "label": "SKU identity and scale fidelity measured on real fixtures",
+          "weight": 4,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Image rights/license and cost controls operational",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "decisions",
+      "name": "Saved decisions & seller handoff",
+      "owner": "Supervisor + interface",
+      "currentTask": "Cloud save/reopen and blocked handoff passed; eligible source recheck unavailable",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Decision snapshot and lead-safe handoff API",
+          "weight": 2,
+          "checked": true,
+          "evidence": "backend/tests/test_server.py"
+        },
+        {
+          "label": "Save/reopen decision in browser",
+          "weight": 2,
+          "checked": true,
+          "evidence": "Actual authenticated cloud UI saved imported Article Sede lead, reopened after full reload; recheck/handoff blocked for unverified variant/quantity."
+        },
+        {
+          "label": "Eligible fresh recheck before seller URL",
+          "weight": 3,
+          "checked": false,
+          "evidence": "Stock adapter unavailable."
+        }
+      ],
+      "production": [
+        {
+          "label": "Purchase/return attribution and earned-credit policy validated",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Commerce audit and exception workflow tested",
+          "weight": 2,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "review-share",
+      "name": "Pro client review & sharing",
+      "owner": "Interface + supervisor",
+      "currentTask": "Broaden honest UI surface",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Discoverable client review UI with honest pending state",
+          "weight": 1,
+          "checked": true,
+          "evidence": "Interface revisions landed; browser QA pending."
+        },
+        {
+          "label": "Scoped share/approve/comment workflow implemented",
+          "weight": 3,
+          "checked": false,
+          "evidence": "Backend pending."
+        }
+      ],
+      "production": [
+        {
+          "label": "Authenticated client roles and object/field-level RLS",
+          "weight": 4,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Expiry/revocation/access audit tested",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "name": "Typed and voice AI workspace actions",
+      "owner": "Interface + supervisor",
+      "currentTask": "Typed action passed live; actual microphone/transcription acceptance remains pending",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Manual typed brief path usable without voice",
+          "weight": 2,
+          "checked": true,
+          "evidence": "Project brief UI and server endpoint."
+        },
+        {
+          "label": "Voice capture/transcript/correction works with consent",
+          "weight": 3,
+          "checked": false,
+          "evidence": "UI affordance only."
+        },
+        {
+          "label": "Typed assistant performs grounded authorized workspace actions end to end",
+          "weight": 4,
+          "checked": true,
+          "evidence": "Real localhost UI, no mocks: QA d36fbe7d-8b26-4f1d-b552-4d8b5af410b7, proposed quantity4 kept6 until confirmation, then4 persisted on reload; existing server key/model route."
+        },
+        {
+          "label": "Voice invokes same actions; permission denial, cancel and text fallback work",
+          "weight": 3,
+          "checked": false,
+          "evidence": "Requires actual voice acceptance, not mocked audio only."
+        },
+        {
+          "label": "Action routing enforces ownership/version/gates and resists untrusted source instructions",
+          "weight": 3,
+          "checked": false,
+          "evidence": "Server routing tests and live integration pending."
+        }
+      ],
+      "production": [
+        {
+          "label": "Speech privacy/retention and interruption tested",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Accessibility and correction benchmark passed",
+          "weight": 2,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "hunts",
+      "name": "Saved hunts & notifications",
+      "owner": "Interface + supervisor",
+      "currentTask": "Opt-in local product price watches implemented; broader saved hunts and hosted delivery remain",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Discoverable hunts UI with honest pending notice",
+          "weight": 1,
+          "checked": true,
+          "evidence": "Interface revisions landed."
+        },
+        {
+          "label": "Server-side scheduled hunt and meaningful alerts work",
+          "weight": 3,
+          "checked": false,
+          "evidence": "Product-only local scheduler and in-app notifications implemented, 11 module tests + HTTP lifecycle passed including real scheduler thread with synthetic responses. Broad research hunts and real merchant monitoring not yet accepted."
+        }
+      ],
+      "production": [
+        {
+          "label": "Source-permitted cadence and deduped alert operations",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Push consent/delivery reliability tested",
+          "weight": 2,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "account-auth",
+      "name": "Account, auth & privacy",
+      "owner": "Cloud worker + supervisor",
+      "currentTask": "Recovery/resend/password update code and mocked tests complete; real recovery delivery/completion and two-user live isolation remain",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Server-only key and private local secret file",
+          "weight": 2,
+          "checked": true,
+          "evidence": ".env.local ignored, mode 0600; health configured."
+        },
+        {
+          "label": "Supabase signup/signin/session and user-scoped projects",
+          "weight": 4,
+          "checked": true,
+          "evidence": "User signup/email confirmation/sign-in verified in live Supabase and Codex browser; cloud QA brief saved and returned after full reload. September17 click reset bug fixed; user confirmed successful renewed sign-in."
+        },
+        {
+          "label": "Privacy settings/export/delete UI and behavior",
+          "weight": 2,
+          "checked": false,
+          "evidence": "Pending."
+        },
+        {
+          "label": "Cloud project persistence and private asset upload work in live app",
+          "weight": 4,
+          "checked": true,
+          "evidence": "Actual signed-in Codex browser saved QA brief and synthetic room PNG, both survived full reload; cloud image decoded768x768 and anonymous same-asset request401."
+        },
+        {
+          "label": "Two real users and anonymous requests pass live DB/storage isolation checks",
+          "weight": 4,
+          "checked": false,
+          "evidence": "Live SQL RLS impersonation assertions passed with rollback/zero fixture rows; two real application JWT sessions and signed asset reads still pending."
+        }
+      ],
+      "production": [
+        {
+          "label": "Supabase Auth/RLS cross-user isolation tested live",
+          "weight": 4,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Retention/export/delete and incident controls operational",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "jobs-reliability",
+      "name": "Jobs, errors & recovery",
+      "owner": "Supervisor + UX reviewer",
+      "currentTask": "Test cancellation, recovery and stale results",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Async research job completes and persists source results",
+          "weight": 2,
+          "checked": true,
+          "evidence": "Live job completed 7 leads."
+        },
+        {
+          "label": "Failed/late/cancelled job recovery in browser",
+          "weight": 3,
+          "checked": false,
+          "evidence": "Full acceptance pending."
+        },
+        {
+          "label": "Meaningful unit and server contract suite passes",
+          "weight": 2,
+          "checked": true,
+          "evidence": "Supervisor reran94 backend+39 cloud tests, all133 pass (including upload/render races and mode separation)."
+        }
+      ],
+      "production": [
+        {
+          "label": "Durable distributed queue, idempotency and observability",
+          "weight": 4,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Load/failure SLO and rollback runbook verified",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Secrets, source safety & permissions",
+      "owner": "Supervisor + cloud worker",
+      "currentTask": "Cloud RLS/auth integration and threat tests",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "No API key in client/repo; ignored chmod 600 server file",
+          "weight": 2,
+          "checked": true,
+          "evidence": "git check-ignore and stat verified."
+        },
+        {
+          "label": "Public URL fetch blocks private IP/unsafe redirects",
+          "weight": 3,
+          "checked": true,
+          "evidence": "23 sourcing tests and live public import."
+        },
+        {
+          "label": "Authenticated API and tenant isolation",
+          "weight": 4,
+          "checked": false,
+          "evidence": "Cloud auth deployed; live SQL role isolation passes and real owner session works. Two real-user JWT isolation remains pending."
+        }
+      ],
+      "production": [
+        {
+          "label": "Production auth, RLS, storage isolation and abuse limits",
+          "weight": 5,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Security review and dependency scanning completed",
+          "weight": 3,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "deploy-ops",
+      "name": "Deployment, monitoring & operations",
+      "owner": "Supervisor + cloud worker",
+      "currentTask": "Cloud schema then deploy path",
+      "blockers": [],
+      "poc": [
+        {
+          "label": "Local preview runs and can be reviewed",
+          "weight": 1,
+          "checked": true,
+          "evidence": "http://127.0.0.1:8766/"
+        },
+        {
+          "label": "Repeatable setup and beta deployment",
+          "weight": 3,
+          "checked": false,
+          "evidence": "No hosted beta yet."
+        }
+      ],
+      "production": [
+        {
+          "label": "Cloud deploy, backups, telemetry and incident runbooks",
+          "weight": 5,
+          "checked": false,
+          "evidence": ""
+        },
+        {
+          "label": "Free-tier budget alerts and operational review",
+          "weight": 2,
+          "checked": false,
+          "evidence": ""
+        }
+      ]
+    }
+  ]
+}

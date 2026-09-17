@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="1390.0" viewBox="0 0 1050 1390.0">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#607B6C"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<g transform="scale(0.5)">
+<text x="55" y="68" font-family="Arial" font-size="32" fill="#1F2925">S08.RUNNING · Research job &amp; progress</text>
+<text x="55" y="132" font-family="Arial" font-size="17" fill="#58685E">Start at the top. Each branch is an available click or outcome; follow arrows to the next linked state.</text>
+<rect x="850" y="210" width="400" height="110" rx="14" fill="#DDE8DC" stroke="#285449" stroke-width="2"/>
+<text x="1050.0" y="260.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S08.RUNNING</text>
+<text x="1050.0" y="282.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">running</text>
+<polyline points="1050,320 735,420 420,420 420,475" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="348.0" y="398.0" width="144" height="25" rx="4" fill="white"/><text x="420.0" y="415.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#285449">A02</text>
+<rect x="220" y="475" width="400" height="105" rx="14" fill="white" stroke="#285449" stroke-width="2"/>
+<text x="420.0" y="522.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S08-A02</text>
+<text x="420.0" y="544.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Open source ledger</text>
+<polyline points="420,580 420,612" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<polygon points="420.0,612 590,665.5 420.0,719 250,665.5" fill="#F5E9DC" stroke="#A35E38" stroke-width="2"/>
+<text x="420.0" y="660.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Show checked time, errors</text>
+<text x="420.0" y="682.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">and exclusions</text>
+<polyline points="420,719 420,761" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="220" y="761" width="400" height="100" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="420.0" y="806.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">→ S08.LEDGER</text>
+<text x="420.0" y="828.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Research job &amp; progress</text>
+<polyline points="1050,320 1365,420 1680,420 1680,475" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1608.0" y="398.0" width="144" height="25" rx="4" fill="white"/><text x="1680.0" y="415.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#285449">A04</text>
+<rect x="1480" y="475" width="400" height="105" rx="14" fill="white" stroke="#285449" stroke-width="2"/>
+<text x="1680.0" y="522.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S08-A04</text>
+<text x="1680.0" y="544.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Pause checks</text>
+<polyline points="1680,580 1680,612" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1510" y="612" width="340" height="107" rx="14" fill="#E9EEE8" stroke="#526A58" stroke-width="2"/>
+<text x="1680.0" y="660.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Halt future cycles where</text>
+<text x="1680.0" y="682.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">feasible; in-flight caveat</text>
+<polyline points="1680,719 1680,761" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1480" y="761" width="400" height="100" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="1680.0" y="806.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">→ S08.PAUSED</text>
+<text x="1680.0" y="828.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Research job &amp; progress</text>
+<polyline points="1050,320 735,860 420,860 420,915" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="348.0" y="838.0" width="144" height="25" rx="4" fill="white"/><text x="420.0" y="855.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#285449">A06</text>
+<rect x="220" y="915" width="400" height="105" rx="14" fill="white" stroke="#285449" stroke-width="2"/>
+<text x="420.0" y="962.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S08-A06</text>
+<text x="420.0" y="984.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Refine query</text>
+<polyline points="420,1020 420,1052" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="250" y="1052" width="340" height="107" rx="14" fill="#E9EEE8" stroke="#526A58" stroke-width="2"/>
+<text x="420.0" y="1100.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Edit brief; cancel/version</text>
+<text x="420.0" y="1122.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">old job</text>
+<polyline points="420,1159 420,1201" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="220" y="1201" width="400" height="100" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="420.0" y="1246.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">→ S07.EDITING</text>
+<text x="420.0" y="1268.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Structured brief &amp; constraints</text>
+<polyline points="1050,320 1365,860 1680,860 1680,915" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1608.0" y="838.0" width="144" height="25" rx="4" fill="white"/><text x="1680.0" y="855.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#285449">A07</text>
+<rect x="1480" y="915" width="400" height="105" rx="14" fill="white" stroke="#285449" stroke-width="2"/>
+<text x="1680.0" y="962.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S08-A07</text>
+<text x="1680.0" y="984.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Cancel job</text>
+<polyline points="1680,1020 1680,1052" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1510" y="1052" width="340" height="107" rx="14" fill="#E9EEE8" stroke="#526A58" stroke-width="2"/>
+<text x="1680.0" y="1100.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Keep partial evidence as</text>
+<text x="1680.0" y="1122.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">history</text>
+<polyline points="1680,1159 1680,1201" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1480" y="1201" width="400" height="100" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="1680.0" y="1246.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">→ S08.CANCELLED</text>
+<text x="1680.0" y="1268.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Research job &amp; progress</text>
+<polyline points="1050,320 735,1300 420,1300 420,1355" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="348.0" y="1278.0" width="144" height="25" rx="4" fill="white"/><text x="420.0" y="1295.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#285449">A09</text>
+<rect x="220" y="1355" width="400" height="105" rx="14" fill="white" stroke="#285449" stroke-width="2"/>
+<text x="420.0" y="1402.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S08-A09</text>
+<text x="420.0" y="1424.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Source blocked/timeout</text>
+<polyline points="420,1460 420,1492" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="250" y="1492" width="340" height="107" rx="14" fill="#E9EEE8" stroke="#526A58" stroke-width="2"/>
+<text x="420.0" y="1540.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Mark source explicitly,</text>
+<text x="420.0" y="1562.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">keep partial evidence</text>
+<polyline points="420,1599 420,1641" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="220" y="1641" width="400" height="100" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="420.0" y="1686.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">→ S08.PARTIAL</text>
+<text x="420.0" y="1708.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Research job &amp; progress</text>
+<polyline points="1050,320 1365,1300 1680,1300 1680,1355" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1608.0" y="1278.0" width="144" height="25" rx="4" fill="white"/><text x="1680.0" y="1295.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#285449">A12</text>
+<rect x="1480" y="1355" width="400" height="105" rx="14" fill="white" stroke="#285449" stroke-width="2"/>
+<text x="1680.0" y="1402.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S08-A12</text>
+<text x="1680.0" y="1424.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Verified candidates ready</text>
+<polyline points="1680,1460 1680,1492" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1510" y="1492" width="340" height="107" rx="14" fill="#E9EEE8" stroke="#526A58" stroke-width="2"/>
+<text x="1680.0" y="1540.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Complete job and show</text>
+<text x="1680.0" y="1562.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">briefing</text>
+<polyline points="1680,1599 1680,1641" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1480" y="1641" width="400" height="100" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="1680.0" y="1686.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">→ S10.RESULTS</text>
+<text x="1680.0" y="1708.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Findings &amp; spoken briefing</text>
+<polyline points="1050,320 735,1740 420,1740 420,1795" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="348.0" y="1718.0" width="144" height="25" rx="4" fill="white"/><text x="420.0" y="1735.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#285449">A13</text>
+<rect x="220" y="1795" width="400" height="105" rx="14" fill="white" stroke="#285449" stroke-width="2"/>
+<text x="420.0" y="1842.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S08-A13</text>
+<text x="420.0" y="1864.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">No verified candidates</text>
+<polyline points="420,1900 420,1932" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="250" y="1932" width="340" height="107" rx="14" fill="#E9EEE8" stroke="#526A58" stroke-width="2"/>
+<text x="420.0" y="1980.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Explain binding</text>
+<text x="420.0" y="2002.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">constraints/source gaps</text>
+<polyline points="420,2039 420,2081" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="220" y="2081" width="400" height="100" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="420.0" y="2126.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">→ S09.EMPTY</text>
+<text x="420.0" y="2148.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">No result &amp; source gap</text>
+<polyline points="1050,320 1365,1740 1680,1740 1680,1795" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1608.0" y="1718.0" width="144" height="25" rx="4" fill="white"/><text x="1680.0" y="1735.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#285449">A14</text>
+<rect x="1480" y="1795" width="400" height="105" rx="14" fill="white" stroke="#285449" stroke-width="2"/>
+<text x="1680.0" y="1842.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S08-A14</text>
+<text x="1680.0" y="1864.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Save ongoing hunt</text>
+<polyline points="1680,1900 1680,1932" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1510" y="1932" width="340" height="107" rx="14" fill="#E9EEE8" stroke="#526A58" stroke-width="2"/>
+<text x="1680.0" y="1980.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Explain server checks and</text>
+<text x="1680.0" y="2002.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">alert cost/scope</text>
+<polyline points="1680,2039 1680,2081" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1480" y="2081" width="400" height="100" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="1680.0" y="2126.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">→ S19.SETUP</text>
+<text x="1680.0" y="2148.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Saved hunts &amp; notification inbox</text>
+<polyline points="1050,320 735,2180 420,2180 420,2235" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="348.0" y="2158.0" width="144" height="25" rx="4" fill="white"/><text x="420.0" y="2175.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#285449">A15</text>
+<rect x="220" y="2235" width="400" height="105" rx="14" fill="white" stroke="#285449" stroke-width="2"/>
+<text x="420.0" y="2282.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S08-A15</text>
+<text x="420.0" y="2304.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Offline</text>
+<polyline points="420,2340 420,2372" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<polygon points="420.0,2372 590,2425.5 420.0,2479 250,2425.5" fill="#F5E9DC" stroke="#A35E38" stroke-width="2"/>
+<text x="420.0" y="2420.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Job state unknown; cached</text>
+<text x="420.0" y="2442.5" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">ledger labeled stale</text>
+<polyline points="420,2479 420,2521" fill="none" stroke="#607B6C" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="220" y="2521" width="400" height="100" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="420.0" y="2566.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">→ S23.OFFLINE</text>
+<text x="420.0" y="2588.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Offline, reconnect &amp; conflicts</text>
+</g></svg>

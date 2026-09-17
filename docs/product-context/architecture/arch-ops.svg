@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1900" viewBox="0 0 1900 1900">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#658070"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<text x="65" y="75" font-family="Arial" font-size="30" font-weight="bold" fill="#1F2925">05 JOBS + OPERATIONS · bounded and swappable</text>
+<text x="65" y="130" font-family="Arial" font-size="16" fill="#526A58">Homely proposed architecture · arrows show actual data/control flow · 2026-09-13</text>
+<path d="M240,297 L240.0,297 L240.0,845 L240,845" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M240,845 L460.0,845 L460.0,297 L680,297" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M840,231 L900.0,231 L900.0,231 L960,231" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M1280,231 L1340.0,231 L1340.0,231 L1400,231" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M1400,231 L1340.0,231 L1340.0,571 L1280,571" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M1280,571 L1340.0,571 L1340.0,571 L1400,571" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M680,297 L680.0,297 L680.0,505 L680,505" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M960,231 L900.0,231 L900.0,571 L840,571" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M840,571 L1120.0,571 L1120.0,1241 L1400,1241" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M1120,637 L1340.0,637 L1340.0,1175 L1560,1175" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M400,571 L460.0,571 L460.0,231 L520,231" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M400,571 L900.0,571 L900.0,231 L1400,231" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M1400,231 L1120.0,231 L1120.0,911 L840,911" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M520,911 L460.0,911 L460.0,911 L400,911" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M1560,297 L1340.0,297 L1340.0,845 L1120,845" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M1280,571 L1340.0,571 L1340.0,911 L1400,911" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M1560,977 L1560.0,977 L1560.0,1175 L1560,1175" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M400,1241 L460.0,1241 L460.0,1241 L520,1241" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M960,911 L900.0,911 L900.0,1241 L840,1241" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M840,1241 L900.0,1241 L900.0,1241 L960,1241" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<path d="M1120,1175 L1120.0,1175 L1120.0,297 L1120,297" fill="none" stroke="#658070" stroke-width="2" marker-end="url(#arrow)" opacity="0.8"/>
+<rect x="80" y="165" width="320" height="132" rx="14" fill="#F7F2EA" stroke="#795E47" stroke-width="2"/>
+<text x="240" y="225" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Research / image / hunt</text>
+<text x="240" y="249" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">request with idempotency key</text>
+<rect x="520" y="165" width="320" height="132" rx="14" fill="#F4F8F5" stroke="#285449" stroke-width="2"/>
+<text x="680" y="225" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">App-owned job queue</text>
+<text x="680" y="249" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">queued → running → partial</text>
+<rect x="960" y="165" width="320" height="132" rx="14" fill="#F4F8F5" stroke="#285449" stroke-width="2"/>
+<text x="1120" y="225" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Capability worker</text>
+<text x="1120" y="249" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">retry/backoff/circuit break</text>
+<rect x="1400" y="165" width="320" height="132" rx="14" fill="#E5EEE6" stroke="#285449" stroke-width="2"/>
+<text x="1560" y="225" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Versioned adapter call</text>
+<text x="1560" y="249" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">request ID + timeout</text>
+<rect x="80" y="505" width="320" height="132" rx="14" fill="#F7F2EA" stroke="#795E47" stroke-width="2"/>
+<text x="240" y="565" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Pause/cancel from UI</text>
+<text x="240" y="589" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">stop new work; abort if possible</text>
+<rect x="520" y="505" width="320" height="132" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="680" y="565" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Job event stream</text>
+<text x="680" y="589" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">progress + terminal status</text>
+<rect x="960" y="505" width="320" height="132" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="1120" y="565" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Structured result</text>
+<text x="1120" y="589" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">validation + provenance</text>
+<rect x="1400" y="505" width="320" height="132" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="1560" y="565" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">App event/asset store</text>
+<text x="1560" y="589" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">privacy + retention rules</text>
+<polygon points="240,845 400,911 240,977 80,911" fill="#F8E8D8" stroke="#A35E38" stroke-width="2"/>
+<text x="240" y="905" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Preflight budget</text>
+<text x="240" y="929" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">per job/project/user caps</text>
+<rect x="520" y="845" width="320" height="132" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="680" y="905" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Actual cost ledger</text>
+<text x="680" y="929" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">tokens, images, minutes, tools</text>
+<rect x="960" y="845" width="320" height="132" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="1120" y="905" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Latency, failure, quality</text>
+<text x="1120" y="929" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">provider/model segmented</text>
+<polygon points="1560,845 1720,911 1560,977 1400,911" fill="#F8E8D8" stroke="#A35E38" stroke-width="2"/>
+<text x="1560" y="905" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Degrade to manual/source</text>
+<text x="1560" y="929" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">no fabricated evidence</text>
+<rect x="80" y="1175" width="320" height="132" rx="14" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="240" y="1235" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Golden real-SKU/room fixtures</text>
+<text x="240" y="1259" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">stock, fit, voice cases</text>
+<polygon points="680,1175 840,1241 680,1307 520,1241" fill="#F8E8D8" stroke="#A35E38" stroke-width="2"/>
+<text x="680" y="1235" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Offline eval + canary</text>
+<text x="680" y="1259" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">quality/cost/latency gates</text>
+<rect x="960" y="1175" width="320" height="132" rx="14" fill="#E5EEE6" stroke="#285449" stroke-width="2"/>
+<text x="1120" y="1235" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">Config promotion/rollback</text>
+<text x="1120" y="1259" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">model pinned per job</text>
+<rect x="1400" y="1175" width="320" height="132" rx="14" fill="#F7F2EA" stroke="#795E47" stroke-width="2"/>
+<text x="1560" y="1235" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">S08/S13/S19 state UI</text>
+<text x="1560" y="1259" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1F2925">clear failure + recovery</text>
+</svg>

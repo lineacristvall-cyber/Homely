@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="3440" viewBox="0 0 2400 3440">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#607B6C"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<polyline points="1180.0,330.0 1180.0,460.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,330.0 1180.0,360.0 400.0,360.0 400.0,460.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,570.0 400.0,670.0 1180.0,670.0 1180.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,570.0 1180.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,780.0 930.0,780.0 930.0,760.0 620.0,760.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="180.0,760.0 150.0,760.0 150.0,520.0 180.0,520.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1180.0,870.0 1180.0,940.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1050.0 1180.0,1180.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1290.0 1180.0,1420.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,1500.0 930.0,1500.0 930.0,1480.0 620.0,1480.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,1500.0 1430.0,1500.0 1430.0,1480.0 1740.0,1480.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,1530.0 400.0,1660.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="180.0,1720.0 150.0,1720.0 150.0,1240.0 960.0,1240.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1180.0,1590.0 1180.0,1660.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="2180.0,1480.0 2210.0,1480.0 2210.0,1240.0 1400.0,1240.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1960.0,1530.0 1960.0,1660.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1770.0 1180.0,1870.0 400.0,1870.0 400.0,1900.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="180.0,1960.0 150.0,1960.0 150.0,1800.0 930.0,1800.0 930.0,1240.0 960.0,1240.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1180.0,1770.0 1180.0,1800.0 1190.0,1800.0 1190.0,2110.0 1180.0,2110.0 1180.0,2140.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,1770.0 1960.0,2110.0 1180.0,2110.0 1180.0,2140.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,2250.0 1180.0,2380.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,2460.0 930.0,2460.0 930.0,2440.0 620.0,2440.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="180.0,2440.0 150.0,2440.0 150.0,2200.0 960.0,2200.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1180.0,2550.0 1180.0,2620.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,2680.0 1740.0,2680.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<text x="78.0" y="63.0" text-anchor="start" font-family="Arial, sans-serif" font-size="30.0" fill="#1F2925">03 · Evidence, actual-product room view and comparison</text>
+<text x="78.0" y="133.45" text-anchor="start" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Screens S10–S14. Ready stock requires the exact variant, required count and fresh evidence. A room composite is illustrative; measured physical fit is assessed independently.</text>
+<rect x="960.0" y="220.0" width="440.0" height="110.0" rx="12" fill="#DDE8DC" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="269.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S10.RESULTS</text>
+<text x="1180.0" y="292.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Choose candidate or unconfirmed lead</text>
+<rect x="180.0" y="460.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="509.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S12.LEAD → PENDING</text>
+<text x="400.0" y="532.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Open source / ask seller / save / reject</text>
+<rect x="960.0" y="460.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="509.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S11.DETAIL</text>
+<text x="1180.0" y="532.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">SKU, finish, count, cost and provenance</text>
+<polygon points="1180.0,700.0 1400.0,785.0 1180.0,870.0 960.0,785.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="779.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Exact variant / count</text>
+<text x="1180.0" y="802.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">confirmed and fresh?</text>
+<rect x="180.0" y="700.0" width="440.0" height="110.0" rx="12" fill="#FBE6E1" stroke="#A3382B" stroke-width="3"/>
+<text x="400.0" y="749.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S11.UNAVAILABLE / S12.UNKNOWN</text>
+<text x="400.0" y="772.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">No ready badge; retry or replace</text>
+<rect x="960.0" y="940.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="989.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S11.VERIFIED → DETAIL</text>
+<text x="1180.0" y="1012.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Inspect source and fit dimensions</text>
+<rect x="960.0" y="1180.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="1229.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S13.LOADING → PROCESSING</text>
+<text x="1180.0" y="1252.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Bind exact SKU + original room</text>
+<polygon points="1180.0,1420.0 1400.0,1505.0 1180.0,1590.0 960.0,1505.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="1499.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Displayable output</text>
+<text x="1180.0" y="1522.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">passes checks?</text>
+<rect x="180.0" y="1420.0" width="440.0" height="110.0" rx="12" fill="#FBE6E1" stroke="#A3382B" stroke-width="3"/>
+<text x="400.0" y="1469.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S13.NEEDS_INPUT</text>
+<text x="400.0" y="1492.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Exact image / geometry missing</text>
+<rect x="1740.0" y="1420.0" width="440.0" height="110.0" rx="12" fill="#FBE6E1" stroke="#A3382B" stroke-width="3"/>
+<text x="1960.0" y="1469.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S13.ERROR</text>
+<text x="1960.0" y="1492.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Keep original and source image</text>
+<rect x="180.0" y="1660.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="1709.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S05.MEASURE</text>
+<text x="400.0" y="1732.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Record units / measured vs estimated</text>
+<rect x="960.0" y="1660.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="1709.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S13.PLACEMENT</text>
+<text x="1180.0" y="1732.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Original / composite / dimensions</text>
+<rect x="1740.0" y="1660.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1960.0" y="1709.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S11.EVIDENCE / FIT</text>
+<text x="1960.0" y="1732.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Continue without composite</text>
+<rect x="180.0" y="1900.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="1949.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Swap exact alternative</text>
+<text x="400.0" y="1972.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Invalidate old render; bind new SKU</text>
+<rect x="960.0" y="2140.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="2189.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S14.COMPARE</text>
+<text x="1180.0" y="2212.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">All-in cost, fit and clear tradeoffs</text>
+<polygon points="1180.0,2380.0 1400.0,2465.0 1180.0,2550.0 960.0,2465.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="2459.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Complete cost and</text>
+<text x="1180.0" y="2482.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">within hard cap?</text>
+<rect x="180.0" y="2380.0" width="440.0" height="110.0" rx="12" fill="#FBE6E1" stroke="#A3382B" stroke-width="3"/>
+<text x="400.0" y="2429.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S14.OVER_CAP / COST_UNKNOWN</text>
+<text x="400.0" y="2452.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Quote, choose other or edit explicitly</text>
+<rect x="960.0" y="2620.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1180.0" y="2669.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Select eligible option</text>
+<text x="1180.0" y="2692.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Proceed to decision + recheck</text>
+<rect x="1740.0" y="2620.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1960.0" y="2669.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Back to findings</text>
+<text x="1960.0" y="2692.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Preserve filters, scroll and variant</text>
+<rect x="1093.5" y="404.0" width="173.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="426.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Open verified card</text>
+<rect x="897.75" y="343.0" width="96.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="946.0" y="365.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Open lead</text>
+<rect x="834.0" y="653.0" width="224.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="946.0" y="675.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Seller evidence received</text>
+<rect x="1068.0" y="644.0" width="224.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="666.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Change variant / recheck</text>
+<rect x="729.25" y="743.0" width="215.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="765.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Wrong / short / unknown</text>
+<rect x="84.75" y="623.0" width="130.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="150.0" y="645.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Retry inquiry</text>
+<rect x="1137.5" y="888.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="910.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes</text>
+<rect x="1123.25" y="1124.0" width="113.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="1146.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">See in room</text>
+<rect x="780.25" y="1463.0" width="113.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="1485.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Needs input</text>
+<rect x="1485.75" y="1463.0" width="198.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1585.0" y="1485.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Render / rights error</text>
+<rect x="317.75" y="1604.0" width="164.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="400.0" y="1626.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Enter measurement</text>
+<rect x="639.0" y="1223.0" width="156.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="717.0" y="1245.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Save → re-render</text>
+<rect x="1137.5" y="1608.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="1630.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes</text>
+<rect x="1901.75" y="1223.0" width="130.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1967.0" y="1245.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Retry allowed</text>
+<rect x="1903.25" y="1604.0" width="113.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1960.0" y="1626.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Source only</text>
+<rect x="903.5" y="1853.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="946.0" y="1875.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Swap</text>
+<rect x="613.75" y="1783.0" width="164.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="696.0" y="1805.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">New exact variant</text>
+<rect x="1147.5" y="2000.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1190.0" y="2022.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Compare</text>
+<rect x="1648.0" y="2093.0" width="156.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1726.0" y="2115.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Compare evidence</text>
+<rect x="1085.0" y="2324.0" width="190.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="2346.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Select / recalculate</text>
+<rect x="776.0" y="2423.0" width="122.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="2445.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No / unknown</text>
+<rect x="613.5" y="2183.0" width="207.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="717.0" y="2205.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Choose eligible / edit</text>
+<rect x="1137.5" y="2568.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="2590.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes</text>
+<rect x="1462.25" y="2663.0" width="215.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1570.0" y="2685.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Back through comparison</text>
+<rect x="70.0" y="3370.0" width="240.0" height="40.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="190.0" y="3395.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">← Journey map</text>
+</svg>

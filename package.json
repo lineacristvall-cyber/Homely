@@ -1,0 +1,10 @@
+{
+  "name": "homely-poc",
+  "private": true,
+  "scripts": {
+    "test:ui": "node --test web/tests/ui.test.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

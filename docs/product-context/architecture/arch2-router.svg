@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1900" viewBox="0 0 1900 1900">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#4D6C5D"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<text x="70" y="76" font-family="Arial" font-size="30" font-weight="bold" fill="#1F2925">01 · CAPABILITY ROUTER — provider-neutral by contract</text>
+<text x="70" y="125" font-family="Arial" font-size="17" fill="#526A58">Follow arrows downward · Yes/No branches are explicit · 2026-09-13</text>
+<polyline points="940.0,272 940.0,345" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,467 940.0,540" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,690 940.0,740" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="695.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="715.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,615.0 1315.0,615.0 1315.0,715 1470.0,715 1470.0,740" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="620.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="640.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<polyline points="940.0,862 940.0,940" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1090 940.0,1140" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="1095.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="1115.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,1015.0 1315.0,1015.0 1315.0,1115 1470.0,1115 1470.0,1140" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="1020.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="1040.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<polyline points="940.0,1262 940.0,1340" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1462 940.0,1530" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1680 940.0,1730" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="1685.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="1705.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,1605.0 1315.0,1605.0 1315.0,1705 1470.0,1705 1470.0,1730" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="1610.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="1630.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<rect x="720" y="150" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Capability request</text>
+<text x="940.0" y="232.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Type, deadline, consent and project version</text>
+<rect x="720" y="345" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="398.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Validate typed input</text>
+<text x="940.0" y="427.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Source refs, output schema, idempotency key</text>
+<polygon points="940.0,540 1160,615.0 940.0,690 720,615.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="607.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Allowed and within budget?</text>
+<text x="940.0" y="636.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Privacy, rights, per-job/project cap</text>
+<rect x="1250" y="740" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="793.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Manual or deferred path</text>
+<text x="1470.0" y="822.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Typed limitation; no hidden vendor call</text>
+<rect x="720" y="740" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="793.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Versioned route registry</text>
+<text x="940.0" y="822.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Capability → provider, model, prompt, timeout</text>
+<polygon points="940.0,940 1160,1015.0 940.0,1090 720,1015.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="1007.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Adapter supports capability?</text>
+<text x="940.0" y="1036.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Text, image edit, voice or source tool</text>
+<rect x="1250" y="1140" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="1193.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Alternate capable adapter</text>
+<text x="1470.0" y="1222.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Future Claude/other only if supported</text>
+<rect x="720" y="1140" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="1193.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">OpenAI adapter initially</text>
+<text x="940.0" y="1222.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Responses / Image / Audio as appropriate</text>
+<rect x="720" y="1340" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="1393.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Normalize output + usage</text>
+<text x="940.0" y="1422.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Homely schema; provenance; actual metering</text>
+<polygon points="940.0,1530 1160,1605.0 940.0,1680 720,1605.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="1597.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Pass app-owned validation?</text>
+<text x="940.0" y="1626.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Stock/fit checks stay outside model</text>
+<rect x="1250" y="1730" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="1783.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Reject or ask for input</text>
+<text x="1470.0" y="1812.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Keep source evidence and prior project state</text>
+<rect x="720" y="1730" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="940.0" y="1783.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Persist validated event</text>
+<text x="940.0" y="1812.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Portable result + route version + cost</text>
+</svg>

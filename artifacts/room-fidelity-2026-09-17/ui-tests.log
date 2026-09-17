@@ -1,0 +1,31 @@
+✔ desktop: create, budget validation, research leads, comparison, evidence, decision and blocked handoff (4443.247208ms)
+✔ mobile: responsive initial screen, project creation, room consent and keyboard dialog dismissal (913.567917ms)
+✔ unsaved brief survives navigation, unavailable affordances, and reload without claiming saved (2377.174125ms)
+✔ mobile project chooser and URL import remain accessible without claiming stock (1678.471125ms)
+✔ typed assistant proposes, cancels, confirms against version, then opens real comparison and filters (2544.344166ms)
+✔ voice permission denied keeps typed fallback; consent required before microphone request (1601.19275ms)
+✔ voice stop creates editable transcript only; cancel releases tracks and discards stale transcription (2921.439ms)
+✔ cloud auth gates project reads; sign-up and sign-out separate account drafts, conversation, and passwords (4539.264208ms)
+✔ room and visualization image requests carry the captured project version and explicit consent (2709.365917ms)
+✔ cancel research preserves cancelled state when an older completed poll arrives late (3866.634ms)
+✔ cancel displays server-completed result honestly instead of claiming cancellation (1428.167917ms)
+✔ failed research displays actual partial source attempts without inferring internet coverage (1349.234667ms)
+✔ visualization requires reference match and rights; pending job prevents duplicates and result stays with its candidate (4110.362667ms)
+✔ project JSON export downloads the real response and clearly excludes a complete backup (1289.212625ms)
+✔ mobile export failure remains visible, retryable, and never claims download success (1723.912208ms)
+✔ saved current preview reloads from history and Placement toggles without generating (2010.8075ms)
+✔ stale saved preview is withheld with explanation and no silent regenerate (691.085292ms)
+✔ delayed preview history from a previous project cannot appear after switching projects (1924.5755ms)
+✔ owner-only disclosure defaults empty and returns only explicitly selected candidate and measurement (1291.962375ms)
+✔ stale disclosure preview errors safely and requires reload plus explicit preview again (3119.701959ms)
+✔ room workspace shows compact truthful summary and explicit editor preserves drafts (1926.153417ms)
+✔ cloud sign-in fields survive clicks and unrelated navigation renders (880.107542ms)
+✔ mobile room uses original photo, exposes all constraints and keeps voice idle until requested (834.858041ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 50657.030584

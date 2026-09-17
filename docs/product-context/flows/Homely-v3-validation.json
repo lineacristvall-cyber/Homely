@@ -1,0 +1,18 @@
+{
+  "pages": 137,
+  "integrated_journey_pages": 9,
+  "states": 128,
+  "actions_checked": 370,
+  "native_edges": 948,
+  "internal_links": 643,
+  "duplicate_ids": 0,
+  "unresolved_endpoints": 0,
+  "unresolved_links": 0,
+  "action_mapping_gaps": 0,
+  "unreachable_states": 0,
+  "shape_or_label_overlaps": 0,
+  "edges_through_unrelated_shapes": 0,
+  "text_overflow_estimate": 0,
+  "sha256": "0735717ec0d4af04f28c7d83357817b34aa299ab00513c503a32b7461ea4e42d",
+  "visual_review": "Overview, seller recheck, offline/privacy, dense research reference inspected locally; full-size crops confirm stock diamond and outlined boxes. SVG previews generated from final XML native geometry. No diagrams.net import or browser interaction performed."
+}

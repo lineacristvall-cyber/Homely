@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Homely · Build progress</title>
+  <link rel="stylesheet" href="/progress/styles.css">
+  <script src="/progress/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="wordmark" href="/">homely<span> / build journal</span></a><a class="back-link" href="/">Open the app <span aria-hidden="true">↗</span></a></header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">A clear view of what is real</p><h1>From first room<br>to ready for the world.</h1><p class="lede">The work, the evidence, and what still needs to happen. Prototype progress and production readiness are tracked separately.</p></div><div class="live-panel"><div class="live-status" id="connection" role="status"><span class="status-dot"></span><span id="connection-label">Connecting to build records</span></div><p id="updated-at">Waiting for the first update</p><button id="refresh" type="button">Refresh now <span aria-hidden="true">↻</span></button><p class="refresh-note">Checks for updates every 10 seconds</p></div></div>
+    <div id="fetch-error" class="notice" role="alert" hidden></div>
+    <section class="scorecards" aria-label="Overall readiness">
+      <article class="scorecard poc"><div class="card-kicker">01 · Integrated POC / beta</div><div class="scoreline"><h2>A working journey</h2><span class="big-number" id="poc-percent">—</span></div><div class="meter"><span id="poc-bar"></span></div><div class="score-detail"><span id="poc-score">Awaiting checklist</span><span>Weighted criteria</span></div><p>Can a designer complete the core workflow with real, inspectable results?</p></article>
+      <article class="scorecard production"><div class="card-kicker">02 · Production readiness</div><div class="scoreline"><h2>Ready to rely on</h2><span class="big-number" id="production-percent">—</span></div><div class="meter"><span id="production-bar"></span></div><div class="score-detail"><span id="production-score">Awaiting checklist</span><span>Weighted criteria</span></div><p>Are source access, privacy, reliability, and release checks in place for real users?</p></article>
+    </section>
+    <p class="method-note"><span aria-hidden="true">ⓘ</span> Earned checklist points determine these percentages. Time spent and background activity do not move the scores.</p>
+    <section class="component-section" aria-labelledby="components-heading"><div class="section-heading"><div><p class="eyebrow">The whole build</p><h2 id="components-heading">Progress by component</h2></div><div class="component-tools"><span id="component-count">Loading components</span><button id="expand-all" type="button" disabled>Expand all evidence</button></div></div><div id="components"><div class="empty-state">Fetching the canonical build checklist…</div></div></section>
+    <section class="journal-grid" aria-label="Build journal"><article class="journal-card"><p class="eyebrow">What needs attention</p><h2>Open actions</h2><ul id="open-actions" class="journal-list"><li>Waiting for build records.</li></ul></article><article class="journal-card"><p class="eyebrow">Why we are building this way</p><h2>Recent decisions</h2><ul id="decisions" class="journal-list"><li>Waiting for build records.</li></ul></article><article class="journal-card evidence-card"><p class="eyebrow">What has been demonstrated</p><h2>Recorded evidence</h2><ul id="evidence" class="journal-list"><li>Waiting for build records.</li></ul></article></section>
+    <footer><span class="footer-brand">homely</span><p>A prototype is a learning milestone. Production readiness is a separate commitment.</p><span>App-owned records · Live view</span></footer>
+  </main>
+</body>
+</html>

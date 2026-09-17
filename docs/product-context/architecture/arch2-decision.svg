@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1900" viewBox="0 0 1900 1900">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#4D6C5D"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<text x="70" y="76" font-family="Arial" font-size="30" font-weight="bold" fill="#1F2925">06 · DECISION — hard cap and fresh handoff</text>
+<text x="70" y="125" font-family="Arial" font-size="17" fill="#526A58">Follow arrows downward · Yes/No branches are explicit · 2026-09-13</text>
+<polyline points="940.0,272 940.0,345" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,467 940.0,540" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,690 940.0,740" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="695.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="715.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,615.0 1315.0,615.0 1315.0,715 1470.0,715 1470.0,740" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="620.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="640.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<polyline points="940.0,862 940.0,940" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1062 940.0,1140" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1262 940.0,1340" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1490 940.0,1540" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="1495.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="1515.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,1415.0 1315.0,1415.0 1315.0,1515 1470.0,1515 1470.0,1540" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="1420.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="1440.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<polyline points="940.0,1662 940.0,1735" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="720" y="150" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Verified candidate + fit record</text>
+<text x="940.0" y="232.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">S11 evidence + S13 illustration caveat</text>
+<rect x="720" y="345" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="398.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Calculate delivered total</text>
+<text x="940.0" y="427.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Item × quantity + tax, shipping and fees</text>
+<polygon points="940.0,540 1160,615.0 940.0,690 720,615.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="607.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Known and under hard cap?</text>
+<text x="940.0" y="636.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Flexible target may show explicit premium</text>
+<rect x="1250" y="740" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="793.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Exclude / resolve unknown cost</text>
+<text x="1470.0" y="822.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">S14: no ready under-cap claim</text>
+<rect x="720" y="740" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="793.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">User selects versioned option</text>
+<text x="940.0" y="822.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">S16 decision preserves alternatives</text>
+<rect x="720" y="940" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="993.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Optional scoped client review</text>
+<text x="940.0" y="1022.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">S20 approval ≠ stock reservation</text>
+<rect x="720" y="1140" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="1193.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Recheck exact selection</text>
+<text x="940.0" y="1222.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">SKU × quantity, price, delivery, source time</text>
+<polygon points="940.0,1340 1160,1415.0 940.0,1490 720,1415.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="1407.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">All checks still pass?</text>
+<text x="940.0" y="1436.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Hard cap is absolute at handoff</text>
+<rect x="1250" y="1540" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="1593.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Changed: keep history, rerank</text>
+<text x="1470.0" y="1622.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">S18 hunt/replacement; no silent swap</text>
+<rect x="720" y="1540" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="1593.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Open external seller · S17</text>
+<text x="940.0" y="1622.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Referral only if eligible and disclosed</text>
+<rect x="720" y="1735" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="940.0" y="1788.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Record reported outcome · S21</text>
+<text x="940.0" y="1817.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Click ≠ purchase; credits after realized terms</text>
+</svg>

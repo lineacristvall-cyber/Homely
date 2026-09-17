@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1900" viewBox="0 0 1900 1900">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#4D6C5D"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<text x="70" y="76" font-family="Arial" font-size="30" font-weight="bold" fill="#1F2925">07 · BOUNDED RESEARCH AGENT — authorized tools and stop rules</text>
+<text x="70" y="125" font-family="Arial" font-size="17" fill="#526A58">Follow arrows downward · Yes/No branches are explicit · 2026-09-13</text>
+<polyline points="940.0,272 940.0,345" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,495 940.0,545" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="500.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="520.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,420.0 1315.0,420.0 1315.0,520 1470.0,520 1470.0,545" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="425.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="445.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<polyline points="940.0,667 940.0,740" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,890 940.0,940" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="895.0" width="77" height="26" rx="4" fill="white"/><text x="956.0" y="915.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Allowed</text>
+<polyline points="1160,815.0 1315.0,815.0 1315.0,915 1470.0,915 1470.0,940" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="820.0" width="68" height="26" rx="4" fill="white"/><text x="1327.0" y="840.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Denied</text>
+<polyline points="940.0,1062 940.0,1135" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1285 940.0,1335" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="1290.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="1310.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,1210.0 1315.0,1210.0 1315.0,1310 1470.0,1310 1470.0,1335" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="1215.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="1235.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<polyline points="940.0,1457 940.0,1530" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="940.0,1680 940.0,1730" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="949.0" y="1685.0" width="44" height="26" rx="4" fill="white"/><text x="956.0" y="1705.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">Yes</text>
+<polyline points="1160,1605.0 1315.0,1605.0 1315.0,1705 1470.0,1705 1470.0,1730" fill="none" stroke="#4D6C5D" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1320.0" y="1610.0" width="44" height="26" rx="4" fill="white"/><text x="1327.0" y="1630.0" font-family="Arial" font-size="16" font-weight="bold" fill="#285449">No</text>
+<rect x="720" y="150" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Brief + source policy</text>
+<text x="940.0" y="232.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">SKU/quantity, location, time and budget</text>
+<polygon points="940.0,345 1160,420.0 940.0,495 720,420.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="412.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Stock-sensitive search?</text>
+<text x="940.0" y="441.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Routine sourcing versus broad landscape</text>
+<rect x="1250" y="545" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="598.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Separate research review</text>
+<text x="1470.0" y="627.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Use current supported APIs; never stock proof</text>
+<rect x="720" y="545" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="598.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Bounded plan</text>
+<text x="940.0" y="627.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Query budget, source set, termination rules</text>
+<polygon points="940.0,740 1160,815.0 940.0,890 720,815.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="807.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Tool permission gate</text>
+<text x="940.0" y="836.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Only approved read-only source adapters</text>
+<rect x="1250" y="940" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="993.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Report source gap</text>
+<text x="1470.0" y="1022.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">No scraping or invented availability</text>
+<rect x="720" y="940" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="993.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Search + fetch + normalize</text>
+<text x="940.0" y="1022.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Cited raw snapshots, dedupe and timestamps</text>
+<polygon points="940.0,1135 1160,1210.0 940.0,1285 720,1210.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="1202.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Exact variant evidence?</text>
+<text x="940.0" y="1231.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Count/location/fulfillment + freshness</text>
+<rect x="1250" y="1335" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="1388.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Unconfirmed S12 lead</text>
+<text x="1470.0" y="1417.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Keep provenance and uncertainty</text>
+<rect x="720" y="1335" width="440" height="122" rx="14" fill="#F7FAF8" stroke="#285449" stroke-width="3"/>
+<text x="940.0" y="1388.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">S11 verified candidate</text>
+<text x="940.0" y="1417.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Machine gate accepts attributable evidence</text>
+<polygon points="940.0,1530 1160,1605.0 940.0,1680 720,1605.0" fill="#FFF2E8" stroke="#A35E38" stroke-width="3"/>
+<text x="940.0" y="1597.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Stop budget or coverage met?</text>
+<text x="940.0" y="1626.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Max calls, time, candidate yield, cancellation</text>
+<rect x="1250" y="1730" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="1470.0" y="1783.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Checkpoint partial result</text>
+<text x="1470.0" y="1812.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">Queue next bounded pass if permitted</text>
+<rect x="720" y="1730" width="440" height="122" rx="14" fill="#EEF3F8" stroke="#365D78" stroke-width="3"/>
+<text x="940.0" y="1783.0" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1F2925">Emit source ledger + summary</text>
+<text x="940.0" y="1812.0" text-anchor="middle" font-family="Arial" font-size="15" fill="#3F5148">No invented source, stock or price</text>
+</svg>

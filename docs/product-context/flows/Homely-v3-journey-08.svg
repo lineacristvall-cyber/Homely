@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2720" viewBox="0 0 2400 2720">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#607B6C"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<polyline points="1180.0,330.0 1180.0,460.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,540.0 930.0,540.0 930.0,520.0 620.0,520.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,570.0 400.0,660.0 1180.0,660.0 1180.0,630.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,630.0 1180.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,810.0 1180.0,940.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,810.0 1180.0,840.0 400.0,840.0 400.0,940.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1050.0 1180.0,1180.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,1260.0 930.0,1260.0 930.0,1240.0 620.0,1240.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="180.0,1240.0 150.0,1240.0 150.0,1080.0 930.0,1080.0 930.0,1000.0 960.0,1000.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1400.0,1260.0 1430.0,1260.0 1430.0,1240.0 1740.0,1240.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="2180.0,1240.0 2210.0,1240.0 2210.0,1000.0 1400.0,1000.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1180.0,1350.0 1180.0,1420.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1530.0 1180.0,1630.0 1960.0,1630.0 1960.0,1660.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,1830.0 1960.0,1900.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="2180.0,1740.0 2210.0,1740.0 2210.0,1320.0 1430.0,1320.0 1430.0,1000.0 1400.0,1000.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1180.0,1530.0 1180.0,1560.0 1170.0,1560.0 1170.0,1870.0 1180.0,1870.0 1180.0,1900.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,2010.0 1180.0,2140.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<text x="78.0" y="63.0" text-anchor="start" font-family="Arial, sans-serif" font-size="30.0" fill="#1F2925">08 · Laptop room and research workspace</text>
+<text x="78.0" y="133.45" text-anchor="start" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Screens S15 and S24. The laptop reads the same versioned room, brief, candidates and decisions. Expanded evidence and comparison use shared flows, not separate product truth.</text>
+<rect x="960.0" y="220.0" width="440.0" height="110.0" rx="12" fill="#DDE8DC" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="269.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S03.HOME</text>
+<text x="1180.0" y="292.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Open desktop planning</text>
+<polygon points="1180.0,460.0 1400.0,545.0 1180.0,630.0 960.0,545.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="539.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S15.LOADING</text>
+<text x="1180.0" y="562.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Room data ready?</text>
+<rect x="180.0" y="460.0" width="440.0" height="110.0" rx="12" fill="#FBE6E1" stroke="#A3382B" stroke-width="3"/>
+<text x="400.0" y="509.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S15.ERROR</text>
+<text x="400.0" y="532.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Retry or choose another room</text>
+<rect x="960.0" y="700.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="749.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S15.CANVAS</text>
+<text x="1180.0" y="772.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Original / placement / measurements</text>
+<rect x="180.0" y="940.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="989.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Edit retained item / brief / voice</text>
+<text x="400.0" y="1012.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Measure or review exact chips</text>
+<rect x="960.0" y="940.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="989.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S24.WORKSPACE</text>
+<text x="1180.0" y="1012.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Cards, source ledger, comparison</text>
+<polygon points="1180.0,1180.0 1400.0,1265.0 1180.0,1350.0 960.0,1265.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="1271.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Choose workspace action</text>
+<rect x="180.0" y="1180.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="1229.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S24.EVIDENCE</text>
+<text x="400.0" y="1252.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Provenance, source gaps; close inspector</text>
+<rect x="1740.0" y="1180.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1960.0" y="1229.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S24.FILTERED</text>
+<text x="1960.0" y="1252.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Apply / reset; inspect exact variant</text>
+<rect x="960.0" y="1420.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1180.0" y="1469.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Inspect / room view / compare</text>
+<text x="1180.0" y="1492.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Same selected SKU + original frame</text>
+<polygon points="1960.0,1660.0 2180.0,1745.0 1960.0,1830.0 1740.0,1745.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1960.0" y="1739.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S24.REFRESHING</text>
+<text x="1960.0" y="1762.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Stock / cost changed?</text>
+<rect x="1740.0" y="1900.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1960.0" y="1949.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S18.CHANGE</text>
+<text x="1960.0" y="1972.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Preserve history; inspect replacement</text>
+<rect x="960.0" y="1900.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1180.0" y="1949.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S20.PREVIEW</text>
+<text x="1180.0" y="1972.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Select client scope → review</text>
+<rect x="960.0" y="2140.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="2189.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Back to project canvas</text>
+<text x="1180.0" y="2212.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Preserve brief, selection and view</text>
+<rect x="794.5" y="503.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="525.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No</text>
+<rect x="903.5" y="643.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="946.0" y="665.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Retry</text>
+<rect x="1137.5" y="648.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="670.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes</text>
+<rect x="1114.75" y="884.0" width="130.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="906.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Open research</text>
+<rect x="885.0" y="823.0" width="122.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="946.0" y="845.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Edit / speak</text>
+<rect x="767.5" y="1223.0" width="139.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="1245.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Open inspector</text>
+<rect x="653.5" y="1063.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="696.0" y="1085.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Close</text>
+<rect x="1581.75" y="1223.0" width="130.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1647.0" y="1245.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Filter / sort</text>
+<rect x="1924.5" y="983.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1967.0" y="1005.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Reset</text>
+<rect x="1097.75" y="1368.0" width="164.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="1390.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Inspect / compare</text>
+<rect x="1669.25" y="1613.0" width="113.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1726.0" y="1635.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Recheck all</text>
+<rect x="1917.5" y="1848.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1960.0" y="1870.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes</text>
+<rect x="1881.0" y="1303.0" width="190.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1976.0" y="1325.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No / update evidence</text>
+<rect x="1100.5" y="1760.0" width="139.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1170.0" y="1782.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Client preview</text>
+<rect x="1137.5" y="2084.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="2106.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Back</text>
+<rect x="70.0" y="2650.0" width="240.0" height="40.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="190.0" y="2675.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">← Journey map</text>
+</svg>

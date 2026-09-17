@@ -1,0 +1,110 @@
+[
+  {
+    "id": "walnut-dining-chairs",
+    "mode": "existing_item",
+    "existing_item": "Dark walnut dining table",
+    "item_needed": "6 dining chairs",
+    "style": [
+      "Scandinavian",
+      "warm",
+      "slightly vintage"
+    ],
+    "budget": {
+      "max": 350,
+      "currency": "USD",
+      "basis": "per_item"
+    },
+    "dimensions": "Must fit comfortably around the table",
+    "location": "Los Angeles",
+    "exclusions": [
+      "bouclé",
+      "black metal legs",
+      "very bulky chairs"
+    ]
+  },
+  {
+    "id": "narrow-apartment-sofa",
+    "mode": "direct",
+    "item_needed": "Sofa",
+    "what_i_want": "Soft, relaxed European-looking sofa; comfortable and elevated, not boxy",
+    "budget": {
+      "max": 3000,
+      "currency": "USD",
+      "basis": "total"
+    },
+    "dimensions": {
+      "max_width_in": 84,
+      "preferred_max_depth_in": 36
+    },
+    "location": "Los Angeles",
+    "delivery": "within 5 weeks",
+    "must_haves": [
+      "neutral upholstery"
+    ],
+    "preferences": [
+      "removable or cleanable covers"
+    ],
+    "exclusions": [
+      "40+ inch deep lounge sofas",
+      "bright white",
+      "obvious modular seams",
+      "weak marketplace listings"
+    ]
+  },
+  {
+    "id": "oatmeal-bed-nightstands",
+    "mode": "existing_item",
+    "existing_item": "Oatmeal upholstered king bed with rounded corners",
+    "item_needed": "Pair of nightstands",
+    "style": [
+      "warm modern",
+      "sculptural",
+      "not trendy"
+    ],
+    "budget": {
+      "max": 1200,
+      "currency": "USD",
+      "basis": "total"
+    },
+    "dimensions": {
+      "min_width_in": 24,
+      "max_width_in": 30
+    },
+    "location": "Los Angeles",
+    "exclusions": [
+      "matching upholstery",
+      "mirrored finishes",
+      "black metal",
+      "fluted-front trend pieces"
+    ]
+  },
+  {
+    "id": "counter-stools",
+    "mode": "direct",
+    "item_needed": "4 counter stools",
+    "style": [
+      "warm natural materials",
+      "visually light"
+    ],
+    "budget": {
+      "max": 450,
+      "currency": "USD",
+      "basis": "per_item"
+    },
+    "location": "Los Angeles",
+    "delivery": "within 4 weeks",
+    "must_haves": [
+      "counter height",
+      "backrest",
+      "footrest",
+      "durable seat"
+    ],
+    "exclusions": [
+      "bar height",
+      "bouclé",
+      "chrome",
+      "bulky upholstered bases",
+      "backless"
+    ]
+  }
+]

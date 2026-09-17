@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="3680" viewBox="0 0 2400 3680">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#607B6C"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<polyline points="1180.0,330.0 1180.0,460.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,540.0 930.0,540.0 930.0,520.0 620.0,520.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,570.0 400.0,670.0 1180.0,670.0 1180.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,630.0 1180.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,810.0 1180.0,940.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1050.0 1180.0,1180.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,1260.0 930.0,1260.0 930.0,1240.0 620.0,1240.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="180.0,1240.0 150.0,1240.0 150.0,1000.0 960.0,1000.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1180.0,1350.0 1180.0,1420.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1530.0 1180.0,1660.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,1740.0 930.0,1740.0 930.0,1720.0 620.0,1720.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="180.0,1720.0 150.0,1720.0 150.0,1320.0 930.0,1320.0 930.0,1000.0 960.0,1000.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1180.0,1830.0 1180.0,1900.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,2010.0 1180.0,2140.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,2250.0 1180.0,2380.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,2460.0 930.0,2460.0 930.0,2440.0 620.0,2440.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="180.0,2440.0 150.0,2440.0 150.0,1960.0 960.0,1960.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1180.0,2550.0 1180.0,2620.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,2730.0 1180.0,2860.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,2940.0 930.0,2940.0 930.0,2920.0 620.0,2920.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,3030.0 1180.0,3100.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,1960.0 1740.0,1960.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,2010.0 1960.0,2040.0 1180.0,2040.0 1180.0,2010.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,760.0 1740.0,760.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,810.0 1960.0,840.0 1180.0,840.0 1180.0,810.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,1260.0 1430.0,1260.0 1430.0,1240.0 1740.0,1240.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,3160.0 1740.0,3160.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<text x="78.0" y="63.0" text-anchor="start" font-family="Arial, sans-serif" font-size="30.0" fill="#1F2925">00 · Room to decision — end-to-end flow</text>
+<text x="78.0" y="122.655" text-anchor="start" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Follow arrows downward. Diamonds branch on a choice or outcome; dashed arrows return. Blue boxes open expanded journeys. Exact screen controls are linked from those journeys and indexed after page 08. Proposed finite behavior; product is</text>
+<text x="78.0" y="144.245" text-anchor="start" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">unbuilt.</text>
+<rect x="960.0" y="220.0" width="440.0" height="110.0" rx="12" fill="#DDE8DC" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="269.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Open Homely</text>
+<text x="1180.0" y="292.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">New or returning project</text>
+<polygon points="1180.0,460.0 1400.0,545.0 1180.0,630.0 960.0,545.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="539.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Session / project</text>
+<text x="1180.0" y="562.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">accessible?</text>
+<rect x="180.0" y="460.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="509.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Sign in / preview</text>
+<text x="400.0" y="532.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Recover draft; retry or cancel</text>
+<rect x="960.0" y="700.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1180.0" y="749.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Room + retained furniture</text>
+<text x="1180.0" y="772.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Capture, measure, speak or type</text>
+<rect x="960.0" y="940.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1180.0" y="989.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Review explicit brief</text>
+<text x="1180.0" y="1012.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Quantity, location, target, hard cap</text>
+<polygon points="1180.0,1180.0 1400.0,1265.0 1180.0,1350.0 960.0,1265.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="1271.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Brief valid?</text>
+<rect x="180.0" y="1180.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="1229.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Correct indicated field</text>
+<text x="400.0" y="1252.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Keep all other input</text>
+<rect x="960.0" y="1420.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1180.0" y="1469.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Run permitted research</text>
+<text x="1180.0" y="1492.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Pause, refine, cancel; source ledger</text>
+<polygon points="1180.0,1660.0 1400.0,1745.0 1180.0,1830.0 960.0,1745.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="1739.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Verified candidates</text>
+<text x="1180.0" y="1762.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">available?</text>
+<rect x="180.0" y="1660.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="1709.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">No ready matches / source gap</text>
+<text x="400.0" y="1732.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Edit brief, inspect leads or save hunt</text>
+<rect x="960.0" y="1900.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1180.0" y="1949.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Inspect actual variant</text>
+<text x="1180.0" y="1972.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Evidence → room view → compare</text>
+<rect x="960.0" y="2140.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1180.0" y="2189.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Select / client review</text>
+<text x="1180.0" y="2212.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Versioned decision and budget</text>
+<polygon points="1180.0,2380.0 1400.0,2465.0 1180.0,2550.0 960.0,2465.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="2459.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Recheck stock + cost</text>
+<text x="1180.0" y="2482.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">passes hard cap?</text>
+<rect x="180.0" y="2380.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="2429.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Unknown, lost stock or over cap</text>
+<text x="400.0" y="2452.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Retry, edit explicitly or replace</text>
+<rect x="960.0" y="2620.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1180.0" y="2669.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Open external seller</text>
+<text x="1180.0" y="2692.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Return and confirm outcome</text>
+<polygon points="1180.0,2860.0 1400.0,2945.0 1180.0,3030.0 960.0,2945.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="2951.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Purchased?</text>
+<rect x="180.0" y="2860.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="2909.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Still considering / canceled</text>
+<text x="400.0" y="2932.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Keep saved choice or replace</text>
+<rect x="960.0" y="3100.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1180.0" y="3149.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Record confirmed purchase</text>
+<text x="1180.0" y="3172.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Receipts, return and decision history</text>
+<rect x="1740.0" y="1900.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1960.0" y="1949.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Saved hunt / meaningful change</text>
+<text x="1960.0" y="1972.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Replacement → exact evidence</text>
+<rect x="1740.0" y="700.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1960.0" y="749.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Offline, privacy, account</text>
+<text x="1960.0" y="772.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Return to invoking workflow</text>
+<rect x="1740.0" y="1180.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1960.0" y="1229.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Laptop workspace</text>
+<text x="1960.0" y="1252.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Same room and candidate versions</text>
+<rect x="1740.0" y="3100.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1960.0" y="3149.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Optional earned usage</text>
+<text x="1960.0" y="3172.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Contract + realized commission gates</text>
+<rect x="794.5" y="503.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="525.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No</text>
+<rect x="838.25" y="653.0" width="215.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="946.0" y="675.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Success / local preview</text>
+<rect x="1137.5" y="648.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="670.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes</text>
+<rect x="1097.75" y="884.0" width="164.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="906.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Save and continue</text>
+<rect x="794.5" y="1223.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="1245.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No</text>
+<rect x="639.0" y="983.0" width="156.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="717.0" y="1005.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Correct / review</text>
+<rect x="1123.25" y="1368.0" width="113.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="1390.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes · Start</text>
+<rect x="794.5" y="1703.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="1725.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No</text>
+<rect x="596.75" y="1303.0" width="198.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="696.0" y="1325.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Choose explicit edits</text>
+<rect x="1137.5" y="1848.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="1870.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes</text>
+<rect x="1102.0" y="2084.0" width="156.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="2106.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Compare / select</text>
+<rect x="1080.75" y="2324.0" width="198.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="2346.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Proceed toward seller</text>
+<rect x="794.5" y="2423.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="2445.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No</text>
+<rect x="622.0" y="1943.0" width="190.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="717.0" y="1965.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Replace / retry path</text>
+<rect x="1059.5" y="2568.0" width="241.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="2590.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes · fresh exact quantity</text>
+<rect x="1137.5" y="2804.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="2826.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Return</text>
+<rect x="776.0" y="2903.0" width="122.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="2925.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No / unknown</text>
+<rect x="1080.75" y="3048.0" width="198.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="3070.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Explicit confirmation</text>
+<rect x="1589.75" y="1943.0" width="96.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1638.0" y="1965.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Save hunt</text>
+<rect x="1622.5" y="2023.0" width="207.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1726.0" y="2045.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Open changed candidate</text>
+<rect x="1551.5" y="743.0" width="173.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1638.0" y="765.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Offline / settings</text>
+<rect x="1639.5" y="823.0" width="173.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1726.0" y="845.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Reconcile / return</text>
+<rect x="1594.5" y="1223.0" width="105.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1647.0" y="1245.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Use laptop</text>
+<rect x="1470.75" y="3143.0" width="198.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1570.0" y="3165.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Inspect credit status</text>
+<text x="78.0" y="3613.45" text-anchor="start" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">OPEN VALIDATION: source access and freshness policy · exact-product visualization fidelity · sharing roles and retention · monetization and credit eligibility. No live integration or infinite-path coverage is claimed.</text>
+</svg>

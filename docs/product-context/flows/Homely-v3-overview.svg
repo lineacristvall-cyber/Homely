@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="1860" viewBox="0 0 950 1860">
+<defs><marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#607B6C"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<g transform="scale(0.5)">
+<polyline points="945.0,355.0 945.0,410.0 945.0,410.0 945.0,465.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="845.0" y="394.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="945.0" y="414.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">pro/DIY or preview</text>
+<polyline points="945.0,585.0 945.0,640.0 945.0,640.0 945.0,695.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="845.0" y="624.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="945.0" y="644.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">open room</text>
+<polyline points="945.0,815.0 945.0,870.0 945.0,870.0 945.0,925.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="845.0" y="854.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="945.0" y="874.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">capture / measure</text>
+<polyline points="945.0,1045.0 945.0,1100.0 945.0,1100.0 945.0,1155.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="845.0" y="1084.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="945.0" y="1104.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">save room</text>
+<polyline points="945.0,1275.0 945.0,1330.0 945.0,1330.0 945.0,1385.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="845.0" y="1314.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="945.0" y="1334.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">confirm style</text>
+<polyline points="945.0,1505.0 945.0,1560.0 945.0,1560.0 945.0,1615.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="845.0" y="1544.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="945.0" y="1564.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">start research</text>
+<polyline points="945.0,1965.0 945.0,2020.0 945.0,2020.0 945.0,2075.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="845.0" y="2004.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="945.0" y="2024.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">inspect exact item</text>
+<polyline points="945.0,2425.0 945.0,2480.0 945.0,2480.0 945.0,2535.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="845.0" y="2464.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="945.0" y="2484.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">compare options</text>
+<polyline points="945.0,2655.0 945.0,2710.0 945.0,2710.0 945.0,2765.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="845.0" y="2694.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="945.0" y="2714.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">select candidate</text>
+<polyline points="945.0,3115.0 945.0,3170.0 945.0,3170.0 945.0,3225.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="845.0" y="3154.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="945.0" y="3174.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">purchase outcome</text>
+<polyline points="945.0,815.0 1150.0,845.0 1150.0,755.0 385.0,785.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="565.0" y="784.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="665.0" y="804.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">permission</text>
+<polyline points="385.0,905.0 385.0,915.0 945.0,915.0 945.0,925.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="565.0" y="899.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="665.0" y="919.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">manual or allowed</text>
+<polyline points="385.0,1865.0 180.0,1895.0 180.0,1355.0 945.0,1385.0" fill="none" stroke="#B76C4A" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+<rect x="565.0" y="1609.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="665.0" y="1629.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">explicit edit</text>
+<polyline points="945.0,1735.0 945.0,2015.0 385.0,2015.0 385.0,2295.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="565.0" y="1999.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="665.0" y="2019.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">save hunt</text>
+<polyline points="385.0,2415.0 385.0,2492.5 385.0,2492.5 385.0,2570.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="285.0" y="2476.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="385.0" y="2496.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">stock change</text>
+<polyline points="385.0,2690.0 180.0,2720.0 180.0,2045.0 945.0,2075.0" fill="none" stroke="#B76C4A" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+<rect x="565.0" y="2366.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="665.0" y="2386.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">replacement</text>
+<polyline points="945.0,1965.0 945.0,1992.5 385.0,1992.5 385.0,2020.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="565.0" y="1976.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="665.0" y="1996.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">unconfirmed lead</text>
+<polyline points="385.0,2140.0 180.0,2170.0 180.0,2045.0 945.0,2075.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="565.0" y="2091.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="665.0" y="2111.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">confirmed evidence</text>
+<polyline points="945.0,585.0 945.0,857.5 1525.0,857.5 1525.0,1130.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="1135.0" y="841.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1235.0" y="861.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">laptop project</text>
+<polyline points="1525.0,1250.0 1525.0,1530.0 1525.0,1530.0 1525.0,1810.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="1425.0" y="1514.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1525.0" y="1534.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">desktop research</text>
+<polyline points="1525.0,1930.0 1525.0,2002.5 945.0,2002.5 945.0,2075.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="1135.0" y="1986.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1235.0" y="2006.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">inspect</text>
+<polyline points="945.0,2885.0 740.0,2915.0 740.0,2760.0 1525.0,2790.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="1135.0" y="2821.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1235.0" y="2841.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">client review</text>
+<polyline points="1525.0,2910.0 1730.0,2940.0 1730.0,2735.0 945.0,2765.0" fill="none" stroke="#B76C4A" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+<rect x="1135.0" y="2821.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1235.0" y="2841.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">approval → recheck</text>
+<polyline points="945.0,585.0 945.0,2017.5 385.0,2017.5 385.0,3450.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="565.0" y="2001.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="665.0" y="2021.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">account/privacy</text>
+<polyline points="945.0,815.0 740.0,845.0 740.0,670.0 1525.0,700.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="1135.0" y="741.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1235.0" y="761.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">offline/conflict</text>
+<polyline points="1525.0,820.0 1730.0,850.0 1730.0,665.0 945.0,695.0" fill="none" stroke="#B76C4A" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+<rect x="1135.0" y="741.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1235.0" y="761.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">reconcile</text>
+<polyline points="945.0,1735.0 945.0,1737.5 1315.0,1737.5 1315.0,1740.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="1030.0" y="1721.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1130.0" y="1741.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">evaluate</text>
+<polyline points="1315.0,1840.0 1315.0,1842.5 945.0,1842.5 945.0,1845.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="1030.0" y="1826.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1130.0" y="1846.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">yes: verified findings</text>
+<polyline points="1315.0,1840.0 1450.0,1870.0 1450.0,1715.0 385.0,1745.0" fill="none" stroke="#B76C4A" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+<rect x="750.0" y="1776.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="850.0" y="1796.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">no: source gap</text>
+<polyline points="945.0,2195.0 740.0,2225.0 740.0,2160.0 1315.0,2190.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="1030.0" y="2176.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1130.0" y="2196.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">evaluate</text>
+<polyline points="1315.0,2290.0 1315.0,2297.5 945.0,2297.5 945.0,2305.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="1030.0" y="2281.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1130.0" y="2301.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">yes: visualize</text>
+<polyline points="1315.0,2290.0 1450.0,2320.0 1450.0,1990.0 385.0,2020.0" fill="none" stroke="#B76C4A" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+<rect x="750.0" y="2139.0" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="850.0" y="2159.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">no: verify lead</text>
+<polyline points="945.0,2885.0 945.0,2887.5 1315.0,2887.5 1315.0,2890.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="1030.0" y="2871.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1130.0" y="2891.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">recheck price + stock</text>
+<polyline points="1315.0,2990.0 1315.0,2992.5 945.0,2992.5 945.0,2995.0" fill="none" stroke="#607B6C" stroke-width="2"  marker-end="url(#arr)"/>
+<rect x="1030.0" y="2976.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1130.0" y="2996.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">yes: handoff</text>
+<polyline points="1315.0,2990.0 1450.0,3020.0 1450.0,2505.0 945.0,2535.0" fill="none" stroke="#B76C4A" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+<rect x="1030.0" y="2746.5" width="200" height="30" rx="5" fill="white" stroke="#E8EDE8"/><text x="1130.0" y="2766.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#254638">no: revise selection</text>
+<text x="55.0" y="58.0" font-family="Arial" font-size="33" fill="#1F2925">Homely · follow the UI journey</text>
+<text x="55.0" y="112.0" font-family="Arial" font-size="17" fill="#1F2925">Follow arrows downward. Click any screen box to open its exact entry STATE decision tree. Then follow each action arrow to a</text>
+<text x="55.0" y="139.0" font-family="Arial" font-size="17" fill="#1F2925">linked destination state page; every next choice, failure and return is modeled there. 128 state pages, 335 action branches.</text>
+<text x="55.0" y="166.0" font-family="Arial" font-size="17" fill="#1F2925">Bottom page tabs are another navigation route.</text>
+<rect x="770.0" y="235.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="290.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S01 · Welcome &amp; intent</text>
+<text x="945.0" y="313.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S01.START</text>
+<rect x="770.0" y="465.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="520.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S03 · Project home &amp; session</text>
+<text x="945.0" y="543.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S03.HOME</text>
+<rect x="770.0" y="695.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="750.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S04 · Room canvas &amp; voice</text>
+<text x="945.0" y="773.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S04.IDLE</text>
+<rect x="770.0" y="925.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="980.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S05 · Capture, edit &amp; dimensions</text>
+<text x="945.0" y="1003.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S05.CAPTURE</text>
+<rect x="770.0" y="1155.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="1210.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S06 · Taste &amp; inspiration</text>
+<text x="945.0" y="1233.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S06.STYLE</text>
+<rect x="770.0" y="1385.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="1440.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S07 · Structured brief &amp; constraints</text>
+<text x="945.0" y="1463.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S07.EDITING</text>
+<rect x="770.0" y="1615.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="1670.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S08 · Research job &amp; progress</text>
+<text x="945.0" y="1693.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S08.QUEUED</text>
+<rect x="770.0" y="1845.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="1900.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S10 · Findings &amp; spoken briefing</text>
+<text x="945.0" y="1923.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S10.RESULTS</text>
+<rect x="770.0" y="2075.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="2130.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S11 · Exact candidate evidence</text>
+<text x="945.0" y="2153.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S11.DETAIL</text>
+<rect x="770.0" y="2305.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="2360.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S13 · Actual product in room</text>
+<text x="945.0" y="2383.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S13.LOADING</text>
+<rect x="770.0" y="2535.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="2590.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S14 · Mobile comparison</text>
+<text x="945.0" y="2613.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S14.COMPARE</text>
+<rect x="770.0" y="2765.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="2820.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S16 · Decision, budget &amp; stock gate</text>
+<text x="945.0" y="2843.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S16.BUDGET</text>
+<rect x="770.0" y="2995.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="3050.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S17 · External seller handoff &amp; earned usage</text>
+<text x="945.0" y="3073.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S17.HANDOFF</text>
+<rect x="770.0" y="3225.0" width="350.0" height="120.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="945.0" y="3280.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S21 · Decision &amp; purchase ledger</text>
+<text x="945.0" y="3303.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S21.LEDGER</text>
+<rect x="210.0" y="785.0" width="350.0" height="120.0" rx="13" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="385.0" y="840.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S02 · Permissions at point of use</text>
+<text x="385.0" y="863.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S02.PRIMER</text>
+<rect x="210.0" y="1745.0" width="350.0" height="120.0" rx="13" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="385.0" y="1800.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S09 · No result &amp; source gap</text>
+<text x="385.0" y="1823.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S09.EMPTY</text>
+<rect x="210.0" y="2020.0" width="350.0" height="120.0" rx="13" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="385.0" y="2075.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S12 · Unconfirmed lead</text>
+<text x="385.0" y="2098.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S12.LEAD</text>
+<rect x="210.0" y="2295.0" width="350.0" height="120.0" rx="13" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="385.0" y="2350.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S19 · Saved hunts &amp; notification inbox</text>
+<text x="385.0" y="2373.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S19.SETUP</text>
+<rect x="210.0" y="2570.0" width="350.0" height="120.0" rx="13" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="385.0" y="2625.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S18 · Stock-change alert &amp; replacement</text>
+<text x="385.0" y="2648.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S18.CHANGE</text>
+<rect x="210.0" y="3450.0" width="350.0" height="120.0" rx="13" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="385.0" y="3505.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S22 · Account, privacy &amp; data</text>
+<text x="385.0" y="3528.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S22.SETTINGS</text>
+<rect x="1350.0" y="700.0" width="350.0" height="120.0" rx="13" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="1525.0" y="755.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S23 · Offline, reconnect &amp; conflicts</text>
+<text x="1525.0" y="778.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S23.OFFLINE</text>
+<rect x="1350.0" y="1130.0" width="350.0" height="120.0" rx="13" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="1525.0" y="1185.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S15 · Desktop project canvas</text>
+<text x="1525.0" y="1208.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S15.CANVAS</text>
+<rect x="1350.0" y="1810.0" width="350.0" height="120.0" rx="13" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="1525.0" y="1865.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S24 · Desktop research workspace</text>
+<text x="1525.0" y="1888.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S24.WORKSPACE</text>
+<rect x="1350.0" y="2790.0" width="350.0" height="120.0" rx="13" fill="#EAF0F7" stroke="#365D78" stroke-width="2"/>
+<text x="1525.0" y="2845.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">S20 · Client share, approval &amp; revisions</text>
+<text x="1525.0" y="2868.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Click for S20.PREVIEW</text>
+<rect x="1210.0" y="1740.0" width="210.0" height="100.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="1315.0" y="1795.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Usable source evidence?</text>
+<text x="1315.0" y="1818.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Open state page</text>
+<rect x="1210.0" y="2190.0" width="210.0" height="100.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="1315.0" y="2245.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Exact variant + fit?</text>
+<text x="1315.0" y="2268.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Open state page</text>
+<rect x="1210.0" y="2890.0" width="210.0" height="100.0" rx="13" fill="#F6F3ED" stroke="#285449" stroke-width="2"/>
+<text x="1315.0" y="2945.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#1F2925">Live total under hard cap?</text>
+<text x="1315.0" y="2968.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#1F2925">Open state page</text>
+<text x="55.0" y="3642.0" font-family="Arial" font-size="17" fill="#1F2925">Cream = main journey · blue = alternate screens · copper dashed = return/recovery. This overview is a navigational route; state</text>
+<text x="55.0" y="3669.0" font-family="Arial" font-size="17" fill="#1F2925">pages below contain all actual controls, guards and next states.</text>
+</g></svg>

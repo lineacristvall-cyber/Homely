@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="3440" viewBox="0 0 2400 3440">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#607B6C"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<polyline points="1180.0,330.0 1180.0,460.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,540.0 930.0,540.0 930.0,520.0 620.0,520.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,570.0 400.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,810.0 400.0,940.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,1110.0 400.0,1180.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,1290.0 400.0,1390.0 1180.0,1390.0 1180.0,1420.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,1110.0 400.0,1140.0 930.0,1140.0 930.0,1380.0 1180.0,1380.0 1180.0,1420.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,630.0 1180.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,810.0 1180.0,940.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1110.0 1180.0,1180.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,1240.0 1430.0,1240.0 1430.0,1260.0 1740.0,1260.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,1350.0 1960.0,1420.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="2180.0,1480.0 2210.0,1480.0 2210.0,1380.0 1430.0,1380.0 1430.0,1240.0 1400.0,1240.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1960.0,1350.0 1960.0,1390.0 1710.0,1390.0 1710.0,1630.0 1960.0,1630.0 1960.0,1660.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1110.0 1180.0,1140.0 1440.0,1140.0 1440.0,1630.0 1180.0,1630.0 1180.0,1660.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1770.0 1180.0,1800.0 930.0,1800.0 930.0,2590.0 1180.0,2590.0 1180.0,2620.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1110.0 1180.0,1140.0 920.0,1140.0 920.0,1870.0 400.0,1870.0 400.0,1900.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,2010.0 400.0,2040.0 920.0,2040.0 920.0,2580.0 1180.0,2580.0 1180.0,2620.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1180.0,1770.0 1180.0,2140.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,2220.0 650.0,2220.0 650.0,2200.0 620.0,2200.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,2220.0 1430.0,2220.0 1430.0,2200.0 1740.0,2200.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,2250.0 400.0,2570.0 1180.0,2570.0 1180.0,2620.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,2250.0 1960.0,2590.0 1180.0,2590.0 1180.0,2620.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,1480.0 910.0,1480.0 910.0,280.0 960.0,280.0" fill="none" stroke="#B76C4A" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<polyline points="1400.0,540.0 1430.0,540.0 1430.0,520.0 1740.0,520.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,570.0 1960.0,670.0 400.0,670.0 400.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<text x="78.0" y="63.0" text-anchor="start" font-family="Arial, sans-serif" font-size="30.0" fill="#1F2925">07 · Offline recovery, privacy and data</text>
+<text x="78.0" y="133.45" text-anchor="start" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Screens S22–S23. Cache is visibly stale; no offline stock claim or seller handoff. Return destinations depend on the stored caller. Permanent purge requires a separate explicit confirmation.</text>
+<rect x="960.0" y="220.0" width="440.0" height="110.0" rx="12" fill="#DDE8DC" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="269.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Invoking project / room / research</text>
+<text x="1180.0" y="292.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Decision / hunt / desktop</text>
+<polygon points="1180.0,460.0 1400.0,545.0 1180.0,630.0 960.0,545.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="551.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Connected?</text>
+<rect x="180.0" y="460.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="509.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S23.OFFLINE → CACHED</text>
+<text x="400.0" y="532.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">View cache; queue safe edits only</text>
+<rect x="180.0" y="700.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="749.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S23.QUEUED</text>
+<text x="400.0" y="772.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Keep local edits and last-sync time</text>
+<polygon points="400.0,940.0 620.0,1025.0 400.0,1110.0 180.0,1025.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="400.0" y="1008.4399999999999" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S23.RECONCILING</text>
+<text x="400.0" y="1031.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Remote version / role</text>
+<text x="400.0" y="1054.1599999999999" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">conflict?</text>
+<rect x="180.0" y="1180.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="1229.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S23.CONFLICT</text>
+<text x="400.0" y="1252.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Compare actor/time; merge or keep copy</text>
+<rect x="960.0" y="1420.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="1469.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S23.SYNCED</text>
+<text x="1180.0" y="1492.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Refresh evidence; return to caller</text>
+<rect x="960.0" y="700.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="749.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S22.SETTINGS</text>
+<text x="1180.0" y="772.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Memory, privacy, alerts, billing, data</text>
+<polygon points="1180.0,940.0 1400.0,1025.0 1180.0,1110.0 960.0,1025.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="1031.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Choose account action</text>
+<rect x="960.0" y="1180.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="1229.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S22.EXPORTING</text>
+<text x="1180.0" y="1252.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Queue data archive</text>
+<polygon points="1960.0,1180.0 2180.0,1265.0 1960.0,1350.0 1740.0,1265.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1960.0" y="1271.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Export succeeds?</text>
+<rect x="1740.0" y="1420.0" width="440.0" height="110.0" rx="12" fill="#FBE6E1" stroke="#A3382B" stroke-width="3"/>
+<text x="1960.0" y="1469.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S22.EXPORT_ERROR</text>
+<text x="1960.0" y="1492.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Retry → queue; Cancel → settings</text>
+<rect x="1740.0" y="1660.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1960.0" y="1709.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Download ready archive</text>
+<text x="1960.0" y="1732.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Return to account</text>
+<rect x="960.0" y="1660.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1180.0" y="1709.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S22.PRIVACY / MEMORY</text>
+<text x="1180.0" y="1732.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Correct preferences; consent + retention</text>
+<rect x="180.0" y="1900.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="1949.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S22.TRASH</text>
+<text x="400.0" y="1972.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Recoverable removal → Restore / Keep</text>
+<polygon points="1180.0,2140.0 1400.0,2225.0 1180.0,2310.0 960.0,2225.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="2219.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S22.PURGE_CONFIRM</text>
+<text x="1180.0" y="2242.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Confirm permanent purge?</text>
+<rect x="180.0" y="2140.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="2189.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Purge selected data</text>
+<text x="400.0" y="2212.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Explicit confirmation only</text>
+<rect x="1740.0" y="2140.0" width="440.0" height="110.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1960.0" y="2189.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Abort</text>
+<text x="1960.0" y="2212.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Preserve existing data</text>
+<rect x="960.0" y="2620.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1180.0" y="2669.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Return to account / caller</text>
+<text x="1180.0" y="2692.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Decision caller always rechecks stock</text>
+<rect x="1740.0" y="460.0" width="440.0" height="110.0" rx="12" fill="#FBE6E1" stroke="#A3382B" stroke-width="3"/>
+<text x="1960.0" y="509.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S23.QUOTA</text>
+<text x="1960.0" y="532.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Keep unsaved work; free space / retry</text>
+<rect x="794.5" y="503.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="837.0" y="525.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No</text>
+<rect x="317.75" y="644.0" width="164.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="400.0" y="666.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Edit note / brief</text>
+<rect x="351.75" y="884.0" width="96.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="400.0" y="906.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Reconnect</text>
+<rect x="357.5" y="1128.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="400.0" y="1150.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes</text>
+<rect x="863.75" y="1373.0" width="164.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="946.0" y="1395.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Preview + resolve</text>
+<rect x="728.5" y="1123.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="771.0" y="1145.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No</text>
+<rect x="1114.75" y="648.0" width="130.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="670.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes · account</text>
+<rect x="1137.5" y="1128.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="1150.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Export</text>
+<rect x="1590.25" y="1243.0" width="113.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1647.0" y="1265.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Job outcome</text>
+<rect x="1917.5" y="1368.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1960.0" y="1390.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">No</text>
+<rect x="1777.5" y="1363.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1820.0" y="1385.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Retry</text>
+<rect x="1842.5" y="1613.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1885.0" y="1635.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Yes</text>
+<rect x="1362.0" y="1368.0" width="156.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1440.0" y="1390.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Privacy / memory</text>
+<rect x="864.75" y="2336.0" width="130.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="930.0" y="2358.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Save / cancel</text>
+<rect x="677.5" y="1853.0" width="173.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="764.0" y="1875.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Remove recoverably</text>
+<rect x="812.25" y="2401.0" width="215.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="920.0" y="2423.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Restore / keep in trash</text>
+<rect x="1072.25" y="2012.0" width="215.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1180.0" y="2034.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Permanent purge request</text>
+<rect x="824.5" y="2203.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="867.0" y="2225.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Confirm</text>
+<rect x="1604.5" y="2183.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1647.0" y="2205.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Abort</text>
+<rect x="902.0" y="2553.0" width="88.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="946.0" y="2575.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Complete</text>
+<rect x="1683.5" y="2573.0" width="85.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1726.0" y="2595.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Return</text>
+<rect x="815.0" y="863.0" width="190.0" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="910.0" y="885.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Resume stored caller</text>
+<rect x="1477.25" y="503.0" width="215.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1585.0" y="525.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Local write quota error</text>
+<rect x="1418.25" y="653.0" width="147.5" height="34.0" rx="12" fill="#FFFFFF" stroke="none" stroke-width="3"/>
+<text x="1492.0" y="675.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="15.0" fill="#1F2925">Resolve / retry</text>
+<rect x="70.0" y="3370.0" width="240.0" height="40.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="190.0" y="3395.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">← Journey map</text>
+</svg>

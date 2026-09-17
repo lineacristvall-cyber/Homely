@@ -1,0 +1,44 @@
+✔ desktop: create, budget validation, research leads, comparison, evidence, decision and blocked handoff (12850.213875ms)
+✔ mobile: responsive initial screen, project creation, room consent and keyboard dialog dismissal (813.877084ms)
+✔ unsaved brief survives navigation, unavailable affordances, and reload without claiming saved (1558.516208ms)
+✔ mobile project chooser and URL import remain accessible without claiming stock (1268.572833ms)
+✔ typed assistant proposes, cancels, confirms against version, then opens real comparison and filters (1221.896459ms)
+✔ voice permission denied keeps typed fallback; consent required before microphone request (895.522541ms)
+✔ voice stop creates editable transcript only; cancel releases tracks and discards stale transcription (2438.073625ms)
+✔ cloud auth gates project reads; sign-up and sign-out separate account drafts, conversation, and passwords (2634.902042ms)
+✔ room and visualization image requests carry the captured project version and explicit consent (1837.698959ms)
+✔ cancel research preserves cancelled state when an older completed poll arrives late (3600.669292ms)
+✔ cancel displays server-completed result honestly instead of claiming cancellation (1036.012875ms)
+✔ failed research displays actual partial source attempts without inferring internet coverage (1260.674583ms)
+✔ visualization requires reference match and rights; pending job prevents duplicates and result stays with its candidate (4802.505083ms)
+✔ project JSON export downloads the real response and clearly excludes a complete backup (1166.664125ms)
+✔ mobile export failure remains visible, retryable, and never claims download success (1317.797833ms)
+✔ saved current preview reloads from history and Placement toggles without generating (2179.379917ms)
+✔ stale saved preview is withheld with explanation and no silent regenerate (811.003125ms)
+✔ delayed preview history from a previous project cannot appear after switching projects (1926.67675ms)
+✔ owner-only disclosure defaults empty and returns only explicitly selected candidate and measurement (1342.840125ms)
+✔ stale disclosure preview errors safely and requires reload plus explicit preview again (2647.295333ms)
+✔ room workspace shows compact truthful summary and explicit editor preserves drafts (1025.448541ms)
+✔ cloud sign-in fields survive clicks and session renders in the focused auth shell (839.108208ms)
+✔ mobile room uses original photo, exposes all constraints and keeps voice idle until requested (849.284875ms)
+✔ mobile Room keeps photo utilities and sourcing accessible behind secondary affordances (1087.080834ms)
+✔ clearance dialog saves cm, reopens inches, defers without writes at 390 (1323.383333ms)
+✔ clearance dialog saves cm, reopens inches, defers without writes at 1440 (1303.786292ms)
+✔ guided keep journey records explicit objects, categories, unknowns and gate without paid calls (1345.172417ms)
+✔ fresh journey skips keeping, preserves drafts and opens explicitly labelled inspiration (960.819041ms)
+✔ auth password visibility and recovery use email only with no automatic resend (720.782709ms)
+✔ room picker has one composer and voice transcript requires explicit room confirmation (687.670292ms)
+✔ undefined source URLs never become links and unconnected watches never activate (354.76825ms)
+✔ optional room upload saves original without granting image-provider consent (697.285833ms)
+✔ fit results exclude candidates without independent passing checks and retain a measurement-review route (1118.874125ms)
+✔ recovery explicitly submits verified-host token hash, never stores secrets, and resend stays contextual (842.788708ms)
+✔ fit units convert actual dimensions and tolerances without changing quantity or row counts (368.535666ms)
+✔ watch subscription is separate opt-in, shows local delivery limits, and can be cancelled (1137.228875ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 62685.923792

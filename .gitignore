@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+data/
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+playwright-report/
+test-results/
+.DS_Store
+
+# Historical screenshots not included in the public handoff privacy audit
+artifacts/room-fidelity-2026-09-17/*.png
+artifacts/approved-room-flow-2026-09-17/*.png

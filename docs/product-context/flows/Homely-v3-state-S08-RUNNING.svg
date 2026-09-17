@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="3200" viewBox="0 0 2400 3200">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#607B6C"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<polyline points="960.0,305.0 800.0,305.0 800.0,415.0 400.0,415.0 400.0,460.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,630.0 400.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,305.0 1560.0,305.0 1560.0,415.0 1960.0,415.0 1960.0,460.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,630.0 1960.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,305.0 800.0,305.0 800.0,895.0 400.0,895.0 400.0,940.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,1110.0 400.0,1180.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,305.0 1560.0,305.0 1560.0,895.0 1960.0,895.0 1960.0,940.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,1110.0 1960.0,1180.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,305.0 800.0,305.0 800.0,1375.0 400.0,1375.0 400.0,1420.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,1590.0 400.0,1660.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,305.0 1560.0,305.0 1560.0,1375.0 1960.0,1375.0 1960.0,1420.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,1590.0 1960.0,1660.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,305.0 800.0,305.0 800.0,1855.0 400.0,1855.0 400.0,1900.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,2070.0 400.0,2140.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,305.0 1560.0,305.0 1560.0,1855.0 1960.0,1855.0 1960.0,1900.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,2070.0 1960.0,2140.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,305.0 800.0,305.0 800.0,2335.0 400.0,2335.0 400.0,2380.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,2550.0 400.0,2620.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<text x="78.0" y="63.0" text-anchor="start" font-family="Arial, sans-serif" font-size="30.0" fill="#1F2925">S08.RUNNING · Research job &amp; progress</text>
+<text x="78.0" y="133.45" text-anchor="start" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Exact-control reference. Start at the state, choose a labeled action/event, then follow the arrow to its precise destination. Click a destination to see the next choices. Multi-step journeys are pages 00–08.</text>
+<polygon points="1180.0,220.0 1400.0,305.0 1180.0,390.0 960.0,305.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="288.44" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S08.RUNNING</text>
+<text x="1180.0" y="311.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Choose action / observe</text>
+<text x="1180.0" y="334.15999999999997" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">outcome</text>
+<rect x="180.0" y="460.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="529.36" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S08-A02 · Open source ledger</text>
+<text x="400.0" y="550.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Show checked time, errors and</text>
+<text x="400.0" y="572.54" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">exclusions</text>
+<rect x="180.0" y="700.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="749.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S08.LEDGER</text>
+<text x="400.0" y="772.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Research job &amp; progress</text>
+<rect x="1740.0" y="460.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1960.0" y="529.36" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S08-A04 · Pause checks</text>
+<text x="1960.0" y="550.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Halt future cycles where feasible;</text>
+<text x="1960.0" y="572.54" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">in-flight caveat</text>
+<rect x="1740.0" y="700.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1960.0" y="749.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S08.PAUSED</text>
+<text x="1960.0" y="772.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Research job &amp; progress</text>
+<rect x="180.0" y="940.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="1020.1550000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S08-A06 · Refine query</text>
+<text x="400.0" y="1041.7450000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Edit brief; cancel/version old job</text>
+<rect x="180.0" y="1180.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="1229.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S07.EDITING</text>
+<text x="400.0" y="1252.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Structured brief &amp; constraints</text>
+<rect x="1740.0" y="940.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1960.0" y="1020.1550000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S08-A07 · Cancel job</text>
+<text x="1960.0" y="1041.7450000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Keep partial evidence as history</text>
+<rect x="1740.0" y="1180.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1960.0" y="1229.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S08.CANCELLED</text>
+<text x="1960.0" y="1252.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Research job &amp; progress</text>
+<rect x="180.0" y="1420.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="1489.3600000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S08-A09 · Source blocked/timeout</text>
+<text x="400.0" y="1510.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Mark source explicitly, keep partial</text>
+<text x="400.0" y="1532.5400000000002" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">evidence</text>
+<rect x="180.0" y="1660.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="1709.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S08.PARTIAL</text>
+<text x="400.0" y="1732.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Research job &amp; progress</text>
+<rect x="1740.0" y="1420.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1960.0" y="1500.155" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S08-A12 · Verified candidates ready</text>
+<text x="1960.0" y="1521.745" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Complete job and show briefing</text>
+<rect x="1740.0" y="1660.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1960.0" y="1709.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S10.RESULTS</text>
+<text x="1960.0" y="1732.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Findings &amp; spoken briefing</text>
+<rect x="180.0" y="1900.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="1969.3600000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S08-A13 · No verified candidates</text>
+<text x="400.0" y="1990.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Explain binding constraints/source</text>
+<text x="400.0" y="2012.5400000000002" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">gaps</text>
+<rect x="180.0" y="2140.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="2189.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S09.EMPTY</text>
+<text x="400.0" y="2212.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">No result &amp; source gap</text>
+<rect x="1740.0" y="1900.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1960.0" y="1969.3600000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S08-A14 · Save ongoing hunt</text>
+<text x="1960.0" y="1990.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Explain server checks and alert</text>
+<text x="1960.0" y="2012.5400000000002" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">cost/scope</text>
+<rect x="1740.0" y="2140.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1960.0" y="2189.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S19.SETUP</text>
+<text x="1960.0" y="2212.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Saved hunts &amp; notification inbox</text>
+<rect x="180.0" y="2380.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="2449.3599999999997" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S08-A15 · Offline</text>
+<text x="400.0" y="2470.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Job state unknown; cached ledger</text>
+<text x="400.0" y="2492.5399999999995" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">labeled stale</text>
+<rect x="180.0" y="2620.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="2669.8700000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S23.OFFLINE</text>
+<text x="400.0" y="2692.7300000000005" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Offline, reconnect &amp; conflicts</text>
+<rect x="70.0" y="3130.0" width="240.0" height="40.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="190.0" y="3155.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">← Journey map</text>
+</svg>

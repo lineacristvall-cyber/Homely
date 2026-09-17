@@ -1,0 +1,36 @@
+{
+  "package": "AI Furniture App \u2014 Codex Handoff",
+  "generated_for": "V0 development kickoff",
+  "entrypoints": [
+    "AGENTS.md",
+    "CODEX_START_HERE.md",
+    "ONE_MASTER_CONTEXT.md"
+  ],
+  "notes": [
+    "Prior generated image binaries are not available in the current chat workspace.",
+    "Text equivalents and an asset manifest are included."
+  ],
+  "files": [
+    ".env.example",
+    "AGENTS.md",
+    "CODEX_START_HERE.md",
+    "ONE_MASTER_CONTEXT.md",
+    "README.md",
+    "assets/reference-images/README.md",
+    "docs/AI_PIPELINE.md",
+    "docs/BUILD_PLAN.md",
+    "docs/DATA_MODEL.md",
+    "docs/DECISIONS.md",
+    "docs/OPEN_QUESTIONS.md",
+    "docs/PRODUCT_SPEC.md",
+    "docs/SECURITY_RELIABILITY.md",
+    "docs/SOURCES.md",
+    "docs/TECH_ARCHITECTURE.md",
+    "docs/TEST_CASES.md",
+    "docs/VOICE_CAMERA_FUTURE.md",
+    "examples/normalized-sourcing-request.schema.json",
+    "examples/v0-test-cases.json",
+    "prompts/CODEX_BOOTSTRAP_PROMPT.md",
+    "prompts/SOURCING_SYSTEM_PROMPT.md"
+  ]
+}

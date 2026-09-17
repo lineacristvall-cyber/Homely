@@ -1,0 +1,110 @@
+{
+  "limitUsd": 15,
+  "scope": "Entire Homely POC API testing; cumulative across features, providers, workers, retries and test sessions under the September13 authorization. No budget resets.",
+  "calls": [
+    {
+      "id": "image-synthetic-001",
+      "reservedUsd": 1,
+      "status": "generated",
+      "createdAt": "2026-09-13T23:36:48.795873+00:00",
+      "model": "gpt-image-2.5-flare",
+      "settings": {
+        "n": 1,
+        "size": "1024x1024",
+        "quality": "medium"
+      },
+      "costBasis": "Official calculator output439tokens/$0.01317; two small768PNG fixtures and bounded prompt; conservative $1 reservation retained including uncertain costs.",
+      "providerUsage": {
+        "input_tokens": 2304,
+        "input_tokens_details": {
+          "image_tokens": 2048,
+          "text_tokens": 256
+        },
+        "output_tokens": 439,
+        "output_tokens_details": {
+          "image_tokens": 439,
+          "text_tokens": 0
+        },
+        "total_tokens": 2743
+      },
+      "elapsedSeconds": 11.32,
+      "resultPath": "/private/tmp/homely-synthetic-visual-qa-t0elklee/result-live-001.json",
+      "calculatedCostUsd": 0.030834,
+      "pricingSource": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "image-app-e0c41705403e460889e249c7887bdb52",
+      "reservedUsd": 1,
+      "status": "response_received",
+      "model": "gpt-image-2.5-flare",
+      "scope": "Local isolated app job acceptance; one1024medium edit; small synthetic inputs",
+      "createdAt": "2026-09-13T23:43:02.858953+00:00",
+      "providerUsage": {
+        "input_tokens": 2331,
+        "input_tokens_details": {
+          "image_tokens": 2048,
+          "text_tokens": 283
+        },
+        "output_tokens": 439,
+        "output_tokens_details": {
+          "image_tokens": 439,
+          "text_tokens": 0
+        },
+        "total_tokens": 2770
+      },
+      "calculatedCostUsd": 0.030969
+    },
+    {
+      "id": "image-app-fb530bd4af884009b04f7105334e7683",
+      "reservedUsd": 1,
+      "status": "response_received",
+      "model": "gpt-image-2.5-flare",
+      "scope": "Local isolated app job acceptance; one1024medium edit; small synthetic inputs",
+      "createdAt": "2026-09-13T23:47:10.258167+00:00",
+      "providerUsage": {
+        "input_tokens": 2331,
+        "input_tokens_details": {
+          "image_tokens": 2048,
+          "text_tokens": 283
+        },
+        "output_tokens": 439,
+        "output_tokens_details": {
+          "image_tokens": 439,
+          "text_tokens": 0
+        },
+        "total_tokens": 2770
+      },
+      "calculatedCostUsd": 0.030969
+    },
+    {
+      "id": "transcription-synthetic-001",
+      "reservedUsd": 0.1,
+      "status": "completed",
+      "model": "gpt-transcribe",
+      "audioDurationSeconds": 1.4541043083900227,
+      "costBasis": "$0.0045/min official pricing, synthetic WAV under10sec; conservative$0.10 reservation",
+      "estimatedCostUsd": 0.00010905782312925169,
+      "elapsedSeconds": 1.81
+    },
+    {
+      "id": "assistant-transcript-001",
+      "reservedUsd": 0.1,
+      "status": "completed",
+      "model": "gpt-5.6-luna",
+      "scope": "One synthetic transcript action planner through app; small1candidate project; max1800output tokens",
+      "costBasis": "Official$0.20/M input,$1.20/M output; bounded small project/prompt; generous$0.10 reservation retained without response usage",
+      "actualCostUsd": null,
+      "note": "Real app proposal/confirmation passed; provider usage not exposed by current planner route; retain full reservation."
+    },
+    {
+      "id": "user-microphone-001",
+      "reservedUsd": 0.2,
+      "status": "reserved_pending_user",
+      "scope": "One user microphone check <=60sec plus one small-project Luna action planner if user submits; direct user controls recording/consent",
+      "costBasis": "Transcribe$0.0045/min, Luna$0.20/M input,$1.20/M output,max1800output; conservative combined$0.20 reservation."
+    }
+  ],
+  "note": "Direct builder task user confirmation received: Approve \u2014 $15 total for all POC tests.",
+  "knownCalculatedSpendUsd": 0.092772,
+  "remainingAfterConservativeReservationsUsd": 11.6
+}

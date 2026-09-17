@@ -1,0 +1,99 @@
+flowchart TB
+  %% IDs M01–M28 exactly match the editable draw.io master page.
+  %% This source is a semantic companion; the XML is the primary visual.
+  M01["CLIENT PWA — Designer/DIY/client · S01–S24"]
+  M02["API + ACCESS — Auth, consent, roles, tenant scope"]
+  M03["WORKFLOW ENGINE — Versioned project commands + events"]
+  M04["PROJECT STORE — Brief, room/assets, source + decision ledgers"]
+  M05["COST + EVAL POLICY — Budgets, model tests, rollout/rollback"]
+  M06["CAPABILITY ROUTER — Typed request, provider/model registry"]
+  M07["ASYNC QUEUE — Research, render, hunt · cancel/retry"]
+  M08["SOURCE SERVICE — Search, normalize, monitor listings"]
+  M09["VISUAL SERVICE — Placement plan + render job"]
+  M10["VOICE SERVICE — Transcript, turn/live, correction"]
+  M11["REVIEW + ALERTS — Scoped client view + notifications"]
+  M12["SOURCE + TEXT ADAPTERS — Lawful retailer tools; text model"]
+  M13["IMAGE ADAPTER — OpenAI image edit initially; swappable"]
+  M14["SPEECH ADAPTER — Transcribe / realtime / TTS route"]
+  M15["DELIVERY ADAPTER — Push/in-app; external share channels"]
+  M16["STOCK EVIDENCE GATE — Exact SKU × quantity, source + freshness"]
+  M17["IDENTITY + FIT GATE — Source image lineage; numeric geometry"]
+  M18["INTENT CONFIRMATION — User-corrected brief; typed event"]
+  M19["SHARE ACCESS GATE — Selected content only; revoke/expiry"]
+  M20["VALIDATED RESULT BUS — App-owned evidence/artifact/event contracts"]
+  M21["DECISION ENGINE — Compare, explain tradeoffs, keep history"]
+  M22{"HARD CAP GATE — Known all-in total and absolute cap?"}
+  M23["CAP / COST HOLD — Exclude or resolve unknown amount"]
+  M24["CLIENT REVIEW — Optional S20 approval; no stock reserve"]
+  M25{"FRESH RECHECK GATE — Variant, count, price, delivery again"}
+  M26["LOST / CHANGED — S18 replacement; preserve prior choice"]
+  M27["SELLER HANDOFF — S17 external link; no assumed purchase"]
+  M28["PURCHASE + CREDIT LEDGER — S21 reported outcome; conditional credit"]
+  M01 -->|authorized UI command| M02
+  M02 -->|typed command / status| M03
+  M03 -->|read/write project events| M04
+  M03 -->|usage + eval signal| M05
+  M03 -->|capability request| M06
+  M03 -->|schedule async work| M07
+  M05 -->|budget + promotion policy| M06
+  M07 -->|leased capability call| M06
+  M06 -->|source_query| M08
+  M06 -->|image_edit| M09
+  M06 -->|speech / intent| M10
+  M06 -->|share / notify| M11
+  M08 -->|authorized query| M12
+  M09 -->|scene + SKU refs| M13
+  M10 -->|audio/text request| M14
+  M11 -->|share request + scope| M19
+  M12 -->|source observations| M16
+  M13 -->|composite + lineage| M17
+  M14 -->|transcript / patch| M18
+  M19 -->|authorized selected payload| M15
+  M16 -->|verified vs lead| M20
+  M17 -->|fit + fidelity status| M20
+  M18 -->|accepted brief change| M20
+  M15 -->|delivery/audit result| M20
+  M20 -->|persist validated records| M04
+  M20 -->|trusted inputs| M21
+  M21 -->|selected option + total| M22
+  M21 -->|optional review| M24
+  M22 -->|No / unknown| M23
+  M22 -->|Yes| M25
+  M24 -->|approval → still recheck| M25
+  M25 -->|No / changed| M26
+  M25 -->|Yes| M27
+  M27 -->|user-reported outcome| M28
+  M25 -->|fresh source request| M12
+
+  classDef app fill:#eaf2eb,stroke:#285449,color:#1f2925
+  classDef data fill:#eaf0f7,stroke:#365d78,color:#1f2925
+  classDef ext fill:#f3ecf4,stroke:#75537d,color:#1f2925
+  classDef gate fill:#fff0e2,stroke:#a35e38,color:#1f2925
+  class M01 app
+  class M02 app
+  class M03 app
+  class M04 data
+  class M05 data
+  class M06 app
+  class M07 app
+  class M08 app
+  class M09 app
+  class M10 app
+  class M11 app
+  class M12 ext
+  class M13 ext
+  class M14 ext
+  class M15 ext
+  class M16 gate
+  class M17 gate
+  class M18 gate
+  class M19 gate
+  class M20 data
+  class M21 app
+  class M22 gate
+  class M23 app
+  class M24 app
+  class M25 gate
+  class M26 app
+  class M27 ext
+  class M28 data

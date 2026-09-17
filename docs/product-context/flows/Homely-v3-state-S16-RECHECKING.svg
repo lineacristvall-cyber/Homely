@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2240" viewBox="0 0 2400 2240">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#607B6C"/></marker></defs>
+<rect width="100%" height="100%" fill="#fffdfa"/>
+<polyline points="960.0,305.0 800.0,305.0 800.0,415.0 400.0,415.0 400.0,460.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,630.0 400.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,305.0 1560.0,305.0 1560.0,415.0 1960.0,415.0 1960.0,460.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,630.0 1960.0,700.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,305.0 800.0,305.0 800.0,895.0 400.0,895.0 400.0,940.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,1110.0 400.0,1180.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1400.0,305.0 1560.0,305.0 1560.0,895.0 1960.0,895.0 1960.0,940.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="1960.0,1110.0 1960.0,1180.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="960.0,305.0 800.0,305.0 800.0,1375.0 400.0,1375.0 400.0,1420.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<polyline points="400.0,1590.0 400.0,1660.0" fill="none" stroke="#607B6C" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<text x="78.0" y="63.0" text-anchor="start" font-family="Arial, sans-serif" font-size="30.0" fill="#1F2925">S16.RECHECKING · Decision, budget &amp; stock gate</text>
+<text x="78.0" y="133.45" text-anchor="start" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Exact-control reference. Start at the state, choose a labeled action/event, then follow the arrow to its precise destination. Click a destination to see the next choices. Multi-step journeys are pages 00–08.</text>
+<polygon points="1180.0,220.0 1400.0,305.0 1180.0,390.0 960.0,305.0" fill="#F5E9DC" stroke="#A35E38" stroke-width="3"/>
+<text x="1180.0" y="288.44" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S16.RECHECKING</text>
+<text x="1180.0" y="311.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Choose action / observe</text>
+<text x="1180.0" y="334.15999999999997" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">outcome</text>
+<rect x="180.0" y="460.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="529.36" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S16-A08 · Exact six/variant/cost under cap</text>
+<text x="400.0" y="550.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Show timestamp and external</text>
+<text x="400.0" y="572.54" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">destination</text>
+<rect x="180.0" y="700.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="749.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S17.HANDOFF</text>
+<text x="400.0" y="772.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">External seller handoff &amp; earned usage</text>
+<rect x="1740.0" y="460.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1960.0" y="540.1550000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S16-A09 · Stock lost / count short</text>
+<text x="1960.0" y="561.7450000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Preserve choice, offer replacement</text>
+<rect x="1740.0" y="700.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1960.0" y="749.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S18.CHANGE</text>
+<text x="1960.0" y="772.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Stock-change alert &amp; replacement</text>
+<rect x="180.0" y="940.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="1009.36" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S16-A10 · Price rises over cap</text>
+<text x="400.0" y="1030.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Block handoff; edit cap or choose</text>
+<text x="400.0" y="1052.54" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">other</text>
+<rect x="180.0" y="1180.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="1229.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S16.OVER_CAP</text>
+<text x="400.0" y="1252.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Decision, budget &amp; stock gate</text>
+<rect x="1740.0" y="940.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="1960.0" y="1020.1550000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S16-A11 · Source error/unknown</text>
+<text x="1960.0" y="1041.7450000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Keep as lead; retry, no ready CTA</text>
+<rect x="1740.0" y="1180.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="1960.0" y="1229.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S16.COST_UNKNOWN</text>
+<text x="1960.0" y="1252.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Decision, budget &amp; stock gate</text>
+<rect x="180.0" y="1420.0" width="440.0" height="170.0" rx="12" fill="#F6F3ED" stroke="#285449" stroke-width="3"/>
+<text x="400.0" y="1489.3600000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">S16-A18 · Cancel pending operation</text>
+<text x="400.0" y="1510.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">Effect: Preserve prior version; discard late</text>
+<text x="400.0" y="1532.5400000000002" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">result for canceled request</text>
+<rect x="180.0" y="1660.0" width="440.0" height="110.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="400.0" y="1709.87" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">S16.BUDGET</text>
+<text x="400.0" y="1732.7299999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="18.0" fill="#1F2925">Decision, budget &amp; stock gate</text>
+<rect x="70.0" y="2170.0" width="240.0" height="40.0" rx="12" fill="#EAF0F7" stroke="#365D78" stroke-width="3"/>
+<text x="190.0" y="2195.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17.0" fill="#1F2925">← Journey map</text>
+</svg>
